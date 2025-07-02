@@ -1,2 +1,2 @@
-# SPARTA2024_GameDevelopment
+# SPARTA2024 - Game Development
 
