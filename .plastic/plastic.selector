@@ -1,4 +1,0 @@
-repository "SPARTA2024_GameDevelopment/SPARTA2024_GameDevelopment@20067331174550@cloud"
-  path "/"
-    br "/main"
-    co "/main"
