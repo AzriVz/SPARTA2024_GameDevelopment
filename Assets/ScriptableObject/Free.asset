@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 961a0ba2fdf34c2b98087fc2fff7399b, type: 3}
   m_Name: Free
   m_EditorClassIdentifier: 
-  foodName: 
-  sprite: {fileID: 0}
-  chance: 0
+  foodName: freeman
+  sprite: {fileID: 6265815743942344955, guid: 751fe207d0b86cd44b35da9ec6856acc, type: 3}
+  chance: 5

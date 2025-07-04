@@ -11,6 +11,13 @@ namespace Mechanic.Itsuki
     [SerializeField] private float velocity = 0f;
     [SerializeField] private bool isAttached = false;
     private PlayerFoodGrabber _playerFoodGrabber;
+    private FoodSpawnManager _foodSpawnManager;
+
+    public void OnEnable()
+    {
+      _foodSpawnManager = FoodSpawnManager.Instance;
+    }
+
     public void Initialize(Food food)
     {
       this.food = food;
@@ -27,12 +34,25 @@ namespace Mechanic.Itsuki
 
     private void Update()
     {
+      Fall();
+      DespawnCheck();
+    }
+
+    private void DespawnCheck()
+    {
+      if ((transform.position.y > _foodSpawnManager.heightDespawn)) return;
+      Unload();
+      Destroy(gameObject);
+    }
+    private void Fall()
+    {
       if (isAttached)
       {
         if (!isFalling)
         {
           transform.position = _playerFoodGrabber.globalGrabPosition;
-        }else 
+        }
+        else
           Debug.LogWarning("Cant attach while falling");
       }
     }

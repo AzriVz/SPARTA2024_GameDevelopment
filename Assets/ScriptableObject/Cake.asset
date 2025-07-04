@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 961a0ba2fdf34c2b98087fc2fff7399b, type: 3}
   m_Name: Cake
   m_EditorClassIdentifier: 
-  foodName: 
-  sprite: {fileID: 0}
-  chance: 0
+  foodName: cake
+  sprite: {fileID: 210013377469240498, guid: bd79dd84c85decc469d7aee63f5eaf44, type: 3}
+  chance: 10
