@@ -6,7 +6,7 @@ namespace Mechanic.Itsuki
   [RequireComponent(typeof(SpriteRenderer))]
   public class FoodInstance : MonoBehaviour
   {
-    [SerializeField] private Food food;
+    [SerializeField] public Food Food {private set; get;}
     [SerializeField] private bool isFalling = false;
     [SerializeField] private float velocity = 0f;
     [SerializeField] private bool isAttached = false;
@@ -20,7 +20,7 @@ namespace Mechanic.Itsuki
 
     public void Initialize(Food food)
     {
-      this.food = food;
+      this.Food = food;
       GetComponent<SpriteRenderer>().sprite = food.sprite;
     }
 

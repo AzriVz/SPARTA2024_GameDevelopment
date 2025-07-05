@@ -81,11 +81,11 @@ namespace Mechanic.Itsuki
       foreach (var food in foods)
       {
         chanceSum += food.chance;
-        if (rand <= chanceSum)
-        {
-          selectedFood = food;
-        }
+        if (!(rand <= chanceSum)) continue;
+        selectedFood = food;
+        break;
       }
+      Debug.Log("selected food : " + selectedFood);
 
       if (selectedFood == null)
       {
