@@ -85,7 +85,6 @@ namespace Mechanic.Itsuki
         selectedFood = food;
         break;
       }
-      Debug.Log("selected food : " + selectedFood);
 
       if (selectedFood == null)
       {

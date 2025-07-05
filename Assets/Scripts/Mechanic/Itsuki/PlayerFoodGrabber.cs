@@ -51,6 +51,11 @@ namespace Mechanic.Itsuki
       FoodInventory.SetFood(null);
     }
 
+    public void Unload()
+    {
+      LetGo();
+    }
+
     private FoodInstance GetClosestFood()
     {
       var hits = Physics2D.OverlapCircleAll(globalGrabPosition, grabRange);
