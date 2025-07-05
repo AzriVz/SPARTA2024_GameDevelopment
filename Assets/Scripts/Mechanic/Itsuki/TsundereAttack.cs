@@ -30,8 +30,13 @@ namespace Mechanic.Itsuki
     private IEnumerator DestroyCoroutine()
     {
       yield return new WaitForSeconds(_lifetime);
-      Destroy(this.gameObject);
-    } 
+      DestroyAttack();
+    }
+
+    private void DestroyAttack()
+    {
+      Destroy(gameObject);
+    }
 
     public void Launch(Vector3 direction, float velocity)
     {
@@ -51,6 +56,7 @@ namespace Mechanic.Itsuki
       var health = other.GetComponent<Health>();
       if (health == null) return;
       health.Damage();
+      DestroyAttack();
     }
   }
 }
