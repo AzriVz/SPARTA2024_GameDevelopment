@@ -46,6 +46,7 @@ namespace Mechanic.Itsuki
     public void LetGo()
     {
       var foodInstance = FoodInventory.GetFood();
+      if(foodInstance == null) return;
       foodInstance.Unload();
       Destroy(foodInstance.gameObject);
       FoodInventory.SetFood(null);

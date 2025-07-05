@@ -18,6 +18,8 @@ namespace Mechanic.Itsuki
     [Header("Spawn Velocity")]
     [SerializeField] private float minVelocity;
     [SerializeField] private float maxVelocity;
+    [Header("Lifetime")]
+    [SerializeField] private float lifetime;
     public List<SpawnPoint> spawnPoints;
     public enum Direction { Up, Down, Left, Right }
     [Serializable]
@@ -60,7 +62,7 @@ namespace Mechanic.Itsuki
       var spawnPoint = GetRandomSpawn();
       var attackClone = Instantiate(attackPrefab,spawnPoint.GetPosition(), Quaternion.identity);
       var attackComponent = attackClone.GetComponent<TsundereAttack>();
-      attackComponent.Initialize(GetRandomSprite());
+      attackComponent.Initialize(GetRandomSprite(), lifetime);
       var velocity = Random.Range(minVelocity, maxVelocity);
       attackComponent.Launch(ParseDirection(spawnPoint.direction),velocity);
     }

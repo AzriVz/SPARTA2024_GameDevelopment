@@ -23,6 +23,7 @@ namespace Mechanic.Itsuki
 
     public void Damage()
     {
+      Debug.Log("oof");
       currentHealth--;
       if (currentHealth <= 0)
       {
