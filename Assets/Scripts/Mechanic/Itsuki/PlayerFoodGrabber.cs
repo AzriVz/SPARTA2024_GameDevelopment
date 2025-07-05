@@ -6,14 +6,14 @@ namespace Mechanic.Itsuki
 {
   public class PlayerFoodGrabber : MonoBehaviour
   {
-    private FoodInventory _foodInventory;
+    public FoodInventory FoodInventory {private set; get;}
     [SerializeField] private Vector2 relativeGrabPosition;
     public Vector2 globalGrabPosition;
     [SerializeField] private float grabRange;
 
     private void Awake()
     {
-      _foodInventory = new FoodInventory();
+      FoodInventory = new FoodInventory();
     }
     private void Update()
     {
@@ -28,27 +28,27 @@ namespace Mechanic.Itsuki
 
     private void TryGrab()
     {
-      if (_foodInventory.FoodExists()) return;
+      if (FoodInventory.FoodExists()) return;
       var foodInstance = GetClosestFood();
       if (foodInstance == null) return;
       Debug.Log(foodInstance);
-      _foodInventory.SetFood(foodInstance);
+      FoodInventory.SetFood(foodInstance);
       Grab();
     }
 
     private void Grab()
     {
-      var foodInstance = _foodInventory.GetFood();
+      var foodInstance = FoodInventory.GetFood();
       foodInstance.StopFall();
       foodInstance.AttachToPlayer(this);
     }
 
-    private void LetGo()
+    public void LetGo()
     {
-      var foodInstance = _foodInventory.GetFood();
+      var foodInstance = FoodInventory.GetFood();
       foodInstance.Unload();
       Destroy(foodInstance.gameObject);
-      _foodInventory.SetFood(null);
+      FoodInventory.SetFood(null);
     }
 
     private FoodInstance GetClosestFood()
