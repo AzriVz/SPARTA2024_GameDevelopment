@@ -2,6 +2,8 @@
 ---
 <<SetBackground Image/osaka>>
 Osaka: hi
+<<SetBackgroundBlack 0>>
+w-what...?
 <<SetBackground Image/rene 1>>
 RENE DESCARTES?!
 ===
