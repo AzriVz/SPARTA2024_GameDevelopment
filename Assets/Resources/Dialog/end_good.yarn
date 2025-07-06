@@ -1,13 +1,13 @@
-title: end_good
+﻿title: End_Good
 ---
 <<SetBackground Image/good-end_study>>
 <<wait 0.5>>
-Futaro: Okay, since everyone’s here… it’s time for you all to study.
-Quintuplets: OUU!!
+Futaro: Okay, since everyone’s here… it’s time for you all to study. #line:09b0395 
+Quintuplets: OUU!! #line:0ff1e59 
 <<SetBackground Image/good-end_utbk>>
 <<wait 0.5>>
 <<SetBackground Image/good-end_jamal>>
 <<wait 0.5>>
-Ichika: Wow… everyone… got in…
-Quintuplets: YAYYY HOORAY!!!!
+Ichika: Wow… everyone… got in… #line:04628c3 
+Quintuplets: YAYYY HOORAY!!!! #line:07d23aa 
 ===
