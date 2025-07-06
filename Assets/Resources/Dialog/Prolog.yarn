@@ -1,49 +1,49 @@
-title: Prolog
+﻿title: Prolog
 ---
 <<SetBackgroundBlack 0>>
-Jarang sekali bisa melihat kelima kembar berambut pink terkenal berkumpul bersama dalam suasana seserius ini. 
-Tidak banyak yang mereka bicarakan, paling hanya sekadar obrolan gugup saja jikalau ada, sementara waktu terus merambat mendekati jam tiga keramat yang ditunggu-tunggu. 
-Suasana penuh harap dan tegang menyelimuti mereka, masing-masing berdoa dalam hatinya kepada Tuhan atau siapapun itu yang mungkin sedang mendengarkan doa kecil mereka.
-Yotsuba: Eh, lihat deh, udah jam tiga. Yuk buka websitenya bareng-bareng… 3… 2… 1…!
+It truly is a rare sight to see the famed pink-haired quintuplets gathered together in tense silence.  #line:0aa47ac 
+Not much has been said between the five—only nervous chatter—as the time inches more and more towards the awaited three o'clock.  #line:02c098e 
+Anticipation hung heavily in the air as each of them prayed silently to whatever god was up there and listening. #line:0c2ee2f 
+Yotsuba: Oh hey look, it's three already. Let's open the website together in 3... 2... 1...! #line:01204af 
 <<SetBackground image/prolog_snbp>>
 <<wait 0.5>>
-Miku: Ah…
-Yotsuba: Wah… merah semua…
-Itsuki: Semua waktu yang kita habisin buat belajar… ujung-ujungnya sia-sia juga…
-Ichika: Aku sendiri sih nggak kaget ya, nilai kita juga nggak sekeren Futaro kan…
-Itsuki: Iya juga sih… bisa daftar SNBP aja tuh udah kayak keajaiban buat kita berlima…
-Nino: Tsk, ogah banget aku ikutan tes UTBK.
-Miku: Sama, males banget…
-Yotsuba: Eh! Gimana kalo kita main board game aja? Biar semangatnya balik lagi gituu!
-Ichika: Ide bagus! Gimana kalau main…
+Miku: Ah… #line:0475d0a 
+Yotsuba: Woah, it's all red…” #line:0ceeadd 
+Itsuki: All that time spent on studying… and for what… #line:0725fd3 
+Ichika: Now, now. Can't say that I'm surprised about this, we don't exactly have outstanding grades like Futaro after all. #line:0b42774 
+Itsuki: I guess, it's a miracle in itself for the five of us to be eligible for SNBP in the first place… #line:0d414ff 
+Nino: Tsk, I really don't wanna take the UTBK test. #line:0876a0d 
+Miku: Me either, it's too much of a bother. #line:041c86f 
+Yotsuba: Heyyy, how about we play some board games instead? That should put everyone into a good mood! #line:07c2eac 
+Ichika: Great idea! How about… #line:00b7885 
 <<SetBackgroundBlack 0>>
-Suara berdering terdengar dari ponsel Futaro.
+A ringing sound comes from Futaro's phone. #line:0717ccd 
 <<SetBackground image/prolog_futaro-phone>>
 <<wait 0.5>>
-Futaro: Halo? Ini dengan siapa?
-Pak Nakano: Ah, Futaro. Ini saya, Pak Nakano.
-Pak Nakano: Saya nggak tahu kamu sudah dengar atau belum, tapi tidak ada satu pun dari anak-anakku yang lolos SNBP.
-Pak Nakano: Satu-satunya harapan saya sekarang hanya UTBK. Saya ingin mereka berlima dapat lolos. Biaya sekolah sedang mahal sekali akhir-akhir ini.
-Pak Nakano: Tolong bantu anak-anak saya lulus tes itu. Jika tidak, kamu akan dipecat. Gajimu bulan ini juga saya tahan sampai ada hasil. Tapi kalau berhasil, kamu akan dapat bayaranmu plus bonus tambahan. Jangan bikin saya kecewa, Futaro.
-Futaro: HAH-?! Pak, tolong dong jangan-
-Sambungan telepon terputus.
-Futaro: Aduh… Apakah mungkin dan sempat waktunya untuk ngajarin mereka berlima buat tes ini…?
+Futaro: Yes? Who is this? #line:0a434f6 
+Mr. Nakano: Ah, Futaro. It's me, Mr. Nakano. #line:01b467b 
+Mr. Nakano: I'm not sure if you've heard already, but none of my daughters have managed to pass through SNBP. #line:0168895 
+Mr. Nakano: My only hope is for all five of them to pass the UTBK test. Education is really expensive nowadays after all. #line:09a560d 
+Mr. Nakano: Help my daughters pass the test, else you're fired. I'll also be withholding this month’s pay until I see good results. If you succeed however, you'll get your pay back along with an added bonus. Don't disappoint me. #line:0f8d6f5 
+Futaro: HUH-?! Sir please don't- #line:0d92632 
+The call goes silent. #line:0628408 
+Futaro: Darn it… is it even possible to tutor those five in time for the test...? #line:049dbed 
 <<SetBackground image/prolog_ichika-intro>>
 <<wait 0.5>>
-Futaro: Pertama, ada Ichika, si kakak tertua. Otomatis si paling dewasa di antara mereka. Orangnya percaya diri dan suka godain anak orang, tapi cenderung pemalas dan kurang teratur.
+Futaro: First off, there's Ichika, the onee-chan. She's the most mature out of the five. Confident and a bit of a flirt, but tends to be lazy and disorganized. #line:00ae9ac 
 <<SetBackground image/prolog_nino-intro>>
 <<wait 0.5>>
-Futaro: Kedua, Nino, si tsundere. Dia protektif banget sama adik-adiknya dan sayang banget sama mereka. Aku harus hati-hati dan jaga sikap kalau nggak mau diganggu habis-habisan sama dia.
+Futaro: Second is Nino, the tsundere... She's quite protective of her sisters and cares for them very much. I need to keep an eye out and stay on her good side, God knows what sort of devious tricks she's got up her sleeve if I don't. #line:0ffaa2b 
 <<SetBackground image/prolog_miku-intro>>
 <<wait 0.5>>
-Futaro: Ketiga, Miku, si pemalu. Dia paling pintar di antara saudari-saudarinya dan suka banget sama sejarah. Seingetku dia juga cukup peka dan pengamat yang baik.
+Futaro: Third is Miku, the shy sister. She's the smartest among the sisters and is really into history. She's a pretty observant person too if I remember correctly. #line:04fd04d 
 <<SetBackground image/prolog_yotsuba-intro>>
 <<wait 0.5>>
-Futaro: Selanjutnya, Yotsuba, si atlet. Ceria dan enerjik, tapi susah banget buat bilang "nggak" ke orang lain terutama yang butuh. Untungnya dia selalu antusias untuk ikut semua sesi belajar sejauh ini, walaupun… ya nggak terlalu banyak membantu sih… Dia bukan tipe orang yang pintar dalam hal akademik.
+Futaro: Next, there's Yotsuba, the athletic sister. Cheerful and bubbly, she has a hard time saying no to those in need. Thankfully, she's always eager to attend every study session so far, albeit it doesn't help much... Smarts is definitely not her forte. #line:011bdea 
 <<SetBackground image/prolog_itsuki-intro>>
 <<wait 0.5>>
-Futaro: Terakhir, Itsuki, si doyan makan. Saudari yang satu ini bisa dibilang anomali karena ia suka belajar. Kadang dia keras kepala dan entah kenapa aku sering banget adu mulut sama dia… Sepertinya dia masih ada dendam padaku dari waktu lalu, ketika aku mengatainya gemuk karena ia makannya banyak sekali.
+Futaro: Lastly, we got Itsuki, the foodie. Unlike her sisters, this one actually likes to study. She can be a bit stubborn at times and I can't seem to stop butting heads with her... Probably still has a grudge on me from that time I called her fat for eating so much. #line:01c767c 
 <<SetBackgroundBlack>>
 <<wait 0.5>>
-Futaro: Duh kayaknya aku nggak punya pilihan lain… Ayo, Futaro, lakuin ini demi Raiha…
+Futaro: Looks like I've got no choice… C’mon Futaro, do it for Raiha’s sake. #line:0ee436b 
 ===
