@@ -271,6 +271,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4790743538222209146, guid: b39520ea96a4aa24c9f38ddf5972edb3, type: 3}
+      propertyPath: startNode
+      value: Prolog
+      objectReference: {fileID: 0}
     - target: {fileID: 6189807819873964039, guid: b39520ea96a4aa24c9f38ddf5972edb3, type: 3}
       propertyPath: m_Name
       value: Dialogue System
