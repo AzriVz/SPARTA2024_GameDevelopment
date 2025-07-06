@@ -12,6 +12,7 @@ public class DialogBackgroundBehaviour : MonoBehaviour
 
   public Image backgroundImageBack;
   public Image backgroundImageFront;
+  private DialogueRunner dialogueRunner;
 
   private void Awake()
   {
@@ -28,7 +29,7 @@ public class DialogBackgroundBehaviour : MonoBehaviour
 
   private void Start()
   {
-    DialogueRunner dialogueRunner = FindFirstObjectByType<DialogueRunner>();
+    dialogueRunner = FindFirstObjectByType<DialogueRunner>();
     if (dialogueRunner != null) dialogueRunner.onDialogueComplete.AddListener(OnDialogComplete);
     else Debug.LogError("DialogueRunner not found in the scene.");
   }
@@ -53,11 +54,12 @@ public class DialogBackgroundBehaviour : MonoBehaviour
       newSprite = Resources.Load<Sprite>(spriteName);
       if (newSprite == null)
       {
-        Debug.LogError($"Sprite '{spriteName}' not found in Resources.");
+        Debug.LogWarning($"Sprite '{spriteName}' not found in Resources. Using black background instead.");
+        SetBackgroundBlack(fadeDuration);
         return;
       }
     }
-
+    
     Instance.backgroundImageFront.color = Color.white;
     Instance.backgroundImageFront.sprite = newSprite;
     Instance.StopAllCoroutines();
