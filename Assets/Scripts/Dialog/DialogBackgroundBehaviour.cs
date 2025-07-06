@@ -58,23 +58,39 @@ public class DialogBackgroundBehaviour : MonoBehaviour
       }
     }
 
+    Instance.backgroundImageFront.color = Color.white;
     Instance.backgroundImageFront.sprite = newSprite;
     Instance.StopAllCoroutines();
-    Instance.StartCrossFade(fadeDuration);
+    Instance.StartCrossFade(fadeDuration, newSprite == null);
   }
 
-  public void StartCrossFade(float duration)
+  [YarnCommand("SetBackgroundBlack")]
+  public static void SetBackgroundBlack(float fadeDuration = 0.5f)
   {
-    StartCoroutine(CrossFade(duration));
+    if (Instance == null)
+    {
+      Debug.LogError("DialogBackgroundBehaviour instance not found.");
+      return;
+    }
+
+    Instance.backgroundImageFront.color = Color.black;
+    Instance.backgroundImageFront.sprite = null;
+    Instance.StopAllCoroutines();
+    Instance.StartCrossFade(fadeDuration, false);
   }
 
-  private IEnumerator CrossFade(float duration)
+  public void StartCrossFade(float duration, bool isFadeOut)
   {
-    if (backgroundImageFront.sprite != null)
+    StartCoroutine(CrossFade(duration, isFadeOut));
+  }
+
+  private IEnumerator CrossFade(float duration, bool isFadeOut)
+  {
+    if (!isFadeOut)
     {
       float time = 0f;
-      Color startColor = new(1, 1, 1, 0);
-      Color endColor = Color.white;
+      Color startColor = new(backgroundImageFront.color.r, backgroundImageFront.color.g, backgroundImageFront.color.b, 0);
+      Color endColor = new(backgroundImageFront.color.r, backgroundImageFront.color.g, backgroundImageFront.color.b, 1);
       backgroundImageFront.color = startColor;
       while (time < duration)
       {
@@ -84,14 +100,14 @@ public class DialogBackgroundBehaviour : MonoBehaviour
         yield return null;
       }
       backgroundImageFront.color = endColor;
+      backgroundImageBack.color = endColor;
       backgroundImageBack.sprite = backgroundImageFront.sprite;
-      backgroundImageBack.color = Color.white;
     }
     else
     {
       float time = 0f;
-      Color startColor = Color.white;
-      Color endColor = new(1, 1, 1, 0);
+      Color startColor = new(backgroundImageBack.color.r, backgroundImageBack.color.g, backgroundImageBack.color.b, 1);
+      Color endColor = new(backgroundImageBack.color.r, backgroundImageBack.color.g, backgroundImageBack.color.b, 0);
       backgroundImageFront.color = endColor;
       backgroundImageBack.color = startColor;
       while (time < duration)
