@@ -1,0 +1,13 @@
+title: end_good
+---
+<<SetBackground Image/good-end_study>>
+<<wait 0.5>>
+Futaro: Okay, since everyone’s here… it’s time for you all to study.
+Quintuplets: OUU!!
+<<SetBackground Image/good-end_utbk>>
+<<wait 0.5>>
+<<SetBackground Image/good-end_jamal>>
+<<wait 0.5>>
+Ichika: Wow… everyone… got in…
+Quintuplets: YAYYY HOORAY!!!!
+===
