@@ -108,7 +108,7 @@ public class DialogBackgroundBehaviour : MonoBehaviour
     else
     {
       float time = 0f;
-      Color startColor = new(backgroundImageBack.color.r, backgroundImageBack.color.g, backgroundImageBack.color.b, 1);
+      Color startColor = new(backgroundImageBack.color.r, backgroundImageBack.color.g, backgroundImageBack.color.b, backgroundImageBack.color.a);
       Color endColor = new(backgroundImageBack.color.r, backgroundImageBack.color.g, backgroundImageBack.color.b, 0);
       backgroundImageFront.color = endColor;
       backgroundImageBack.color = startColor;
