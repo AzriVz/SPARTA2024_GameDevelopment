@@ -1,9 +1,9 @@
 ﻿title: Test
 ---
 <<SetBackground Image/osaka>>
-Osaka: hi
+Osaka: hi #line:0cd6665 
 <<SetBackgroundBlack 0>>
-w-what...?
+w-what...? #line:09e4da0 
 <<SetBackground Image/rene 1>>
-RENE DESCARTES?!
+RENE DESCARTES?! #line:0f43f36 
 ===

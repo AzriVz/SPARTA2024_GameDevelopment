@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Dialog_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 716c44f19482cb548a63f356d5525238, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 239968645120
+    m_Localized: Jarang sekali bisa melihat kelima kembar berambut pink terkenal
+      berkumpul bersama dalam suasana seserius ini.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350208
+    m_Localized: Tidak banyak yang mereka bicarakan, paling hanya sekadar obrolan
+      gugup saja jikalau ada, sementara waktu terus merambat mendekati jam tiga keramat
+      yang ditunggu-tunggu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350209
+    m_Localized: Suasana penuh harap dan tegang menyelimuti mereka, masing-masing
+      berdoa dalam hatinya kepada Tuhan atau siapapun itu yang mungkin sedang mendengarkan
+      doa kecil mereka.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350210
+    m_Localized: "Yotsuba: Eh, lihat deh, udah jam tiga. Yuk buka websitenya bareng-bareng\u2026
+      3\u2026 2\u2026 1\u2026!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350211
+    m_Localized: "Miku: Ah\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350212
+    m_Localized: "Yotsuba: Wah\u2026 merah semua\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350213
+    m_Localized: "Itsuki: Semua waktu yang kita habisin buat belajar\u2026 ujung-ujungnya
+      sia-sia juga\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350214
+    m_Localized: "Ichika: Aku sendiri sih nggak kaget ya, nilai kita juga nggak sekeren
+      Futaro kan\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544512
+    m_Localized: "Itsuki: Iya juga sih\u2026 bisa daftar SNBP aja tuh udah kayak
+      keajaiban buat kita berlima\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544513
+    m_Localized: 'Nino: Tsk, ogah banget aku ikutan tes UTBK.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544514
+    m_Localized: "Miku: Sama, males banget\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544515
+    m_Localized: 'Yotsuba: Eh! Gimana kalo kita main board game aja? Biar semangatnya
+      balik lagi gituu!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544516
+    m_Localized: "Ichika: Ide bagus! Gimana kalau main\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544517
+    m_Localized: Suara berdering terdengar dari ponsel Futaro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544518
+    m_Localized: 'Futaro: Halo? Ini dengan siapa?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544519
+    m_Localized: 'Pak Nakano: Ah, Futaro. Ini saya, Pak Nakano.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544520
+    m_Localized: 'Pak Nakano: Saya nggak tahu kamu sudah dengar atau belum, tapi
+      tidak ada satu pun dari anak-anakku yang lolos SNBP.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544521
+    m_Localized: 'Pak Nakano: Satu-satunya harapan saya sekarang hanya UTBK. Saya
+      ingin mereka berlima dapat lolos. Biaya sekolah sedang mahal sekali akhir-akhir
+      ini.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544522
+    m_Localized: 'Pak Nakano: Tolong bantu anak-anak saya lulus tes itu. Jika tidak,
+      kamu akan dipecat. Gajimu bulan ini juga saya tahan sampai ada hasil. Tapi
+      kalau berhasil, kamu akan dapat bayaranmu plus bonus tambahan. Jangan bikin
+      saya kecewa, Futaro.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544523
+    m_Localized: 'Futaro: HAH-?! Pak, tolong dong jangan-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544524
+    m_Localized: Sambungan telepon terputus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544525
+    m_Localized: "Futaro: Aduh\u2026 Apakah mungkin dan sempat waktunya untuk ngajarin
+      mereka berlima buat tes ini\u2026?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544526
+    m_Localized: 'Futaro: Pertama, ada Ichika, si kakak tertua. Otomatis si paling
+      dewasa di antara mereka. Orangnya percaya diri dan suka godain anak orang,
+      tapi cenderung pemalas dan kurang teratur.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544527
+    m_Localized: 'Futaro: Kedua, Nino, si tsundere. Dia protektif banget sama adik-adiknya
+      dan sayang banget sama mereka. Aku harus hati-hati dan jaga sikap kalau nggak
+      mau diganggu habis-habisan sama dia.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544528
+    m_Localized: 'Futaro: Ketiga, Miku, si pemalu. Dia paling pintar di antara saudari-saudarinya
+      dan suka banget sama sejarah. Seingetku dia juga cukup peka dan pengamat yang
+      baik.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544529
+    m_Localized: "Futaro: Selanjutnya, Yotsuba, si atlet. Ceria dan enerjik, tapi
+      susah banget buat bilang \"nggak\" ke orang lain terutama yang butuh. Untungnya
+      dia selalu antusias untuk ikut semua sesi belajar sejauh ini, walaupun\u2026
+      ya nggak terlalu banyak membantu sih\u2026 Dia bukan tipe orang yang pintar
+      dalam hal akademik."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544530
+    m_Localized: "Futaro: Terakhir, Itsuki, si doyan makan. Saudari yang satu ini
+      bisa dibilang anomali karena ia suka belajar. Kadang dia keras kepala dan entah
+      kenapa aku sering banget adu mulut sama dia\u2026 Sepertinya dia masih ada
+      dendam padaku dari waktu lalu, ketika aku mengatainya gemuk karena ia makannya
+      banyak sekali."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544531
+    m_Localized: "Futaro: Duh kayaknya aku nggak punya pilihan lain\u2026 Ayo, Futaro,
+      lakuin ini demi Raiha\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544532
+    m_Localized: 'Osaka: hi'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544533
+    m_Localized: w-what...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544534
+    m_Localized: RENE DESCARTES?!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

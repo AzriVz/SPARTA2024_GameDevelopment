@@ -1,0 +1,338 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Dialog Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Dialog
+  m_TableCollectionNameGuidString: 716c44f19482cb548a63f356d5525238
+  m_Entries:
+  - m_Id: 239968645120
+    m_Key: line:0aa47ac
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053286
+  - m_Id: 240480350208
+    m_Key: line:02c098e
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053287
+  - m_Id: 240480350209
+    m_Key: line:0c2ee2f
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053288
+  - m_Id: 240480350210
+    m_Key: line:01204af
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053289
+  - m_Id: 240480350211
+    m_Key: line:0475d0a
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053290
+  - m_Id: 240480350212
+    m_Key: line:0ceeadd
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053291
+  - m_Id: 240480350213
+    m_Key: line:0725fd3
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053292
+  - m_Id: 240480350214
+    m_Key: line:0b42774
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053293
+  - m_Id: 240484544512
+    m_Key: line:0d414ff
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053294
+  - m_Id: 240484544513
+    m_Key: line:0876a0d
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053295
+  - m_Id: 240484544514
+    m_Key: line:041c86f
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053296
+  - m_Id: 240484544515
+    m_Key: line:07c2eac
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053297
+  - m_Id: 240484544516
+    m_Key: line:00b7885
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053298
+  - m_Id: 240484544517
+    m_Key: line:0717ccd
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053299
+  - m_Id: 240484544518
+    m_Key: line:0a434f6
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053300
+  - m_Id: 240484544519
+    m_Key: line:01b467b
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053301
+  - m_Id: 240484544520
+    m_Key: line:0168895
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053302
+  - m_Id: 240484544521
+    m_Key: line:09a560d
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053303
+  - m_Id: 240484544522
+    m_Key: line:0f8d6f5
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053304
+  - m_Id: 240484544523
+    m_Key: line:0d92632
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053305
+  - m_Id: 240484544524
+    m_Key: line:0628408
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053306
+  - m_Id: 240484544525
+    m_Key: line:049dbed
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053307
+  - m_Id: 240484544526
+    m_Key: line:00ae9ac
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053308
+  - m_Id: 240484544527
+    m_Key: line:0ffaa2b
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053309
+  - m_Id: 240484544528
+    m_Key: line:04fd04d
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053310
+  - m_Id: 240484544529
+    m_Key: line:011bdea
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053311
+  - m_Id: 240484544530
+    m_Key: line:01c767c
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053312
+  - m_Id: 240484544531
+    m_Key: line:0ee436b
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053313
+  - m_Id: 240484544532
+    m_Key: line:0cd6665
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053314
+  - m_Id: 240484544533
+    m_Key: line:09e4da0
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053315
+  - m_Id: 240484544534
+    m_Key: line:0f43f36
+    m_Metadata:
+      m_Items:
+      - rid: 5561007803300053316
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5561007803300053283
+  references:
+    version: 2
+    RefIds:
+    - rid: 5561007803300053283
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1751828720956
+    - rid: 5561007803300053286
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053287
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053288
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053289
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053290
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053291
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053292
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053293
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053294
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053295
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053296
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053297
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053298
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053299
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053300
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053301
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053302
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053303
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053304
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053305
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053306
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053307
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053308
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053309
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053310
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053311
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053312
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053313
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Prolog
+        tags: []
+    - rid: 5561007803300053314
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Test
+        tags: []
+    - rid: 5561007803300053315
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Test
+        tags: []
+    - rid: 5561007803300053316
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Test
+        tags: []
