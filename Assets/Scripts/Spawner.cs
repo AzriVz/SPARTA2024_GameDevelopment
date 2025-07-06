@@ -5,42 +5,62 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {    
-    [SerializeField] private GameObject[] items;
-    [SerializeField] private float minX = -8f , maxX = 8f;
-    [SerializeField] private float minTime = 1.5f, maxTime = 2.5f;
-    [SerializeField] private int stepAmount = 5;
-    [SerializeField] private float stepSize;
-    [SerializeField] private int waktu_awal_spawn;
+    [Header("Prefabs")]
+    [SerializeField] private GameObject[] obstaclePrefabs;
+    [SerializeField] private GameObject warningPrefab;
 
-    // Start is called before the first frame update
+    [Header("Spawn Area")]
+    [SerializeField] private float minX = -8f, maxX = 8f;
+    [SerializeField] private int stepAmount = 2;
+
+    [Header("Timing")]
+    [Tooltip("Time before first spawn")]
+    [SerializeField] private float initialDelay = 3f;
+    [Tooltip("Random interval between spawns")]
+    [SerializeField] private float minInterval = 1.5f, maxInterval = 2.5f;
+    [Tooltip("How long warning shows before obstacle")]
+    [SerializeField] private float warningTime = 0.8f;
+    [Tooltip("How long obstacle lives")]
+    [SerializeField] private float obstacleLifetime = 5f;
+
+    private float stepSize;
+
     void Start()
     {
         stepSize = (maxX - minX) / stepAmount;
-        StartCoroutine(SpawnItems(waktu_awal_spawn));
+        StartCoroutine(SpawnLoop());
     }
 
-    // Update is called once per frame
-    void Update()
+    private IEnumerator SpawnLoop()
     {
-        
-    }
+        // initial wait
+        yield return new WaitForSeconds(initialDelay);
 
-    IEnumerator SpawnItems(float time)
-    {
-        yield return new WaitForSeconds(time);
-        
-        Vector3 temp = new Vector3(
-            minX + UnityEngine.Random.Range(0, stepAmount + 1) * stepSize, 
-            -0.05f,                                          
-            transform.position.z                                           
-        );
-        
-        Instantiate(
-            items[UnityEngine.Random.Range(0, items.Length)],
-            temp,
-            Quaternion.identity
-        );
+        while (true)
+        {
+            // pick random X slot
+            float x = minX + UnityEngine.Random.Range(0, stepAmount + 1) * stepSize;
+            Vector3 spawnPos = new Vector3(x, -0.1f, transform.position.z);
+            Vector3 warnSpawnPos = new Vector3(x, -2.8f, transform.position.z);
 
-        StartCoroutine(SpawnItems(UnityEngine.Random.Range(minTime, maxTime)));
+            // 1) show warning
+            GameObject warn = Instantiate(warningPrefab, warnSpawnPos, Quaternion.identity);
+
+            // 2) wait warningTime
+            yield return new WaitForSeconds(warningTime);
+
+            // 3) destroy warning, spawn obstacle
+            Destroy(warn);
+            var obs = Instantiate(
+                obstaclePrefabs[UnityEngine.Random.Range(0, obstaclePrefabs.Length)],
+                spawnPos,
+                Quaternion.identity
+            );
+            Destroy(obs, obstacleLifetime);
+
+            // 4) wait next interval
+            float nextInterval = UnityEngine.Random.Range(minInterval, maxInterval);
+            yield return new WaitForSeconds(nextInterval);
+        }
     }
 }
