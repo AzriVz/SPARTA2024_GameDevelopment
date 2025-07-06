@@ -40,7 +40,7 @@ public class DialogBackgroundBehaviour : MonoBehaviour
   }
 
   [YarnCommand("SetBackground")]
-  public static void SetBackground(string spriteName, float fadeDuration = 0.5f)
+  public static void SetBackground(string spriteName = "", float fadeDuration = 0.5f)
   {
     if (Instance == null)
     {
