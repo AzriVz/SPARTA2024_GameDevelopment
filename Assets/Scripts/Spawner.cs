@@ -1,28 +1,25 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Spawner : MonoBehaviour
-{    
+{
     [Header("Prefabs")]
-    [SerializeField] private GameObject[] obstaclePrefabs;
+    [SerializeField] private GameObject firePrefab;
     [SerializeField] private GameObject warningPrefab;
+    [SerializeField] private GameObject platform;
 
     [Header("Spawn Area")]
-    [SerializeField] private float minX = -8f, maxX = 8f;
-    [SerializeField] private int stepAmount = 2;
-
+    [SerializeField] private float minX = -8f;
+    [SerializeField] private float maxX = 8f;
+    [SerializeField] private int stepAmount = 16;
+    
     [Header("Timing")]
-    [Tooltip("Time before first spawn")]
-    [SerializeField] private float initialDelay = 3f;
-    [Tooltip("Random interval between spawns")]
+    [SerializeField] private float initialDelay = 1f;
     [SerializeField] private float minInterval = 1.5f, maxInterval = 2.5f;
-    [Tooltip("How long warning shows before obstacle")]
     [SerializeField] private float warningTime = 0.8f;
-    [Tooltip("How long obstacle lives")]
-    [SerializeField] private float obstacleLifetime = 5f;
 
+    private HashSet<float> occupiedSlots = new HashSet<float>();
     private float stepSize;
 
     void Start()
@@ -33,34 +30,80 @@ public class Spawner : MonoBehaviour
 
     private IEnumerator SpawnLoop()
     {
-        // initial wait
         yield return new WaitForSeconds(initialDelay);
 
         while (true)
         {
-            // pick random X slot
-            float x = minX + UnityEngine.Random.Range(0, stepAmount + 1) * stepSize;
-            Vector3 spawnPos = new Vector3(x, -0.1f, transform.position.z);
-            Vector3 warnSpawnPos = new Vector3(x, -2.8f, transform.position.z);
+            // 1) Find a free X slot
+            float? xOpt = GetFreeXPosition();
+            if (xOpt == null)
+            {
+                yield return new WaitForSeconds(0.1f);
+                continue;
+            }
 
-            // 1) show warning
+            float x = xOpt.Value;
+            Vector3 spawnPos = new Vector3(x, platform.transform.position.y + 5.2f, transform.position.z);
+            Vector3 warnSpawnPos = new Vector3(x, platform.transform.position.y + 2.5f, transform.position.z);
+
+            // 2) Mark as occupied
+            occupiedSlots.Add(x);
+
+            // 3) Show warning
             GameObject warn = Instantiate(warningPrefab, warnSpawnPos, Quaternion.identity);
-
-            // 2) wait warningTime
             yield return new WaitForSeconds(warningTime);
-
-            // 3) destroy warning, spawn obstacle
             Destroy(warn);
-            var obs = Instantiate(
-                obstaclePrefabs[UnityEngine.Random.Range(0, obstaclePrefabs.Length)],
+
+            // 4) Spawn obstacle
+            GameObject obs = Instantiate(
+                firePrefab,
                 spawnPos,
                 Quaternion.identity
             );
-            Destroy(obs, obstacleLifetime);
+            float obstacleLifetime = firePrefab.GetComponent<SelfDestroy>().actualLifetime;
 
-            // 4) wait next interval
-            float nextInterval = UnityEngine.Random.Range(minInterval, maxInterval);
+            Destroy(obs, obstacleLifetime);
+            StartCoroutine(FreeSlotAfterDelay(x, obstacleLifetime));
+
+            // 5) Wait before next spawn
+            float nextInterval = Random.Range(minInterval, maxInterval);
             yield return new WaitForSeconds(nextInterval);
+        }
+    }
+
+    // Returns a random X that isn’t already occupied
+    private float? GetFreeXPosition()
+    {
+        List<float> possibleX = new List<float>(stepAmount + 1);
+        for (int i = 0; i <= stepAmount; i++)
+        {
+            float x = minX + i * stepSize;
+            if (!occupiedSlots.Contains(x))
+                possibleX.Add(x);
+        }
+        if (possibleX.Count == 0) return null;
+        return possibleX[Random.Range(0, possibleX.Count)];
+    }
+
+    // Frees up that slot after the obstacle’s lifetime
+    private IEnumerator FreeSlotAfterDelay(float x, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        occupiedSlots.Remove(x);
+    }
+
+    // Draw all possible spawn slots in the editor
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.green;
+        if (stepAmount > 0)
+        {
+            float size = 0.2f;
+            for (int i = 0; i <= stepAmount; i++)
+            {
+                float x = minX + i * ((maxX - minX) / stepAmount);
+                Gizmos.DrawWireSphere(new Vector3(x, transform.position.y, transform.position.z), size);
+            }
         }
     }
 }
