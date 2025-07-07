@@ -60,9 +60,9 @@ public class Spawner : MonoBehaviour
                 spawnPos,
                 Quaternion.identity
             );
-            float obstacleLifetime = firePrefab.GetComponent<SelfDestroy>().actualLifetime;
+            var sd = obs.GetComponent<SelfDestroy>();
+            float obstacleLifetime = sd.actualLifetime;
 
-            Destroy(obs, obstacleLifetime);
             StartCoroutine(FreeSlotAfterDelay(x, obstacleLifetime));
 
             // 5) Wait before next spawn

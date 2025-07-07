@@ -8,9 +8,13 @@ public class SelfDestroy : MonoBehaviour
 
     public float actualLifetime;
 
-    void Start()
+    void Awake()
     {
         actualLifetime = Random.Range(minLifetime, maxLifetime);
+    }
+
+    void Start()
+    {
         Destroy(gameObject, actualLifetime);
     }
 }
