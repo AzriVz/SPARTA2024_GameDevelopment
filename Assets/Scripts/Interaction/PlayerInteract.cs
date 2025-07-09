@@ -15,6 +15,12 @@ public class PlayerInteract2D : MonoBehaviour
             ready = false;
     }
 
+    public void Initialize(TextMeshProUGUI promptText)
+    {
+        this.promptText = promptText;
+        Start();
+    }
+
     void Update()
     {
         if (!ready) return;
