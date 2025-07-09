@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7cad7d09261c83841b6fedeccfc4c448
+guid: aeac3020a89df1f4fac0052de0660358
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4954345118388884524
-    second: pngwing.com (1)_0
+      213: -6238694248298241932
+    second: "\u2014Pngtree\u2014green game button 2d and_6039555_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pngwing.com (1)_0
+      name: "\u2014Pngtree\u2014green game button 2d and_6039555_0"
       rect:
         serializedVersion: 2
-        x: 73
-        y: 308
-        width: 875
-        height: 332
+        x: 215
+        y: 447
+        width: 770
+        height: 299
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c24924cc2ae51c440800000000000000
-      internalID: 4954345118388884524
+      spriteID: 47029eb92a4bb69a0800000000000000
+      internalID: -6238694248298241932
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "\u2014Pngtree\u2014green game button 2d and_6039555_0": -6238694248298241932
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
