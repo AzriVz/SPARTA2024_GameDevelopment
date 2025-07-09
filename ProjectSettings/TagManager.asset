@@ -10,6 +10,7 @@ TagManager:
   - JudgeZone
   - Platform
   - Food
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -46,6 +47,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Fire
+    uniqueID: 105170351
+    locked: 0
+  - name: Warning
+    uniqueID: 1591456085
     locked: 0
   m_RenderingLayers:
   - Default
