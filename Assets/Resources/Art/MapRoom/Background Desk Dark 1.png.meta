@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 5a8773abd44757148a660e10d74bf222
+guid: 6559628ffac53b34e986c702de7e3271
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5403637782710996932
-    second: RuanganHasilLantai1_0
+      213: -8041532358181393016
+    second: Background Desk Dark 1_0
+  - first:
+      213: 3075472049271639744
+    second: Background Desk Dark 1_1
+  - first:
+      213: 892954074969985823
+    second: Background Desk Dark 1_2
+  - first:
+      213: -7043048633937034712
+    second: Background Desk Dark 1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RuanganHasilLantai1_0
+      name: Background Desk Dark 1_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 9
         y: 0
-        width: 1814
-        height: 128
+        width: 302
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c30b1aaf01c6205b0800000000000000
-      internalID: -5403637782710996932
+      spriteID: 88de9c41decb66090800000000000000
+      internalID: -8041532358181393016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Desk Dark 1_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 0
+        width: 302
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce8a75c8854eaa20800000000000000
+      internalID: 3075472049271639744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Desk Dark 1_2
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 0
+        width: 297
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13d2570009646c00800000000000000
+      internalID: 892954074969985823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background Desk Dark 1_3
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 0
+        width: 201
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82202664590124e90800000000000000
+      internalID: -7043048633937034712
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RuanganHasilLantai1_0: -5403637782710996932
+      Background Desk Dark 1_0: -8041532358181393016
+      Background Desk Dark 1_1: 3075472049271639744
+      Background Desk Dark 1_2: 892954074969985823
+      Background Desk Dark 1_3: -7043048633937034712
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

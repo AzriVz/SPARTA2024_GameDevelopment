@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5a8773abd44757148a660e10d74bf222
+guid: b27bc4a0ef22bb4479f896569f2bb671
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5403637782710996932
-    second: RuanganHasilLantai1_0
+      213: -2583405000889413841
+    second: BG _0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RuanganHasilLantai1_0
+      name: BG _0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1814
+        width: 760
         height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c30b1aaf01c6205b0800000000000000
-      internalID: -5403637782710996932
+      spriteID: f2fc403d6d6e52cd0800000000000000
+      internalID: -2583405000889413841
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RuanganHasilLantai1_0: -5403637782710996932
+      BG _0: -2583405000889413841
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

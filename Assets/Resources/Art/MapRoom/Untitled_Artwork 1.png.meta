@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5a8773abd44757148a660e10d74bf222
+guid: afb51755ea7d48944813fc18d9e39998
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5403637782710996932
-    second: RuanganHasilLantai1_0
+      213: 8416243949045666254
+    second: Untitled_Artwork 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RuanganHasilLantai1_0
+      name: Untitled_Artwork 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1814
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 1
+        height: 1
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c30b1aaf01c6205b0800000000000000
-      internalID: -5403637782710996932
+      spriteID: ec1d5edc7418cc470800000000000000
+      internalID: 8416243949045666254
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 1fe5ae12bca5c41458971936dca5da1e
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RuanganHasilLantai1_0: -5403637782710996932
+      Untitled_Artwork 1_0: 8416243949045666254
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

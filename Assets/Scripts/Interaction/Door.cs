@@ -15,4 +15,12 @@ public class Door : InteractableObject
             else Debug.Log("Door is Locked");
         }
     }
+    private void OnDrawGizmos()
+    {
+        if (otherDoor == null)
+            return;
+
+        Gizmos.color = Color.green;
+        Gizmos.DrawLine(transform.position, otherDoor.transform.position);
+    }
 }
