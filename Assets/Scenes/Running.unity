@@ -251,7 +251,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d9360046b60b35b48a1c69a914323284, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9e259e961ef3c9348adbd8243f34101d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -504,9 +504,10 @@ GameObject:
   - component: {fileID: 285779307}
   - component: {fileID: 285779306}
   - component: {fileID: 285779305}
+  - component: {fileID: 285779309}
   m_Layer: 0
   m_Name: yotsuba
-  m_TagString: Obstacle
+  m_TagString: RealYotsuba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -523,7 +524,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79fa65738b9e34e40bec1bdc4eeea70e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  forwardSpeed: 3
+  backwardSpeed: 5
+  runDuration: 20
 --- !u!65 &285779306
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -543,7 +546,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.3125, y: 2.3645833, z: 0.2}
+  m_Size: {x: 1.27, y: 2.42, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &285779307
 SpriteRenderer:
@@ -589,7 +592,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2c8190422e87ab946b5b37c77adc61b6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9e990eb7baf60f745b9bfa5677618691, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -609,12 +612,28 @@ Transform:
   m_GameObject: {fileID: 285779304}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.35, y: 0.78, z: 0}
+  m_LocalPosition: {x: -0.39, y: 0.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &285779309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285779304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c70949eacb90264cba7ea8484a51815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: e2aa30cce38a7fc40b88efac3302d7f9, type: 3}
+  - {fileID: 21300000, guid: 3d34e64b349351146a48de2b5468ff60, type: 3}
+  - {fileID: 21300000, guid: 70bc242dba1373d4fba1cccbaf49679e, type: 3}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,7 +671,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.04150939, g: 0.03187608, b: 0.03187608, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -845,7 +864,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2c8190422e87ab946b5b37c77adc61b6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e290b6dfef08dbd4cb00f25538e467a1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -873,6 +892,7 @@ GameObject:
   m_Component:
   - component: {fileID: 738009870}
   - component: {fileID: 738009869}
+  - component: {fileID: 738009871}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -909,6 +929,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &738009871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738009868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688a8225b8d32274f93917cae6321ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerA: {fileID: 1705003962}
+  yotsubaTag: RealYotsuba
+  distanceSlider: {fileID: 2086989299}
+  maxSpawnDelay: 20
+  maxDistance: 100
 --- !u!1 &829735157
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,12 +979,10 @@ MonoBehaviour:
   - prefab: {fileID: 7276380933218297923, guid: 0b6d953dde778b54d92bafd4bb30cd59, type: 3}
     spawnChance: 0.5
     onlySpawnOnce: 0
-  - prefab: {fileID: 7205338336772621176, guid: e9c62114647e9e340b67f67770f63c95, type: 3}
-    spawnChance: 0.05
-    onlySpawnOnce: 1
   minSpawnRate: 1
-  maxSpawnRate: 2
+  maxSpawnRate: 3
   initialDelay: 7
+  activeDuration: 30
 --- !u!4 &829735159
 Transform:
   m_ObjectHideFlags: 0
@@ -1129,6 +1164,7 @@ GameObject:
   - component: {fileID: 1705003961}
   - component: {fileID: 1705003960}
   - component: {fileID: 1705003959}
+  - component: {fileID: 1705003963}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1168,8 +1204,8 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 2.7916667
-  m_Radius: 1.0416666
+  m_Height: 2.53
+  m_Radius: 0.82
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
@@ -1219,7 +1255,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: d9360046b60b35b48a1c69a914323284, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9e259e961ef3c9348adbd8243f34101d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1239,12 +1275,28 @@ Transform:
   m_GameObject: {fileID: 1705003958}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.52, y: 0.98, z: 0}
+  m_LocalPosition: {x: -9.06, y: 0.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1705003963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705003958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c70949eacb90264cba7ea8484a51815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 865c7577ad4f9c948b58494a56f15de2, type: 3}
+  - {fileID: 21300000, guid: 5e6fd1b0cdf0f5d4fa639a3d1fe66fdd, type: 3}
+  - {fileID: 21300000, guid: 2a6ab6425d7127b4bbbd60afd15235aa, type: 3}
 --- !u!1 &1774372643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1292,9 +1344,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2086989297}
   - component: {fileID: 2086989299}
-  - component: {fileID: 2086989298}
   m_Layer: 5
-  m_Name: Test
+  m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1309,7 +1360,7 @@ RectTransform:
   m_GameObject: {fileID: 2086989296}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 65067377}
@@ -1322,22 +1373,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 150}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2086989298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086989296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688a8225b8d32274f93917cae6321ffa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerA: {fileID: 1705003962}
-  yotsubaTag: RealYotsuba
-  distanceSlider: {fileID: 2086989299}
-  maxDistance: 50
 --- !u!114 &2086989299
 MonoBehaviour:
   m_ObjectHideFlags: 0
