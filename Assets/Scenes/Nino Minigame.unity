@@ -427,6 +427,33 @@ MonoBehaviour:
   maxInterval: 3
   velocity: 3
   lifetime: 20
+--- !u!1 &2057081809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8570987904282576472, guid: 1721ae2f5b6de2549be4af14465582b4, type: 3}
+  m_PrefabInstance: {fileID: 285733086505732590}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2057081812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057081809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07f530bcfc73d294b8f292058c2e387f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePrefab: {fileID: 1650836328365656067, guid: 037f28ff80f04704cb6bb84b844a6287, type: 3}
+  warningPrefab: {fileID: 6190080766847087668, guid: 873cb11a7af7ede499cddfe5e37d811d, type: 3}
+  platform: {fileID: 167963461}
+  minX: -8
+  maxX: 8
+  stepAmount: 16
+  initialDelay: 1
+  minInterval: 1.5
+  maxInterval: 2.5
+  warningTime: 0.8
 --- !u!1001 &23037367053276757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -556,10 +583,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3453709259362325990, guid: 1721ae2f5b6de2549be4af14465582b4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8570987904282576472, guid: 1721ae2f5b6de2549be4af14465582b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2057081812}
   m_SourcePrefab: {fileID: 100100000, guid: 1721ae2f5b6de2549be4af14465582b4, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

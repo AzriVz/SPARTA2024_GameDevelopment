@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3937188157584488362}
   - component: {fileID: 4295316708801727274}
   - component: {fileID: 3097321233223190610}
-  - component: {fileID: 4567937588376138434}
+  - component: {fileID: 8119057307835928466}
   m_Layer: 0
   m_Name: Fire PlaceHolder
   m_TagString: Untagged
@@ -135,7 +135,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4567937588376138434
+--- !u!114 &8119057307835928466
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,6 +147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 575442d9ab825df4cbad1434c4bc3b89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minLifetime: 7
-  maxLifetime: 12
+  minLifetime: 10
+  maxLifetime: 25
   actualLifetime: 0

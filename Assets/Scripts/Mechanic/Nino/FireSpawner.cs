@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnerNino : MonoBehaviour
+public class FireSpawner : MonoBehaviour
 {
     [Header("Prefabs")]
     [SerializeField] private GameObject firePrefab;
@@ -60,7 +60,7 @@ public class SpawnerNino : MonoBehaviour
                 spawnPos,
                 Quaternion.identity
             );
-            var sd = obs.GetComponent<SelfDestroy>();
+            var sd = obs.GetComponent<Fire>();
             float obstacleLifetime = sd.actualLifetime;
 
             StartCoroutine(FreeSlotAfterDelay(x, obstacleLifetime));
