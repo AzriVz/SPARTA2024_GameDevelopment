@@ -646,6 +646,7 @@ GameObject:
   - component: {fileID: 452074953}
   - component: {fileID: 452074952}
   - component: {fileID: 452074959}
+  - component: {fileID: 452074960}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -774,6 +775,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   rb: {fileID: 452074955}
+  overrideController: {fileID: 22100000, guid: 95c4c039235b13a45847e3fab0219089, type: 2}
 --- !u!212 &452074957
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -864,6 +866,28 @@ MonoBehaviour:
   maxHp: 20
   shakeDuration: 0.5
   shakeMagnitude: 10
+--- !u!95 &452074960
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452074951}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1f33b31709a62044dbb7f92e1545ebe6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &624367343
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,7 +18,10 @@ public class NinoSpawner : MonoBehaviour
     [SerializeField] private float maxInterval = 3f;
 
     [Header("Speed Tweak")]
-    [SerializeField] private float velocity = 1f;
+    [SerializeField] private float velocity = 3f;
+
+    [Header("Duration Tweak")]
+    [SerializeField] private float lifetime = 20f;
 
     private void Start()
     {
@@ -45,10 +48,9 @@ public class NinoSpawner : MonoBehaviour
 
             Instantiate(prefabToSpawn, point.position, point.rotation);
             var tAttack = Instantiate(projectile, point.position, point.rotation);
+            tAttack.GetComponent<TsundereAttack>().Initialize(projectile.GetComponent<SpriteRenderer>().sprite, lifetime);
             Vector3 direction = (idx == 0) ? Vector3.right : Vector3.left;
-            // 5) rotate it visually to face movement
-            tAttack.transform.right = direction;
-            tAttack.GetComponent<TsundereAttack>().Launch(point.position, velocity);
+            tAttack.GetComponent<TsundereAttack>().Launch(direction, velocity);
         }
     }
 
