@@ -1,3 +1,4 @@
+// MasterGameManager.cs
 using System.Collections;
 using UnityEngine;
 
@@ -5,9 +6,11 @@ public class MasterGameManager : MonoBehaviour
 {
     public static MasterGameManager Instance { get; private set; }
 
-    private bool gameStarted;
-    private bool introPrompt;
-    private Coroutine introRoutine;
+    bool gameStarted;
+    bool introPrompt;
+    Coroutine introRoutine;
+    public bool IsGameStarted => gameStarted;
+    public bool IntroPrompt => introPrompt;
 
     void Awake()
     {
@@ -17,22 +20,36 @@ public class MasterGameManager : MonoBehaviour
             return;
         }
 
-        gameStarted = false;
-        introPrompt = false;
-
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        gameStarted = false;
+        introPrompt = false;
     }
 
-    private void Update()
+    void Update()
     {
         if (!gameStarted)
         {
-            if (introRoutine == null) StartCoroutine(GameIntro());
-            if (Input.GetKeyDown(KeyCode.Space) && introPrompt)
-            {
-                gameStarted = true;
-            }
+            if (introRoutine == null)
+                introRoutine = StartCoroutine(GameIntro());
+            if (introPrompt && Input.anyKeyDown)
+                StartGame();
+        }
+    }
+
+    public void StartGame()
+    {
+        if (gameStarted)
+            return;
+
+        gameStarted = true;
+        introPrompt = false;
+
+        if (introRoutine != null)
+        {
+            StopCoroutine(introRoutine);
+            introRoutine = null;
         }
     }
 
@@ -40,5 +57,6 @@ public class MasterGameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
         introPrompt = true;
+        introRoutine = null;
     }
 }
