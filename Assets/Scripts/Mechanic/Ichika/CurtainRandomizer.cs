@@ -23,6 +23,7 @@ public class CurtainRandomizer : MonoBehaviour
         for (int i = 0; i < curtains.Length; i++)
         {
             originalPositions[i] = curtains[i].transform.position;
+            curtains[i].tag = "Untagged";
         }
 
         ichikaCurtainIndex = Random.Range(0, curtains.Length);
@@ -33,12 +34,15 @@ public class CurtainRandomizer : MonoBehaviour
     }
 
     public IEnumerator GameSequence()
-    {
+    {   
+        yield return new WaitForSeconds(revealDuration);
+        curtains[ichikaCurtainIndex].GetComponent<SpriteRenderer>().sprite = ichikaCurtainSprite;
         yield return new WaitForSeconds(revealDuration);
         
         for (int i = 0; i < curtains.Length; i++)
         {
             curtains[i].GetComponent<SpriteRenderer>().sprite = defaultCurtainSprite;
+            curtains[i].tag = "Untagged";
         }
         
         yield return StartCoroutine(PairwiseShuffle());
@@ -98,6 +102,12 @@ public class CurtainRandomizer : MonoBehaviour
         }
         
         isShuffling = false;
+        
+        for (int i = 0; i < curtains.Length; i++)
+        {
+            curtains[i].tag = "Interactable";
+        }
+
     }
 
     public void ResetGame()

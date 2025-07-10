@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4190269667624367580}
-  - component: {fileID: 3453709259362325990}
   - component: {fileID: 6183130565553835469}
+  - component: {fileID: 2539626631856555136}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -33,28 +33,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3453709259362325990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8570987904282576472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f36efc8bb92c864fbce4c37b8951b31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firePrefab: {fileID: 1650836328365656067, guid: 037f28ff80f04704cb6bb84b844a6287, type: 3}
-  warningPrefab: {fileID: 6190080766847087668, guid: 873cb11a7af7ede499cddfe5e37d811d, type: 3}
-  platform: {fileID: 6704356658410900117, guid: da0a99f83cf573541bc0631f65a590b0, type: 3}
-  minX: -8
-  maxX: 8
-  stepAmount: 16
-  initialDelay: 3
-  minInterval: 1.5
-  maxInterval: 2.5
-  warningTime: 0.8
 --- !u!61 &6183130565553835469
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -101,3 +79,25 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 17.852066, y: 0.6153593}
   m_EdgeRadius: 0
+--- !u!114 &2539626631856555136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8570987904282576472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07f530bcfc73d294b8f292058c2e387f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePrefab: {fileID: 1650836328365656067, guid: 037f28ff80f04704cb6bb84b844a6287, type: 3}
+  warningPrefab: {fileID: 6190080766847087668, guid: 873cb11a7af7ede499cddfe5e37d811d, type: 3}
+  platform: {fileID: 0}
+  minX: -8
+  maxX: 8
+  stepAmount: 16
+  initialDelay: 1
+  minInterval: 1.5
+  maxInterval: 2.5
+  warningTime: 0.8
