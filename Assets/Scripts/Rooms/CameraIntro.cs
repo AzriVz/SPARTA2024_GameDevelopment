@@ -1,6 +1,4 @@
-// CameraIntro.cs
 using UnityEngine;
-
 public class CameraIntro : MonoBehaviour
 {
     [SerializeField] Transform waypoint1;
