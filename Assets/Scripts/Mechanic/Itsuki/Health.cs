@@ -35,5 +35,7 @@ namespace Mechanic.Itsuki
     {
       currentHealth = maxHealth;
     }
+    
+   public int CurrentHealth => currentHealth;
   }
 }
