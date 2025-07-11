@@ -40,10 +40,19 @@ namespace Mechanic.Itsuki
       if (player.transform.position.y < deathY)
       {
         playerHealth.Damage();
-        player.transform.position = playerSpawn;
+        TeleportPlayerToSpawn();
       }
     }
 
+    protected virtual void TeleportPlayerToSpawn()
+    {
+      player.transform.position = playerSpawn;
+    }
+
+    protected virtual void InstantiatePlayer()
+    {
+      player = Instantiate(playerPrefab, playerSpawn, Quaternion.identity);
+    }
     public void SpawnPlayer()
     {
       if (player != null)
@@ -51,7 +60,7 @@ namespace Mechanic.Itsuki
         Debug.Log("Player exists, not spawning");
         return;
       }
-      player = Instantiate(playerPrefab, playerSpawn, Quaternion.identity);
+      InstantiatePlayer();
       player.GetComponent<PlayerInteract2D>().Initialize(textPrompt);
       playerHealth = player.GetComponent<Health>();
       OnSpawn?.Invoke();
@@ -69,7 +78,7 @@ namespace Mechanic.Itsuki
       Gizmos.DrawLine(new Vector3(-1000, deathY, 0),new Vector3(1000, deathY, 0));
     }
 
-    private void OnDrawGizmosSelected()
+    public virtual void OnDrawGizmosSelected()
     {
       Gizmos.color = Color.yellow;
       Gizmos.DrawWireSphere(playerSpawn, 0.5f);
