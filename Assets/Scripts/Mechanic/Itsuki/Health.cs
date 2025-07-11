@@ -9,6 +9,7 @@ namespace Mechanic.Itsuki
     [SerializeField] private int currentHealth = 3;
     [SerializeField] private int maxHealth = 3;
     private StageManager _stageManager;
+    public event Action<int, int> OnHealthChanged;
 
     public void Start()
     {
@@ -19,6 +20,7 @@ namespace Mechanic.Itsuki
     {
       maxHealth = health;
       currentHealth = health;
+      OnHealthChanged?.Invoke(currentHealth, maxHealth);
     }
 
     public void Damage()
@@ -29,11 +31,13 @@ namespace Mechanic.Itsuki
       {
         _stageManager.Lose();
       }
+      OnHealthChanged?.Invoke(currentHealth, maxHealth);
     }
 
     public void ResetHealth()
     {
       currentHealth = maxHealth;
+      OnHealthChanged?.Invoke(currentHealth, maxHealth);
     }
     
    public int CurrentHealth => currentHealth;

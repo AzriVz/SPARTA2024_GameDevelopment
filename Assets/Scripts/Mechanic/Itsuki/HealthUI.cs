@@ -1,29 +1,58 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using Mechanic.Itsuki;
+using Unity.VisualScripting;
 
 
 public class HealthUI : MonoBehaviour
 {
-    [SerializeField] private Image[] hearts;
-    private Health playerHealth;
-    void Start()
+    private Health _playerHealth;
+    [SerializeField] private Canvas canvas;
+    [SerializeField] private Heart heartPrefab;
+
+    private void Awake()
     {
-        playerHealth = Object.FindFirstObjectByType<Health>();
+        canvas = GetComponent<Canvas>();
     }
 
-    void Update()
+    private void Start()
     {
-        UpdateHeartsUI();
+        PlayerManager.Instance.OnSpawn += UIInit; 
     }
 
-    void UpdateHeartsUI()
+    private void UIInit()
     {
-        if (playerHealth == null) return; 
-            
-        for (int i = 0; i < hearts.Length; i++)
+        PlayerManager.Instance.player.GetComponent<Health>().OnHealthChanged += UpdateHeartsUI;
+    }
+
+    private void DestroyHearts()
+    {
+        // while(canvas.transform.childCount > 0)
+        //     Destroy(canvas.transform.GetChild(0).gameObject);
+        for (var i = canvas.transform.childCount - 1; i >= 0; i--)
         {
-            hearts[i].enabled = i < playerHealth.CurrentHealth;
+            Destroy(canvas.transform.GetChild(i).gameObject);
         }
+    }
+
+    private void GenerateHearts(int health, int maxHealth)
+    {
+        for (var i = 0; i < health; i++)
+        {
+            var heartClone = Instantiate(heartPrefab, transform);
+            heartClone.Initialize(Heart.HeartType.Normal);
+        }
+        for (var i = 0; i < maxHealth-health; i++)
+        {
+            var heartClone = Instantiate(heartPrefab, transform);
+            heartClone.Initialize(Heart.HeartType.Broken);
+        }
+    }
+    private void UpdateHeartsUI(int health, int maxHealth)
+    {
+        Debug.Log("updating hearts UI");
+        DestroyHearts();
+        GenerateHearts(health, maxHealth);
     }
 }

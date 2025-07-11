@@ -28,6 +28,7 @@ namespace Mechanic.Itsuki
     public int playerMaxHealth;
     private Health playerHealth;
     [SerializeField] private TextMeshProUGUI textPrompt;
+    public event Action OnSpawn;
 
     private void Start()
     {
@@ -52,6 +53,8 @@ namespace Mechanic.Itsuki
       player = Instantiate(playerPrefab, playerSpawn, Quaternion.identity);
       player.GetComponent<PlayerInteract2D>().Initialize(textPrompt);
       playerHealth = player.GetComponent<Health>();
+      OnSpawn?.Invoke();
+      
       playerHealth.Initialize(playerMaxHealth);
     }
 
