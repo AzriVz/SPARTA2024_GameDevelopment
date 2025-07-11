@@ -150,7 +150,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   rb: {fileID: 0}
-  overrideController: {fileID: 22100000, guid: 95c4c039235b13a45847e3fab0219089, type: 2}
+  overrideController: {fileID: 22100000, guid: 6d527f79aef587e48b73c5395cb75c37, type: 2}
 --- !u!50 &2386213154696038802
 Rigidbody2D:
   serializedVersion: 5
