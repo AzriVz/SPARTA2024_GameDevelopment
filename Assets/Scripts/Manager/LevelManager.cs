@@ -49,7 +49,7 @@ public class LevelManager : MonoBehaviour
             SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
-    public static void ChangeLevel(SceneID scene)
+    public void ChangeLevel(SceneID source, SceneID target, bool win)
     {
         if (Instance == null) return;
         string current = SceneManager.GetActiveScene().name;
@@ -63,7 +63,18 @@ public class LevelManager : MonoBehaviour
                 Instance.hasSavedMapPosition = true;
             }
         }
-        string targetName = Instance.GetSceneName(scene);
+        string targetName = Instance.GetSceneName(target);
+
+        if (win)
+        {
+            var gm = MasterGameManager.Instance;
+            if (source == SceneID.LevelMiku) gm.MikuWin = true;
+            else if (source == SceneID.LevelYotsuba) gm.YotsubaWin = true;
+            else if (source == SceneID.LevelItsuka) gm.ItsukiWin = true;
+            else if (source == SceneID.LevelIchika) gm.IchikaWin = true;
+            else if (source == SceneID.LevelNino) gm.NinoWin = true;
+        }
+
         if (!string.IsNullOrEmpty(targetName))
             SceneManager.LoadScene(targetName);
     }
