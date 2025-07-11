@@ -1,3 +1,5 @@
+using System;
+using Mechanic.Itsuki;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
@@ -9,6 +11,8 @@ public class Player : MonoBehaviour
     public float jumpForce = 8f;
     public float gravity = 9.81f * 2f;
 
+    private Health _playerHealth;
+
     private void Awake()
     {
         character = GetComponent<CharacterController>();
@@ -17,6 +21,11 @@ public class Player : MonoBehaviour
     private void OnEnable()
     {
         direction = Vector3.zero;
+    }
+
+    private void Start()
+    {
+        _playerHealth = GetComponent<Health>();
     }
 
     private void Update()
@@ -42,11 +51,13 @@ public class Player : MonoBehaviour
     {
         if (other.CompareTag("Obstacle"))
         {
-            GameManager.Instance.GameOver();
+            _playerHealth.Damage();
+            // GameManager.Instance.GameOver();
         }
         else if (other.CompareTag("RealYotsuba"))
         {
-            StopBothCharacters(other.gameObject);
+            StageManager.Instance.Win();
+            // StopBothCharacters(other.gameObject);
         }     
     }
 

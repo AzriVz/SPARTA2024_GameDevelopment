@@ -30,9 +30,6 @@ namespace Mechanic.Itsuki
     [SerializeField] private TextMeshProUGUI textPrompt;
     public event Action OnSpawn;
 
-    private void Start()
-    {
-    }
 
     void Update()
     {
@@ -55,13 +52,13 @@ namespace Mechanic.Itsuki
     }
     public void SpawnPlayer()
     {
-      if (player != null)
+      if (player == null)
       {
-        Debug.Log("Player exists, not spawning");
-        return;
+        InstantiatePlayer();
       }
-      InstantiatePlayer();
-      player.GetComponent<PlayerInteract2D>().Initialize(textPrompt);
+      var interact = player.GetComponent<PlayerInteract2D>();
+      if (interact)
+        interact.Initialize(textPrompt);
       playerHealth = player.GetComponent<Health>();
       OnSpawn?.Invoke();
       

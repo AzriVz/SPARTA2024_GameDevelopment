@@ -1,3 +1,5 @@
+using Mechanic.Itsuki;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,6 +19,7 @@ public class Tracker : MonoBehaviour
 
     void Start()
     {
+        playerA = PlayerManager.Instance.player.transform;
         distanceSlider.value = 0f;
         distanceSlider.gameObject.SetActive(true);
     }
@@ -52,9 +55,12 @@ public class Tracker : MonoBehaviour
                 return;
             }
 
-            float distance = Vector3.Distance(playerA.position, yotsuba.position);
-            float normalized = Mathf.Clamp01(1 - (distance / maxDistance));
-            distanceSlider.value = normalized;
+            if (!playerA.IsDestroyed())
+            {
+                float distance = Vector3.Distance(playerA.position, yotsuba.position);
+                float normalized = Mathf.Clamp01(1 - (distance / maxDistance));
+                distanceSlider.value = normalized;
+            }
         }
     }
 

@@ -1,3 +1,4 @@
+using Mechanic.Itsuki;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -33,7 +34,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        player = FindObjectOfType<Player>();
+        player = PlayerManager.Instance.player.GetComponent<Player>();
         spawner = FindObjectOfType<Spawner>();
         NewGame();
     }
