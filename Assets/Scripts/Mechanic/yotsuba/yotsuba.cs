@@ -1,22 +1,33 @@
 using UnityEngine;
 
-public class MoveX : MonoBehaviour
+public class yotsuba : MonoBehaviour
 {
-    public float speed = 2f;
-    private float rightEdge;
+    public float forwardSpeed = 3f;      // Kecepatan awal ke kanan
+    public float backwardSpeed = 5f;     // Kecepatan ke kiri setelah 20 detik
+    public float runDuration = 20f;      // Waktu berjalan ke kanan
 
-    private void Start()
+    private float timer = 0f;
+    private bool switchedToBackward = false;
+
+    void Update()
     {
-        rightEdge = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0f, 0f)).x + 2f;
-    }
+        timer += Time.deltaTime;
 
-    private void Update()
-    {
-
-        transform.position += new Vector3(speed * Time.deltaTime, 0f, 0f);
-        if (transform.position.x > rightEdge)
+        if (timer < runDuration)
         {
-            Destroy(gameObject);
+            // Fase 1: Bergerak ke kanan (ke depan)
+            transform.position += Vector3.right * forwardSpeed * Time.deltaTime;
+        }
+        else
+        {
+            // Fase 2: Bergerak ke kiri (seperti obstacle)
+            if (!switchedToBackward)
+            {
+                // Opsional: kamu bisa tambahkan animasi berubah arah di sini
+                switchedToBackward = true;
+            }
+
+            transform.position += Vector3.left * backwardSpeed * Time.deltaTime;
         }
     }
 }
