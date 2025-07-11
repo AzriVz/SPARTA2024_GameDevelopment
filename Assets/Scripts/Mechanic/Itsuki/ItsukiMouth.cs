@@ -13,11 +13,17 @@ namespace Mechanic.Itsuki
     private void Start()
     {
       _stageManager = StageManager.Instance;
+      PlayerManager.Instance.OnSpawn += SetFoodGrabber;
+    }
+
+    private void SetFoodGrabber()
+    {
       playerFoodGrabber = PlayerManager.Instance.player.GetComponent<PlayerFoodGrabber>();
     }
 
     public override void Interact()
     {
+      if (!playerFoodGrabber) return;
       if (!playerFoodGrabber.FoodInventory.FoodExists()) return;
       playerFoodGrabber.LetGo();
       _foodCount++;

@@ -51,7 +51,7 @@ namespace Mechanic.Itsuki
     {
       // if(!_playerFoodGrabber)
       //   _playerFoodGrabber.Unload();
-      _playerManager.DestroyPlayer();
+      // _playerManager.DestroyPlayer();
     }
     public void Lose()
     {

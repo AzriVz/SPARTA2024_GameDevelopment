@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f540910f-5a89-47c8-a274-b0506af3d645" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Nino Minigame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Nino Minigame.unity" afterDir="false" />
-    </list>
+    <list default="true" id="f540910f-5a89-47c8-a274-b0506af3d645" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +105,7 @@
       <workItem from="1752238418847" duration="1051000" />
       <workItem from="1752239649333" duration="4894000" />
       <workItem from="1752254793484" duration="3230000" />
-      <workItem from="1752259547358" duration="4874000" />
+      <workItem from="1752259547358" duration="5252000" />
     </task>
     <servers />
   </component>
