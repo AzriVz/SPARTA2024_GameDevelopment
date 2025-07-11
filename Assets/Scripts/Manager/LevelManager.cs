@@ -51,6 +51,7 @@ public class LevelManager : MonoBehaviour
 
     public void ChangeLevel(SceneID source, SceneID target, bool win)
     {
+        Debug.Log("Level CHanged");
         if (Instance == null) return;
         string current = SceneManager.GetActiveScene().name;
         string mapName = Instance.GetSceneName(SceneID.MapRoom);

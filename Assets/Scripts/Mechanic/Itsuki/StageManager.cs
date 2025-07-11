@@ -20,11 +20,19 @@ namespace Mechanic.Itsuki
     }
     #endregion
 
+    [SerializeField] private LevelManager.SceneID currentScene, targetScene;
     private PlayerManager _playerManager;
+    private PlayerFoodGrabber _playerFoodGrabber;
     public void Start()
     {
-      _playerManager = PlayerManager.Instance;
+      VariableSetter();
       StartStage();
+    }
+
+    private void VariableSetter()
+    {
+      _playerManager = PlayerManager.Instance;
+      // _playerManager.player.GetComponent<PlayerFoodGrabber>();
     }
 
     private void StartStage()
@@ -35,12 +43,20 @@ namespace Mechanic.Itsuki
     public void Win()
     {
       // Win Screen
+      Unload();
+      LevelManager.Instance.ChangeLevel(currentScene, targetScene, true);
     }
 
+    private void Unload()
+    {
+      // if(!_playerFoodGrabber)
+      //   _playerFoodGrabber.Unload();
+      _playerManager.DestroyPlayer();
+    }
     public void Lose()
     {
-      _playerManager.player.GetComponent<PlayerFoodGrabber>().Unload();
-      _playerManager.DestroyPlayer();
+      Unload();
+      LevelManager.Instance.ChangeLevel(currentScene, targetScene, false);
       // Do some lose screen
     }
   }

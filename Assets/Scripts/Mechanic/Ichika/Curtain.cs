@@ -1,3 +1,4 @@
+using Mechanic.Itsuki;
 using UnityEngine;
 
 public class Curtain : InteractableObject
@@ -21,6 +22,7 @@ public class Curtain : InteractableObject
             } else
             {
                 GetComponent<SpriteRenderer>().sprite = openedIchikaCurtain;
+                StageManager.Instance.Win();
             }
         }
     }

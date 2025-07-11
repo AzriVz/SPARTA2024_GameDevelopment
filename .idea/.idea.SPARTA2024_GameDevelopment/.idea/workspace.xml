@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f540910f-5a89-47c8-a274-b0506af3d645" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/Heart.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/Heart.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SPARTA2024_GameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPARTA2024_GameDevelopment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ItsukiStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ItsukiStage.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RealYotsuba.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RealYotsuba.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/UI/istockphoto-894322380-612x612.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/UI/istockphoto-894322380-612x612.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HatsuneMiku.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HatsuneMiku.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/IchikaStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/IchikaStage.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Ichika/Curtain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Ichika/Curtain.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/HealthUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/HealthUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/PlayerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/StageManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/StageManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Miku/PlayerMiku.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Miku/PlayerMiku.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/844019a3a067481c8d9cb70c7a2ba4471df600/8f/27f53d42/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -104,7 +113,8 @@
       <workItem from="1752077967376" duration="304000" />
       <workItem from="1752228383137" duration="3146000" />
       <workItem from="1752238418847" duration="1051000" />
-      <workItem from="1752239649333" duration="347000" />
+      <workItem from="1752239649333" duration="4894000" />
+      <workItem from="1752254793484" duration="2107000" />
     </task>
     <servers />
   </component>

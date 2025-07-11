@@ -40,6 +40,7 @@ namespace Mechanic.Itsuki
       if (player.transform.position.y < deathY)
       {
         playerHealth.Damage();
+        player.transform.position = playerSpawn;
       }
     }
 
