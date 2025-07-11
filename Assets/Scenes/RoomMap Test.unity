@@ -1497,6 +1497,123 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &239074896
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.data[1].id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.data[2].id
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.data[3].id
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.data[4].id
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.data[5].id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.data[6].id
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.data[7].id
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.data[0].sceneName
+      value: Main Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.data[1].sceneName
+      value: RoomMap Test
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.data[2].sceneName
+      value: HatsuneMiku
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.data[3].sceneName
+      value: Running
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.data[4].sceneName
+      value: ItsukiStage
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.data[5].sceneName
+      value: IchikaStage
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866382696401418516, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: s_sceneMapping.Array.data[6].sceneName
+      value: Nino Minigame
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509256084563909784, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: m_Name
+      value: LevelManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504049368553715113, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.2688344
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504049368553715113, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.705207
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504049368553715113, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0054092263
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504049368553715113, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504049368553715113, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504049368553715113, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504049368553715113, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504049368553715113, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504049368553715113, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504049368553715113, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d3c8365681663eb4db3ef1779104bb2f, type: 3}
 --- !u!1001 &241767991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1975,7 +2092,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypoint1: {fileID: 317632166}
   waypoint2: {fileID: 532604420}
-  playerToActivate: {fileID: 1701138061}
+  playerObj: {fileID: 1701138061}
   introCanvas: {fileID: 1786228668}
   lerpDuration: 8
 --- !u!1001 &490488068
@@ -2170,9 +2287,10 @@ GameObject:
   - component: {fileID: 551394824}
   - component: {fileID: 551394823}
   - component: {fileID: 551394822}
+  - component: {fileID: 551394826}
   m_Layer: 0
   m_Name: Miku
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2195,6 +2313,8 @@ MonoBehaviour:
   itsuki: 0
   ichika: 0
   yotsuba: 0
+  sceneID: 2
+  isInteractable: 0
 --- !u!212 &551394823
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2265,6 +2385,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1687261567}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &551394826
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551394821}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5, y: 0.98333335}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.5, y: 0.98333335}
+  m_EdgeRadius: 0
 --- !u!1 &598839992
 GameObject:
   m_ObjectHideFlags: 0
@@ -2276,9 +2442,11 @@ GameObject:
   - component: {fileID: 598839995}
   - component: {fileID: 598839994}
   - component: {fileID: 598839993}
+  - component: {fileID: 598839997}
+  - component: {fileID: 598839996}
   m_Layer: 0
   m_Name: Itsuki
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2301,6 +2469,8 @@ MonoBehaviour:
   itsuki: 1
   ichika: 0
   yotsuba: 0
+  sceneID: 4
+  isInteractable: 0
 --- !u!212 &598839994
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2371,6 +2541,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1687261567}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &598839996
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598839992}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!61 &598839997
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598839992}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.53333336, y: 0.98333335}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.53333336, y: 0.98333335}
+  m_EdgeRadius: 0
 --- !u!1 &606831743
 GameObject:
   m_ObjectHideFlags: 0
@@ -2469,9 +2712,11 @@ GameObject:
   - component: {fileID: 640013061}
   - component: {fileID: 640013060}
   - component: {fileID: 640013059}
+  - component: {fileID: 640013063}
+  - component: {fileID: 640013062}
   m_Layer: 0
   m_Name: Ichika
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2494,6 +2739,8 @@ MonoBehaviour:
   itsuki: 0
   ichika: 1
   yotsuba: 0
+  sceneID: 5
+  isInteractable: 0
 --- !u!212 &640013060
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2564,6 +2811,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1687261567}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &640013062
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640013058}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!61 &640013063
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640013058}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6333333, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.6333333, y: 1}
+  m_EdgeRadius: 0
 --- !u!4 &671942470 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3377709152527456797, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
@@ -3649,6 +3969,14 @@ PrefabInstance:
     - target: {fileID: 6946257023804287739, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098424069577533866, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 16.7472
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098424069577533866, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.6263
       objectReference: {fileID: 0}
     - target: {fileID: 8465433082880134716, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_IsActive
@@ -5398,6 +5726,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <MikuWin>k__BackingField: 0
+  <NinoWin>k__BackingField: 0
+  <IchikaWin>k__BackingField: 0
+  <ItsukiWin>k__BackingField: 0
+  <YotsubaWin>k__BackingField: 0
 --- !u!1001 &1129826565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5645,9 +5977,11 @@ GameObject:
   - component: {fileID: 1158189947}
   - component: {fileID: 1158189946}
   - component: {fileID: 1158189948}
+  - component: {fileID: 1158189950}
+  - component: {fileID: 1158189949}
   m_Layer: 0
   m_Name: Yotsuba
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5740,6 +6074,81 @@ MonoBehaviour:
   itsuki: 0
   ichika: 0
   yotsuba: 1
+  sceneID: 3
+  isInteractable: 0
+--- !u!50 &1158189949
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158189945}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!61 &1158189950
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158189945}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6333333, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.6333333, y: 1}
+  m_EdgeRadius: 0
 --- !u!4 &1164348520 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3377709152527456797, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
@@ -6307,9 +6716,11 @@ GameObject:
   - component: {fileID: 1387716277}
   - component: {fileID: 1387716276}
   - component: {fileID: 1387716275}
+  - component: {fileID: 1387716279}
+  - component: {fileID: 1387716278}
   m_Layer: 0
   m_Name: Nino
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6332,6 +6743,8 @@ MonoBehaviour:
   itsuki: 0
   ichika: 0
   yotsuba: 0
+  sceneID: 6
+  isInteractable: 0
 --- !u!212 &1387716276
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6402,6 +6815,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1687261567}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1387716278
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387716274}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!61 &1387716279
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387716274}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6333333, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.6333333, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1417203184
 GameObject:
   m_ObjectHideFlags: 0
@@ -8069,7 +8555,7 @@ Transform:
   m_GameObject: {fileID: 1701138061}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -83.42, y: 42.19, z: 0}
+  m_LocalPosition: {x: 20.9, y: 42.19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8576,6 +9062,14 @@ PrefabInstance:
     - target: {fileID: 5966120668389549941, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098424069577533866, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 18.149483
+      objectReference: {fileID: 0}
+    - target: {fileID: 7098424069577533866, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0746
       objectReference: {fileID: 0}
     - target: {fileID: 8465433082880134716, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_IsActive
@@ -10196,3 +10690,4 @@ SceneRoots:
   - {fileID: 1786228672}
   - {fileID: 54246463}
   - {fileID: 1687261567}
+  - {fileID: 239074896}

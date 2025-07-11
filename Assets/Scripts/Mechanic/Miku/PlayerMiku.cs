@@ -35,6 +35,7 @@ public class PlayerMiku : MonoBehaviour
         hp = maxHp;
         scoreTextOriginalPos = ScoreText.rectTransform.localPosition;
         UpdateUI();
+        StartCoroutine(wintest());
     }
 
     private void HandleProgress(bool isMiss)
@@ -88,6 +89,11 @@ public class PlayerMiku : MonoBehaviour
         }
     }
 
+    IEnumerator wintest()
+    {
+        yield return new WaitForSeconds(3f);
+        LevelManager.Instance.ChangeLevel(LevelManager.SceneID.LevelMiku, LevelManager.SceneID.MapRoom, true);
+    }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("JudgeZone")) IsInJudge = false;

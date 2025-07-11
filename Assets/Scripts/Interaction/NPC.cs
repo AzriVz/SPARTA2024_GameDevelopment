@@ -8,11 +8,12 @@ public class NPC : InteractableObject
     [SerializeField] bool itsuki;
     [SerializeField] bool ichika;
     [SerializeField] bool yotsuba;
+    [SerializeField] LevelManager.SceneID sceneID;
 
     public Dialogue dialog;
-    private bool isInteractable;
+    public bool isInteractable;
 
-    private void Awake()
+    private void Start()
     {
         var gm = MasterGameManager.Instance;
         if (miku) isInteractable = !gm.MikuWin;
@@ -28,6 +29,8 @@ public class NPC : InteractableObject
     {
         if(!isInteractable) return;
 
-        //play dialog
+        // Run dialog here
+
+        LevelManager.Instance.ChangeLevel(LevelManager.SceneID.MapRoom, sceneID, false);
     }
 }
