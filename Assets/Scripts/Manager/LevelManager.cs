@@ -1,6 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Yarn.Unity;
+
+Dictionary<LevelManager.SceneID, string> dialogName = new() {
+    { LevelManager.SceneID.LevelMiku, "Miku" },
+    { LevelManager.SceneID.LevelYotsuba, "Yotsuba" },
+    { LevelManager.SceneID.LevelItsuka, "Itsuka" },
+    { LevelManager.SceneID.LevelIchika, "Ichika" },
+    { LevelManager.SceneID.LevelNino, "Nino" },
+};
 
 public class LevelManager : MonoBehaviour
 {
@@ -30,6 +41,9 @@ public class LevelManager : MonoBehaviour
 
     public static LevelManager Instance { get; private set; }
 
+    private static SceneID? NextSourceId = null;
+    private static SceneID? NextTagetId = null;
+
     void Awake()
     {
         if (Instance != null && Instance != this)
@@ -49,7 +63,51 @@ public class LevelManager : MonoBehaviour
             SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
+    // public void ChangeLevel(string source, string target, bool win)
+    // {
+    //     SceneID sourceId = GetSceneId(source);
+    //     SceneID targetId = GetSceneId(target);
+    //     ChangeLevel(sourceId, targetId, win);
+    // }
+
     public void ChangeLevel(SceneID source, SceneID target, bool win)
+    {
+        string targetName = GetSceneName(target);
+        if (string.IsNullOrEmpty(targetName))
+        {
+            var dr = FindFirstObjectByType<DialogueRunner>();
+            if (dr == null)
+            {
+                Debug.LogError("DialogueRunner not found. Cannot change level.");
+                return;
+            }
+            string w = win ? "Win" : "Lose";
+            NextSourceId = source;
+            NextTagetId = target;
+            dr.StartDialogue($"{targetName}_{w}");
+        }
+        else
+        {
+            ChangeLevelActual(source, target, win);
+        }
+    }
+
+    [YarnCommand("LoadNextLevel")]
+    public static void LoadNextLevel(bool win)
+    {
+        if (NextSourceId == null || NextTagetId == null)
+        {
+            Debug.LogError("NextSourceId or NextTagetId is not set. Cannot load next level.");
+            return;
+        }
+
+        SceneID sourceId = NextSourceId.Value;
+        SceneID targetId = NextTagetId.Value;
+        NextSourceId = NextTagetId = null;
+        Instance.ChangeLevelActual(sourceId, targetId, win);
+    }
+
+    public void ChangeLevelActual(SceneID source, SceneID target, bool win)
     {
         if (Instance == null) return;
         string current = SceneManager.GetActiveScene().name;
@@ -97,4 +155,6 @@ public class LevelManager : MonoBehaviour
                 return s_sceneMapping[i].sceneName;
         return null;
     }
+
+    private SceneID GetSceneId(string name) { return s_sceneMapping.FirstOrDefault(v => v.sceneName == name).id; }
 }
