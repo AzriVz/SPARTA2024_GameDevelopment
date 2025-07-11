@@ -26,11 +26,11 @@ namespace Mechanic.Itsuki
     public void Damage()
     {
       currentHealth--;
+      OnHealthChanged?.Invoke(currentHealth, maxHealth);
       if (currentHealth <= 0)
       {
         _stageManager.Lose();
       }
-      OnHealthChanged?.Invoke(currentHealth, maxHealth);
     }
 
     public void ResetHealth()
