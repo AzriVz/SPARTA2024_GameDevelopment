@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f540910f-5a89-47c8-a274-b0506af3d645" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SPARTA2024_GameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPARTA2024_GameDevelopment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RealYotsuba.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RealYotsuba.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UI/UI/istockphoto-894322380-612x612.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UI/UI/istockphoto-894322380-612x612.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HatsuneMiku.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HatsuneMiku.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/IchikaStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/IchikaStage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Ichika/Curtain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Ichika/Curtain.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/PlayerManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/StageManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/StageManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Miku/PlayerMiku.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Miku/PlayerMiku.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="f540910f-5a89-47c8-a274-b0506af3d645" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +100,7 @@
       <workItem from="1752228383137" duration="3146000" />
       <workItem from="1752238418847" duration="1051000" />
       <workItem from="1752239649333" duration="4894000" />
-      <workItem from="1752254793484" duration="2107000" />
+      <workItem from="1752254793484" duration="2421000" />
     </task>
     <servers />
   </component>
