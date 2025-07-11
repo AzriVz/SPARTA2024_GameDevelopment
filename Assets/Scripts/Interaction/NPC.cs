@@ -20,6 +20,8 @@ public class NPC : InteractableObject
         else if (itsuki) isInteractable = !gm.ItsukiWin;
         else if (ichika) isInteractable = !gm.IchikaWin;
         else if (yotsuba) isInteractable = !gm.YotsubaWin;
+
+        if(!isInteractable) gameObject.SetActive(false);
     }
 
     public override void Interact()

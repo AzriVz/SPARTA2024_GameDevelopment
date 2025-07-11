@@ -11,14 +11,17 @@ public class MasterGameManager : MonoBehaviour
     public bool IntroPrompt => introPrompt;
     [field: SerializeField]
     public bool MikuWin { get; set; }
-    [SerializeField] public bool NinoWin { get; set; }
-    [SerializeField] public bool IchikaWin { get; set; }
-    [SerializeField] public bool ItsukiWin { get; set; }
-    [SerializeField] public bool YotsubaWin { get; set; }
+    [field: SerializeField]
+    public bool NinoWin { get; set; }
+    [field: SerializeField]
+    public bool IchikaWin { get; set; }
+    [field: SerializeField]
+    public bool ItsukiWin { get; set; }
+    [field: SerializeField]
+    public bool YotsubaWin { get; set; }
 
     void Awake()
     {
-        MikuWin = true;
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);

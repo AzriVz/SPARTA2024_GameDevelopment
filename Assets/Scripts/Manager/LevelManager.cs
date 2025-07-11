@@ -7,6 +7,7 @@ public class LevelManager : MonoBehaviour
     public enum SceneID
     {
         MainMenu,
+        MapRoom,
         LevelMiku,
         LevelYotsuba,
         LevelItsuka,
@@ -19,10 +20,13 @@ public class LevelManager : MonoBehaviour
     struct SceneMapping
     {
         public SceneID id;
-        public string sceneName; 
+        public string sceneName;
     }
 
     [SerializeField] private SceneMapping[] s_sceneMapping;
+
+    private Vector3 lastMapRoomPosition;
+    private bool hasSavedMapPosition;
 
     public static LevelManager Instance { get; private set; }
 
@@ -35,19 +39,51 @@ public class LevelManager : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDestroy()
+    {
+        if (Instance == this)
+            SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     public static void ChangeLevel(SceneID scene)
     {
         if (Instance == null) return;
-        for (int i = 0; i < Instance.s_sceneMapping.Length; i++)
+        string current = SceneManager.GetActiveScene().name;
+        string mapName = Instance.GetSceneName(SceneID.MapRoom);
+        if (current == mapName)
         {
-            var sceneValue = Instance.s_sceneMapping[i];
-            if (sceneValue.id == scene)
+            var player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
             {
-                SceneManager.LoadScene(sceneValue.sceneName);
-                return;
+                Instance.lastMapRoomPosition = player.transform.position;
+                Instance.hasSavedMapPosition = true;
             }
         }
+        string targetName = Instance.GetSceneName(scene);
+        if (!string.IsNullOrEmpty(targetName))
+            SceneManager.LoadScene(targetName);
+    }
+
+    private void OnSceneLoaded(Scene loaded, LoadSceneMode mode)
+    {
+        string mapName = GetSceneName(SceneID.MapRoom);
+        if (loaded.name == mapName && hasSavedMapPosition)
+        {
+            var player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+                player.transform.position = lastMapRoomPosition;
+        }
+    }
+
+    private string GetSceneName(SceneID id)
+    {
+        for (int i = 0; i < s_sceneMapping.Length; i++)
+            if (s_sceneMapping[i].id == id)
+                return s_sceneMapping[i].sceneName;
+        return null;
     }
 }
