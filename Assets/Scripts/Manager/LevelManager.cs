@@ -72,19 +72,27 @@ public class LevelManager : MonoBehaviour
 
     public void ChangeLevel(SceneID source, SceneID target, bool win)
     {
-        string targetName = GetSceneName(target);
-        if (string.IsNullOrEmpty(targetName))
+        string sourceName = GetSceneName(target);
+        if (string.IsNullOrEmpty(sourceName))
         {
-            var dr = FindFirstObjectByType<DialogueRunner>();
-            if (dr == null)
-            {
-                Debug.LogError("DialogueRunner not found. Cannot change level.");
-                return;
-            }
             string w = win ? "Win" : "Lose";
             NextSourceId = source;
             NextTagetId = target;
-            dr.StartDialogue($"{targetName}_{w}");
+            var dr = FindFirstObjectByType<DialogueRunner>();
+            dr.StartDialogue($"{sourceName}_{w}");
+        }
+        else if (source == SceneID.MapRoom)
+        {
+            string targetName = GetSceneName(target);
+            if (string.IsNullOrEmpty(targetName))
+            {
+                Debug.LogError($"Target scene '{target}' not found in scene mapping.");
+                return;
+            }
+            NextSourceId = source;
+            NextTagetId = target;
+            var dr = FindFirstObjectByType<DialogueRunner>();
+            dr.StartDialogue($"{sourceName}_Pre");
         }
         else
         {
