@@ -526,7 +526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b30b7b67a93bc524da7015c38dea4b7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownTime: 5
+  countdownTime: 90
   countdownText: {fileID: 273921518}
 --- !u!1 &1030032599
 GameObject:
@@ -756,7 +756,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1675723470
 Transform:
   m_ObjectHideFlags: 0
@@ -791,10 +791,11 @@ MonoBehaviour:
   spawnPoints:
   - {fileID: 1030032600}
   - {fileID: 206103930}
-  minInterval: 1
-  maxInterval: 3
-  velocity: 3
-  lifetime: 20
+  initialDelay: 2
+  minInterval: 6
+  maxInterval: 8
+  velocity: 4.5
+  lifetime: 10
 --- !u!1001 &23037367053276757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -865,9 +866,33 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2539626631856555136, guid: 1721ae2f5b6de2549be4af14465582b4, type: 3}
+      propertyPath: maxX
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539626631856555136, guid: 1721ae2f5b6de2549be4af14465582b4, type: 3}
+      propertyPath: minX
+      value: -7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539626631856555136, guid: 1721ae2f5b6de2549be4af14465582b4, type: 3}
       propertyPath: platform
       value: 
       objectReference: {fileID: 167963461}
+    - target: {fileID: 2539626631856555136, guid: 1721ae2f5b6de2549be4af14465582b4, type: 3}
+      propertyPath: maxInterval
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539626631856555136, guid: 1721ae2f5b6de2549be4af14465582b4, type: 3}
+      propertyPath: minInterval
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539626631856555136, guid: 1721ae2f5b6de2549be4af14465582b4, type: 3}
+      propertyPath: warningTime
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539626631856555136, guid: 1721ae2f5b6de2549be4af14465582b4, type: 3}
+      propertyPath: initialDelay
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4190269667624367580, guid: 1721ae2f5b6de2549be4af14465582b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -914,7 +939,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8570987904282576472, guid: 1721ae2f5b6de2549be4af14465582b4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

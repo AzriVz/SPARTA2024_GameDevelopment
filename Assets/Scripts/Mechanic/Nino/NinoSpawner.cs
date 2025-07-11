@@ -12,9 +12,8 @@ public class NinoSpawner : MonoBehaviour
     [SerializeField] private Transform[] spawnPoints;
 
     [Header("Timing")]
-    [Tooltip("Minimum seconds between spawns")]
+    [SerializeField] private float initialDelay = 8f; 
     [SerializeField] private float minInterval = 1f;
-    [Tooltip("Maximum seconds between spawns")]
     [SerializeField] private float maxInterval = 3f;
 
     [Header("Speed Tweak")]
@@ -25,7 +24,7 @@ public class NinoSpawner : MonoBehaviour
 
     private void Start()
     {
-        // Grab all children of this GameObject
+        // collect children as spawn points if none assigned
         if (spawnPoints == null || spawnPoints.Length == 0)
         {
             spawnPoints = new Transform[transform.childCount];
@@ -38,6 +37,9 @@ public class NinoSpawner : MonoBehaviour
 
     private IEnumerator SpawnLoop()
     {
+        if (initialDelay > 0f)
+            yield return new WaitForSeconds(initialDelay);
+
         while (true)
         {
             float waitTime = Random.Range(minInterval, maxInterval);
@@ -47,8 +49,12 @@ public class NinoSpawner : MonoBehaviour
             Transform point = spawnPoints[idx];
 
             Instantiate(prefabToSpawn, point.position, point.rotation);
+
             var tAttack = Instantiate(projectile, point.position, point.rotation);
-            tAttack.GetComponent<TsundereAttack>().Initialize(projectile.GetComponent<SpriteRenderer>().sprite, lifetime);
+            tAttack
+              .GetComponent<TsundereAttack>()
+              .Initialize(projectile.GetComponent<SpriteRenderer>().sprite, lifetime);
+
             Vector3 direction = (idx == 0) ? Vector3.right : Vector3.left;
             tAttack.GetComponent<TsundereAttack>().Launch(direction, velocity);
         }
@@ -60,10 +66,9 @@ public class NinoSpawner : MonoBehaviour
         {
             Gizmos.color = Color.yellow;
             foreach (var p in spawnPoints)
-            {
                 if (p != null)
                     Gizmos.DrawWireSphere(p.position, 0.2f);
-            }
         }
     }
 }
+
