@@ -46,4 +46,5 @@ Futaro: Lastly, we got Itsuki, the foodie. Unlike her sisters, this one actually
 <<SetBackgroundBlack>>
 <<wait 0.5>>
 Futaro: Looks like I've got no choice… C’mon Futaro, do it for Raiha’s sake. #line:0ee436b 
+<<LoadScene 1>>
 ===

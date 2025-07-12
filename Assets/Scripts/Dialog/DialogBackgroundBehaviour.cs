@@ -25,6 +25,8 @@ public class DialogBackgroundBehaviour : MonoBehaviour
     {
       Destroy(gameObject);
     }
+    backgroundImageBack.enabled = false;
+    backgroundImageFront.enabled = false;
   }
 
   private void Start()
@@ -62,6 +64,7 @@ public class DialogBackgroundBehaviour : MonoBehaviour
     
     Instance.backgroundImageFront.color = Color.white;
     Instance.backgroundImageFront.sprite = newSprite;
+    Instance.backgroundImageFront.enabled = true;
     Instance.StopAllCoroutines();
     Instance.StartCrossFade(fadeDuration, newSprite == null);
   }
@@ -77,6 +80,7 @@ public class DialogBackgroundBehaviour : MonoBehaviour
 
     Instance.backgroundImageFront.color = Color.black;
     Instance.backgroundImageFront.sprite = null;
+    Instance.backgroundImageFront.enabled = true;
     Instance.StopAllCoroutines();
     Instance.StartCrossFade(fadeDuration, false);
   }
@@ -104,6 +108,7 @@ public class DialogBackgroundBehaviour : MonoBehaviour
       backgroundImageFront.color = endColor;
       backgroundImageBack.color = endColor;
       backgroundImageBack.sprite = backgroundImageFront.sprite;
+      backgroundImageBack.enabled = true;
     }
     else
     {
@@ -112,6 +117,7 @@ public class DialogBackgroundBehaviour : MonoBehaviour
       Color endColor = new(backgroundImageBack.color.r, backgroundImageBack.color.g, backgroundImageBack.color.b, 0);
       backgroundImageFront.color = endColor;
       backgroundImageBack.color = startColor;
+      backgroundImageBack.enabled = true;
       while (time < duration)
       {
         time += Time.deltaTime;
@@ -121,6 +127,8 @@ public class DialogBackgroundBehaviour : MonoBehaviour
       }
       backgroundImageBack.color = endColor;
       backgroundImageBack.sprite = null;
+      backgroundImageBack.enabled = false;
+      backgroundImageFront.enabled = false;
     }
   }
 }
