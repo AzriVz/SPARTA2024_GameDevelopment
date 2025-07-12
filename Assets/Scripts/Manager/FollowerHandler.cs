@@ -55,6 +55,18 @@ public class FollowerHandler : MonoBehaviour
         }
     }
 
+    public void ResetPositions()
+    {
+        if (player == null) return;
+
+        Vector3 playerPos = player.position;
+        for (int i = 0; i < activeFollowers.Count; i++)
+        {
+            var follower = activeFollowers[i];
+            follower.position = new Vector3(playerPos.x, playerPos.y, follower.position.z);
+        }
+    }
+
     public void CheckWins()
     {
         var gm = MasterGameManager.Instance;

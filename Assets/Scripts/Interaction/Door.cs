@@ -15,6 +15,7 @@ public class Door : InteractableObject
             {
                 Debug.Log("open sasame");
                 playerTransform.position = otherDoor.transform.position;
+                playerTransform.gameObject.GetComponent<FollowerHandler>().ResetPositions();
             }
             else Debug.Log("Door is Locked");
         }
