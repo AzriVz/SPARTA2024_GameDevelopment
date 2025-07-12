@@ -5,14 +5,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Yarn.Unity;
 
-Dictionary<LevelManager.SceneID, string> dialogName = new() {
-    { LevelManager.SceneID.LevelMiku, "Miku" },
-    { LevelManager.SceneID.LevelYotsuba, "Yotsuba" },
-    { LevelManager.SceneID.LevelItsuka, "Itsuka" },
-    { LevelManager.SceneID.LevelIchika, "Ichika" },
-    { LevelManager.SceneID.LevelNino, "Nino" },
-};
-
 public class LevelManager : MonoBehaviour
 {
     public enum SceneID
@@ -44,6 +36,14 @@ public class LevelManager : MonoBehaviour
     private static SceneID? NextSourceId = null;
     private static SceneID? NextTagetId = null;
 
+    private static readonly Dictionary<LevelManager.SceneID, string> dialogName = new() {
+        { SceneID.LevelMiku, "Miku" },
+        { SceneID.LevelYotsuba, "Yotsuba" },
+        { SceneID.LevelItsuka, "Itsuka" },
+        { SceneID.LevelIchika, "Ichika" },
+        { SceneID.LevelNino, "Nino" },
+    };
+
     void Awake()
     {
         if (Instance != null && Instance != this)
@@ -73,7 +73,7 @@ public class LevelManager : MonoBehaviour
     public void ChangeLevel(SceneID source, SceneID target, bool win)
     {
         Debug.Log("Level CHanged");
-        string sourceName = GetSceneName(target);
+        string sourceName = dialogName.ContainsKey(source) ? dialogName[source] : null;
         if (string.IsNullOrEmpty(sourceName))
         {
             string w = win ? "Win" : "Lose";
