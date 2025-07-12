@@ -76,6 +76,7 @@ public class LevelManager : MonoBehaviour
         string sourceName = dialogName.ContainsKey(source) ? dialogName[source] : null;
         if (string.IsNullOrEmpty(sourceName))
         {
+            Debug.Log("sk");
             string w = win ? "Win" : "Lose";
             NextSourceId = source;
             NextTagetId = target;

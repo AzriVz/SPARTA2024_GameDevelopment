@@ -56,20 +56,14 @@ public class PlayerMiku : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Platform"))
         {
-            Debug.Log("yay");
-            // HandleProgress(false);
             _mikuScoreManager.AddScore(1);
             collision.GetComponent<SpriteRenderer>().color = Color.green;
+            collision.gameObject.tag = "Untagged";
             collision.GetComponent<Collider2D>().enabled = false;
             Destroy(collision.gameObject, 3f);
         }
     }
 
-    IEnumerator wintest()
-    {
-        yield return new WaitForSeconds(3f);
-        LevelManager.Instance.ChangeLevel(LevelManager.SceneID.LevelMiku, LevelManager.SceneID.MapRoom, true);
-    }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("JudgeZone")) IsInJudge = false;
