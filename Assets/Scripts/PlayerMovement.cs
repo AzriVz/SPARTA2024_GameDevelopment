@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using UnityEditor.Animations;
 using UnityEngine;
 
-
-
-
 public class movement : MonoBehaviour
 {
     [SerializeField] public float speed;
@@ -19,6 +16,7 @@ public class movement : MonoBehaviour
     private bool isGrounded;
     private Animator _animator;
     private SpriteRenderer _sr;
+    public float moveInput;
 
     void Start()
     {
@@ -35,7 +33,7 @@ public class movement : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
         // Player movement
-        float moveInput = Input.GetAxisRaw("Horizontal");
+        moveInput = Input.GetAxisRaw("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * speed, rb.linearVelocity.y);
         if (moveInput > 0)
         {
@@ -63,6 +61,11 @@ public class movement : MonoBehaviour
         {
             _animator.SetBool("isJumping", true);
         }
+    }
+
+    public bool isMoving()
+    {
+        return moveInput != 0;
     }
 
     void OnDrawGizmosSelected()

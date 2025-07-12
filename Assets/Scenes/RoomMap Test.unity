@@ -184,6 +184,10 @@ PrefabInstance:
       value: (E) Go Upstairs
       objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
@@ -287,6 +291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 23497117}
   - component: {fileID: 23497118}
+  - component: {fileID: 23497119}
   m_Layer: 0
   m_Name: yotsuba
   m_TagString: Untagged
@@ -303,9 +308,9 @@ Transform:
   m_GameObject: {fileID: 23497116}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 86.3, y: -44.6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 86.22, y: -43.95, z: 0}
+  m_LocalScale: {x: 2.8500001, y: 2.8500001, z: 2.8500001}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1445522250}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -354,7 +359,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.66008127, b: 0.28490567, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -364,6 +369,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &23497119
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23497116}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 2ec5ff24c770bed4ba13332c90254a55, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &47819085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -665,8 +692,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Press any key
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 288513112ac31634e8d9e5eea637b0ea, type: 2}
+  m_sharedMaterial: {fileID: -3928316582833787788, guid: 288513112ac31634e8d9e5eea637b0ea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1671,6 +1698,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 691826199}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
@@ -1970,6 +2001,10 @@ PrefabInstance:
       propertyPath: promptMessage
       value: (E) Locked
       objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2151,6 +2186,10 @@ PrefabInstance:
       propertyPath: otherDoor
       value: 
       objectReference: {fileID: 812739131960897800}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2225,6 +2264,10 @@ PrefabInstance:
     - target: {fileID: 4314877748513910960, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: promptMessage
       value: (E) Enter Canteen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
@@ -2899,6 +2942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 678056872}
   - component: {fileID: 678056873}
+  - component: {fileID: 678056874}
   m_Layer: 0
   m_Name: Ichika
   m_TagString: Untagged
@@ -2915,9 +2959,9 @@ Transform:
   m_GameObject: {fileID: 678056871}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 168.64, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 168.34, y: 0.63, z: 0}
+  m_LocalScale: {x: 2.8500001, y: 2.8500001, z: 2.8500001}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1445522250}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2966,7 +3010,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.64716977, b: 0.84070474, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2976,6 +3020,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &678056874
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678056871}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: bfe92619348653c44aae644b5ece2922, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &691826197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3036,6 +3102,10 @@ PrefabInstance:
       propertyPath: otherDoor
       value: 
       objectReference: {fileID: 241767992}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -3335,8 +3405,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: My Kisah
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 288513112ac31634e8d9e5eea637b0ea, type: 2}
+  m_sharedMaterial: {fileID: -3928316582833787788, guid: 288513112ac31634e8d9e5eea637b0ea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3471,6 +3541,10 @@ PrefabInstance:
     - target: {fileID: 4314877748513910960, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: promptMessage
       value: (E) Go Downstairs
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
@@ -3802,6 +3876,10 @@ PrefabInstance:
     - target: {fileID: 4314877748513910960, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: promptMessage
       value: (E) Go Downstairs
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
@@ -5027,7 +5105,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1009819612
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5172,6 +5250,10 @@ PrefabInstance:
       value: (E) Enter Rooftop
       objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
@@ -5253,6 +5335,10 @@ PrefabInstance:
     - target: {fileID: 4314877748513910960, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: promptMessage
       value: (E) Go Upstairs
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5538,6 +5624,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1213380014}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
@@ -5725,11 +5815,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04d2d0a6c32767247a0f6113dcc4a02c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <MikuWin>k__BackingField: 0
-  <NinoWin>k__BackingField: 0
-  <IchikaWin>k__BackingField: 0
-  <ItsukiWin>k__BackingField: 0
-  <YotsubaWin>k__BackingField: 0
+  <MikuWin>k__BackingField: 1
+  <NinoWin>k__BackingField: 1
+  <IchikaWin>k__BackingField: 1
+  <ItsukiWin>k__BackingField: 1
+  <YotsubaWin>k__BackingField: 1
 --- !u!1001 &1129826565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5948,6 +6038,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1528054586}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
@@ -6029,7 +6123,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1043339178240758032, guid: d84ec80e3e918334bb43a5526c29eb85, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6281,8 +6375,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 288513112ac31634e8d9e5eea637b0ea, type: 2}
+  m_sharedMaterial: {fileID: -3928316582833787788, guid: 288513112ac31634e8d9e5eea637b0ea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6437,6 +6531,10 @@ PrefabInstance:
       propertyPath: otherDoor
       value: 
       objectReference: {fileID: 1076685312}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -6604,6 +6702,10 @@ PrefabInstance:
       value: (E) Go Downstairs
       objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
@@ -6685,6 +6787,10 @@ PrefabInstance:
     - target: {fileID: 4314877748513910960, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: promptMessage
       value: (E) Exit Rooftop
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
@@ -7268,6 +7374,10 @@ PrefabInstance:
       propertyPath: otherDoor
       value: 
       objectReference: {fileID: 1641554481}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7637,6 +7747,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1151444248}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
@@ -7960,6 +8074,10 @@ PrefabInstance:
       propertyPath: promptMessage
       value: (E) Locked
       objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7985,6 +8103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1629763543}
   - component: {fileID: 1629763544}
+  - component: {fileID: 1629763545}
   m_Layer: 0
   m_Name: nino
   m_TagString: Untagged
@@ -8001,9 +8120,9 @@ Transform:
   m_GameObject: {fileID: 1629763542}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 134.36, y: -59.34, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 134.41, y: -58.97, z: 0}
+  m_LocalScale: {x: 2.8500001, y: 2.8500001, z: 2.8500001}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1445522250}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8052,7 +8171,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.99215686, g: 0.40392163, b: 0.42483935, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8062,6 +8181,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1629763545
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629763542}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: e099d857827704445a68d5374fed3dff, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1636586324
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8125,6 +8266,10 @@ PrefabInstance:
     - target: {fileID: 4314877748513910960, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: promptMessage
       value: (E) Go Upstairs
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
@@ -8201,6 +8346,10 @@ PrefabInstance:
       propertyPath: otherDoor
       value: 
       objectReference: {fileID: 1428759447}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -8279,6 +8428,10 @@ PrefabInstance:
     - target: {fileID: 4314877748513910960, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: promptMessage
       value: (E) Exit Canteen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8363,6 +8516,10 @@ PrefabInstance:
     - target: {fileID: 4314877748513910960, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: promptMessage
       value: (E) Exit Rooftop
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
@@ -8491,6 +8648,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   rb: {fileID: 1701138062}
   overrideController: {fileID: 22100000, guid: 6d527f79aef587e48b73c5395cb75c37, type: 2}
+  moveInput: 0
 --- !u!212 &1701138064
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8737,6 +8895,10 @@ PrefabInstance:
     - target: {fileID: 4314877748513910960, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: promptMessage
       value: (E) Go Downstairs
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
@@ -9547,6 +9709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1888323513}
   - component: {fileID: 1888323514}
+  - component: {fileID: 1888323515}
   m_Layer: 0
   m_Name: miku
   m_TagString: Untagged
@@ -9563,9 +9726,9 @@ Transform:
   m_GameObject: {fileID: 1888323512}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 95.99999, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 98.72, y: 0.66, z: 0}
+  m_LocalScale: {x: 2.8500001, y: 2.8500001, z: 2.8500001}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1445522250}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9613,8 +9776,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.4056746, g: 0.7637211, b: 0.94716984, a: 1}
+  m_Sprite: {fileID: -8042824186329444843, guid: fca827116df5a0b4bac1784a1a3db5f3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9624,6 +9787,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1888323515
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888323512}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: b131acdb623a8d14e909d649c1b6b08c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1891571525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9777,6 +9962,10 @@ PrefabInstance:
     - target: {fileID: 4314877748513910960, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: promptMessage
       value: (E) Go Upstairs
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10176,6 +10365,10 @@ PrefabInstance:
       value: (E) Enter Rooftop
       objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
@@ -10204,6 +10397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2081977090}
   - component: {fileID: 2081977091}
+  - component: {fileID: 2081977092}
   m_Layer: 0
   m_Name: itsuki
   m_TagString: Untagged
@@ -10220,9 +10414,9 @@ Transform:
   m_GameObject: {fileID: 2081977089}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.2, y: -44, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -13.78, y: -43.9, z: 0}
+  m_LocalScale: {x: 2.8500001, y: 2.8500001, z: 2.8500001}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1445522250}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10271,7 +10465,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.31271443, b: 0.25471687, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -10281,6 +10475,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2081977092
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081977089}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 95c4c039235b13a45847e3fab0219089, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2083139468
 GameObject:
   m_ObjectHideFlags: 0
@@ -10376,6 +10592,10 @@ PrefabInstance:
     - target: {fileID: 4314877748513910960, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: promptMessage
       value: (E) Locked
+      objectReference: {fileID: 0}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
@@ -10657,6 +10877,10 @@ PrefabInstance:
       propertyPath: otherDoor
       value: 
       objectReference: {fileID: 490488070}
+    - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4390254960137061077, guid: 237ff6e05f5904e4d87d11c06e174ff0, type: 3}
       propertyPath: m_SortingOrder
       value: 2

@@ -63,7 +63,7 @@ public class MasterGameManager : MonoBehaviour
 
     IEnumerator GameIntro()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1f);
         introPrompt = true;
         introRoutine = null;
     }

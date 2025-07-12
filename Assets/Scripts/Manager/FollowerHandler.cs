@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 public class FollowerHandler : MonoBehaviour
 {
@@ -35,8 +36,20 @@ public class FollowerHandler : MonoBehaviour
             float deltaX = target.x - follower.position.x;
             if (Mathf.Abs(deltaX) > followDistance)
             {
+                var sr = follower.GetComponent<SpriteRenderer>();
+                if(deltaX > 0) sr.flipX = true;
+                else sr.flipX = false;
+                follower.GetComponent<Animator>().SetBool("isRunning", true);
                 float targetX = Mathf.MoveTowards(follower.position.x, target.x, followSpeed * Time.deltaTime);
                 follower.position = new Vector3(targetX, player.position.y, follower.position.z);
+            }
+            var movement = player.gameObject.GetComponent<movement>();
+            if (movement != null)
+            {
+                if (!movement.isMoving())
+                {
+                    follower.GetComponent<Animator>().SetBool("isRunning", false);
+                }
             }
             target = follower.position;
         }

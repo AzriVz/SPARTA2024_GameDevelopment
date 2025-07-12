@@ -6,10 +6,10 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Itsuki
+  m_Name: Ichika
   m_Controller: {fileID: 9100000, guid: 1f33b31709a62044dbb7f92e1545ebe6, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: ccc0057059b731d409159117b215493a, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 8bbf1b1c502e30a44ba2fefeda7f52d1, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: ebfb0102ba45d8140a80c39c643a78a7, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: d8c61efb6c5dcc54dbe00c48f5570298, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: da3b01928a76a5f498e09d4a8959e300, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ccc0057059b731d409159117b215493a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 522b8a3c49b59df45b2e9b9494d279a3, type: 2}
