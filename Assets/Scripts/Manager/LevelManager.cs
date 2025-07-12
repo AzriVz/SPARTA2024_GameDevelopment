@@ -73,6 +73,13 @@ public class LevelManager : MonoBehaviour
     public void ChangeLevel(SceneID source, SceneID target, bool win)
     {
         Debug.Log("Level CHanged");
+
+        var player = FindAnyObjectByType<movement>();
+        var playerInteract = FindAnyObjectByType<PlayerInteract2D>();
+
+        player.enabled = false;
+        playerInteract.enabled = false; 
+
         string sourceName = dialogName.ContainsKey(source) ? dialogName[source] : null;
         if (!string.IsNullOrEmpty(sourceName))
         {
@@ -86,6 +93,7 @@ public class LevelManager : MonoBehaviour
         else if (source == SceneID.MapRoom)
         {
             string targetName = GetSceneName(target);
+            string targetDialog = dialogName[target];
             if (string.IsNullOrEmpty(targetName))
             {
                 Debug.LogError($"Target scene '{target}' not found in scene mapping.");
@@ -94,10 +102,12 @@ public class LevelManager : MonoBehaviour
             NextSourceId = source;
             NextTagetId = target;
             var dr = FindFirstObjectByType<DialogueRunner>();
-            dr.StartDialogue($"{targetName}_Pre");
+            dr.StartDialogue($"{targetDialog}_Pre");
         }
         else
         {
+            player.enabled = true;
+            playerInteract.enabled = true;
             ChangeLevelActual(source, target, win);
         }
     }
