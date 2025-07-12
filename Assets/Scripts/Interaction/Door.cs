@@ -7,11 +7,15 @@ public class Door : InteractableObject
 
     public override void Interact()
     {
+
         Transform playerTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         if (playerTransform != null)
         {
             if (!isLocked)
+            {
+                Debug.Log("open sasame");
                 playerTransform.position = otherDoor.transform.position;
+            }
             else Debug.Log("Door is Locked");
         }
     }
