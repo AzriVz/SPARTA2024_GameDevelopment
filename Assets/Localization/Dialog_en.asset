@@ -482,6 +482,13 @@ MonoBehaviour:
     m_Localized: The day of the UTBK finally arrived.
     m_Metadata:
       m_Items: []
+  - m_Id: 1999110081015808
+    m_Localized: "And so begins the journey of the Nakano quintuplets at the Bandung
+      Institute of Technology. Their path ahead is indeed lined with trials and tribulations\u2014but
+      fret not, for they always support and uplift one another. After all, there's
+      Futaro, who will always be there for them."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

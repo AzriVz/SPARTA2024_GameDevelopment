@@ -74,7 +74,7 @@ public class LevelManager : MonoBehaviour
     {
         Debug.Log("Level CHanged");
         string sourceName = dialogName.ContainsKey(source) ? dialogName[source] : null;
-        if (string.IsNullOrEmpty(sourceName))
+        if (!string.IsNullOrEmpty(sourceName))
         {
             Debug.Log("sk");
             string w = win ? "Win" : "Lose";
@@ -94,7 +94,7 @@ public class LevelManager : MonoBehaviour
             NextSourceId = source;
             NextTagetId = target;
             var dr = FindFirstObjectByType<DialogueRunner>();
-            dr.StartDialogue($"{sourceName}_Pre");
+            dr.StartDialogue($"{targetName}_Pre");
         }
         else
         {

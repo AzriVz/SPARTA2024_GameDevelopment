@@ -525,6 +525,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 5561007803300053396
+  - m_Id: 1999110081015808
+    m_Key: line:08be5e8
+    m_Metadata:
+      m_Items:
+      - rid: 5561007935232409601
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
@@ -1045,4 +1050,9 @@ MonoBehaviour:
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Yotsuba_Win
+        tags: []
+    - rid: 5561007935232409601
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: End_Good
         tags: []

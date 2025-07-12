@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Yarn.Unity;
 
 public class MainMenu : MonoBehaviour
 {
@@ -44,9 +45,18 @@ public class MainMenu : MonoBehaviour
     }
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(1); 
+        var ie = FindFirstObjectByType<DialogueRunner>();
+        Debug.Log(ie);
+        ie.StartDialogue("Prolog");
     }
-    public void QuitGame() 
+    
+    [YarnCommand("LoadScene")]
+    public static void LoadScene(int sceneIndex)
+    {
+        SceneManager.LoadSceneAsync(sceneIndex);
+    }
+
+    public void QuitGame()
     {
         Application.Quit();
     }
