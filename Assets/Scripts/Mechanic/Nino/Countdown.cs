@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using Mechanic.Itsuki;
 
 public class Countdown : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class Countdown : MonoBehaviour
         if (countdownTime == 0f)
         {
             countdownText.color = Color.red;
-            //Win
+            StageManager.Instance.Win();
         }
     }
 }
