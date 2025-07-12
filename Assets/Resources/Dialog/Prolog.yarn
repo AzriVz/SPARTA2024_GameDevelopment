@@ -29,19 +29,19 @@ Mr. Nakano: Help my daughters pass the test, else you're fired. I'll also be wit
 Futaro: HUH-?! Sir please don't- #line:0d92632 
 The call goes silent. #line:0628408 
 Futaro: Darn it… is it even possible to tutor those five in time for the test...? #line:049dbed 
-<<SetBackground Image/prolog_ichika-intro>>
+<<SetBackground Image/prolog_ichika-intro 0.25>>
 <<wait 0.5>>
 Futaro: First off, there's Ichika, the onee-chan. She's the most mature out of the five. Confident and a bit of a flirt, but tends to be lazy and disorganized. #line:00ae9ac 
-<<SetBackground Image/prolog_nino-intro>>
+<<SetBackground Image/prolog_nino-intro 0.25>>
 <<wait 0.5>>
 Futaro: Second is Nino, the tsundere... She's quite protective of her sisters and cares for them very much. I need to keep an eye out and stay on her good side, God knows what sort of devious tricks she's got up her sleeve if I don't. #line:0ffaa2b 
-<<SetBackground Image/prolog_miku-intro>>
+<<SetBackground Image/prolog_miku-intro 0.25>>
 <<wait 0.5>>
 Futaro: Third is Miku, the shy sister. She's the smartest among the sisters and is really into history. She's a pretty observant person too if I remember correctly. #line:04fd04d 
-<<SetBackground Image/prolog_yotsuba-intro>>
+<<SetBackground Image/prolog_yotsuba-intro 0.25>>
 <<wait 0.5>>
 Futaro: Next, there's Yotsuba, the athletic sister. Cheerful and bubbly, she has a hard time saying no to those in need. Thankfully, she's always eager to attend every study session so far, albeit it doesn't help much... Smarts is definitely not her forte. #line:011bdea 
-<<SetBackground Image/prolog_itsuki-intro>>
+<<SetBackground Image/prolog_itsuki-intro 0.25>>
 <<wait 0.5>>
 Futaro: Lastly, we got Itsuki, the foodie. Unlike her sisters, this one actually likes to study. She can be a bit stubborn at times and I can't seem to stop butting heads with her... Probably still has a grudge on me from that time I called her fat for eating so much. #line:01c767c 
 <<SetBackgroundBlack>>
