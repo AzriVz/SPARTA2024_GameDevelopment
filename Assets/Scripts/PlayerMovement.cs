@@ -10,16 +10,23 @@ public class movement : MonoBehaviour
     [SerializeField] public Transform groundCheck;
     [SerializeField] public float groundCheckRadius; // bisa aja diassign ke 0.2f 
     [SerializeField] public LayerMask groundLayer;
+    [SerializeField] float dashSpeed;
+    [SerializeField] float dashDuration;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private AnimatorOverrideController overrideController;
     private bool isGrounded;
     private Animator _animator;
     private SpriteRenderer _sr;
+    public bool isDashing;
+    float dashTimeLeft;
+    int dashDirection;
     public float moveInput;
 
     void Start()
     {
+        isDashing = false;
+
         rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _animator.runtimeAnimatorController = overrideController;
@@ -31,9 +38,37 @@ public class movement : MonoBehaviour
     {
         // Checker untuk apakah player udah nyentuh platform
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        moveInput = Input.GetAxisRaw("Horizontal");
+
+        if (Input.GetMouseButtonDown(0) && moveInput == -1)
+        {
+            isDashing = false;
+            Debug.Log("Dashing left");
+            isDashing = true;
+            dashDirection = -1;
+            dashTimeLeft = dashDuration;
+        }
+        else if (Input.GetMouseButtonDown(0) && moveInput == 1)
+        {
+            isDashing = false;
+            Debug.Log("Dashing right");
+            isDashing = true;
+            dashDirection = 1;
+            dashTimeLeft = dashDuration;
+        }
+
+        if (isDashing)
+        {
+            dashTimeLeft -= Time.deltaTime;
+            if (dashTimeLeft > 0f)
+            {
+                rb.linearVelocity = new Vector2(dashDirection * dashSpeed, rb.linearVelocity.y);
+                return;
+            }
+            isDashing = false;
+        }
 
         // Player movement
-        moveInput = Input.GetAxisRaw("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * speed, rb.linearVelocity.y);
         if (moveInput > 0)
         {
