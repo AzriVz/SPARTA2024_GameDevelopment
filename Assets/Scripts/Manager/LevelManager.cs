@@ -142,15 +142,29 @@ public class LevelManager : MonoBehaviour
             }
         }
         string targetName = Instance.GetSceneName(target);
+        var gm = MasterGameManager.Instance;
 
         if (win)
         {
-            var gm = MasterGameManager.Instance;
             if (source == SceneID.LevelMiku) gm.MikuWin = true;
             else if (source == SceneID.LevelYotsuba) gm.YotsubaWin = true;
             else if (source == SceneID.LevelItsuka) gm.ItsukiWin = true;
             else if (source == SceneID.LevelIchika) gm.IchikaWin = true;
             else if (source == SceneID.LevelNino) gm.NinoWin = true;
+
+            if(gm.CountSister() == 5)
+            {
+                gm.GoodEnd();
+            }
+        }
+        else if (source != SceneID.MapRoom) 
+        {
+            gm.TryLeft--;
+
+            if(gm.TryLeft == 0)
+            {
+                gm.BadEnd();
+            }
         }
 
         if (!string.IsNullOrEmpty(targetName))

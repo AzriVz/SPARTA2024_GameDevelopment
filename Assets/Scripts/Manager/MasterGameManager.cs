@@ -7,8 +7,11 @@ public class MasterGameManager : MonoBehaviour
     bool gameStarted;
     bool introPrompt;
     Coroutine introRoutine;
+
     public bool IsGameStarted => gameStarted;
     public bool IntroPrompt => introPrompt;
+    [field: SerializeField]
+    public int TryLeft { get; set; }
     [field: SerializeField]
     public bool MikuWin { get; set; }
     [field: SerializeField]
@@ -33,6 +36,26 @@ public class MasterGameManager : MonoBehaviour
 
         gameStarted = false;
         introPrompt = false;
+    }
+
+    public int CountSister()
+    {
+        int count = 0;
+        if (MikuWin) count++;
+        if (NinoWin) count++;
+        if (IchikaWin) count++;
+        if (ItsukiWin) count++;
+        if (YotsubaWin) count++;
+        return count;
+    }
+
+    public void GoodEnd()
+    {
+
+    }
+    public void BadEnd()
+    {
+
     }
 
     void Update()
