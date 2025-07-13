@@ -4,7 +4,8 @@ public class CameraIntro : MonoBehaviour
     [SerializeField] Transform waypoint1;
     [SerializeField] Transform waypoint2;
     [SerializeField] GameObject playerObj;
-    [SerializeField] GameObject introCanvas; 
+    [SerializeField] GameObject introCanvas;
+    [SerializeField] GameObject questCanvas;
     [SerializeField] float lerpDuration = 3f;
     float time;
 
@@ -17,6 +18,7 @@ public class CameraIntro : MonoBehaviour
                 transform.position = new Vector3(playerObj.transform.position.x, playerObj.transform.position.y, transform.position.z);
                 playerObj.SetActive(true);
                 introCanvas.SetActive(false);
+                questCanvas.SetActive(true);
             }
             enabled = false;
             return;
@@ -48,6 +50,7 @@ public class CameraIntro : MonoBehaviour
                 if (playerObj != null)
                     playerObj.SetActive(true);
                 introCanvas.SetActive(false);
+                questCanvas.SetActive(true);
                 enabled = false;
             }
         }
