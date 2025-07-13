@@ -1,14 +1,43 @@
+using System;
 using UnityEngine;
 
 public class PlatformMiku : MonoBehaviour
 {
     private Transform ground;
     private float hitTime;
+    private SpriteRenderer _spriteRenderer;
+    private TileSprites _sprites;
+    public bool isTouched = false;
 
-    public void Initialize(float hitTime, Transform ground)
+    [Serializable]
+    public struct TileSprites
+    {
+        public Sprite defaultSprite;
+        public Sprite touchedSprite;
+        public Sprite failedSprite;
+    }
+    
+    void OnEnable()
+    {
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+    public void Initialize(float hitTime, Transform ground, TileSprites tileSprites)
     {
         this.hitTime = hitTime;
         this.ground = ground;
+        _spriteRenderer.sprite = tileSprites.defaultSprite;
+        _sprites = tileSprites;
+    }
+
+    public void Touch()
+    {
+        isTouched = true;
+        _spriteRenderer.sprite = _sprites.touchedSprite;
+    }
+
+    public void Fail()
+    {
+        _spriteRenderer.sprite = _sprites.failedSprite;
     }
 
     void Update()

@@ -9,8 +9,11 @@ public class GroundHandler : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Platform"))
         {
-            if (collision.gameObject.GetComponent<SpriteRenderer>().color != Color.green)
+            Debug.Log(collision.gameObject);
+            var platform = collision.gameObject.GetComponent<PlatformMiku>();
+            if (!platform.isTouched)
             {
+                platform.Fail();
                 if (onMiss != null) onMiss.Invoke();
             }
             Destroy(collision.gameObject);

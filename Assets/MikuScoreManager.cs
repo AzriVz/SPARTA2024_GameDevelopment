@@ -33,6 +33,11 @@ public class MikuScoreManager : MonoBehaviour
   public void Start()
   {
     _scoreTextOriginalPos = scoreText.rectTransform.localPosition;
+    PlayerManager.Instance.OnSpawn += GetHealth;
+  }
+
+  private void GetHealth()
+  {
     _playerHealth = PlayerManager.Instance.player.GetComponent<Health>();
   }
 

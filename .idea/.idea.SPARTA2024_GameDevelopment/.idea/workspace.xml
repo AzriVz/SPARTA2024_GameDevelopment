@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f540910f-5a89-47c8-a274-b0506af3d645" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-1 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-1 4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-2 5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-2 5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-3 5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-3 5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SPARTA2024_GameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPARTA2024_GameDevelopment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MikuScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MikuScoreManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Platform [Miku].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Platform [Miku].prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatCyanCorrect.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatCyanCorrect.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatCyanFalse.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatCyanFalse.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatCyanNormal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatCyanNormal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatMagentaCorrect.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatMagentaCorrect.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatMagentaFalse.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatMagentaFalse.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatMagentaNormal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatMagentaNormal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatOrangeCorrect.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatOrangeCorrect.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatOrangeFalse.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatOrangeFalse.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatOrangeNormal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Beat/BeatOrangeNormal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-1 4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-1 4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-2 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-2 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-2 5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-2 5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-3 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-3 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-3 5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-3 5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HatsuneMiku.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HatsuneMiku.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Miku/GroundHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Miku/GroundHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Miku/Platform MIku.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Miku/Platform MIku.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Miku/PlayerMiku.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Miku/PlayerMiku.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Miku/TileSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Miku/TileSpawner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +102,15 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="21988">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="21988" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list />
+        <list>
+          <MonoRuntime />
+        </list>
       </option>
       <option name="selectedOptions">
         <list />

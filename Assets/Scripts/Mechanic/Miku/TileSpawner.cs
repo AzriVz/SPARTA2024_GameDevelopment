@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using Mechanic.Itsuki;
+using UnityEditor;
+using UnityEngine.Serialization;
 
 public class TileSpawner : MonoBehaviour
 {
@@ -20,11 +22,14 @@ public class TileSpawner : MonoBehaviour
     [SerializeField] private Transform[] spawnPoints;
     [SerializeField] private Transform ground;
 
+    [SerializeField] private List<PlatformMiku.TileSprites> tileSprites;
+
     private struct SpawnInfo
     {
         public float spawnLocal;   
         public float hitTime;      
         public Transform point;
+        public int pointIndex;
     }
     private List<SpawnInfo> spawnEvents;
 
@@ -48,8 +53,9 @@ public class TileSpawner : MonoBehaviour
         foreach (float hit in hitTimes)
         {
             float local = Mathf.Max(0f, hit - buffer);
-            var pt = spawnPoints[UnityEngine.Random.Range(0, spawnPoints.Length)];
-            spawnEvents.Add(new SpawnInfo { spawnLocal = local, hitTime = hit, point = pt });
+            var randIndex = UnityEngine.Random.Range(0, spawnPoints.Length);
+            var pt = spawnPoints[randIndex];
+            spawnEvents.Add(new SpawnInfo { spawnLocal = local, hitTime = hit, point = pt , pointIndex = randIndex});
         }
         spawnEvents = spawnEvents.OrderBy(e => e.spawnLocal).ToList();
     }
@@ -69,9 +75,16 @@ public class TileSpawner : MonoBehaviour
         StartCoroutine(SpawnRoutine(audioStartTime));
     }
 
+    private enum GroundType
+    {
+        Default,
+        Success,
+        Fail,
+    }
     private IEnumerator SpawnRoutine(float audioStartTime)
     {
         float lastLocal = 0f;
+        int i = 0;
         foreach (var tile in spawnEvents)
         {
             float spawnAbs = audioStartTime + tile.spawnLocal;
@@ -80,9 +93,12 @@ public class TileSpawner : MonoBehaviour
             else yield return null;
 
             var go = Instantiate(tilePrefab, tile.point.position, Quaternion.identity);
+            go.name = i.ToString();
+            i++;
             var mover = go.GetComponent<PlatformMiku>();
+            EditorApplication.isPaused = true;
             if (mover != null)
-                mover.Initialize(audioStartTime + tile.hitTime, ground);
+                mover.Initialize(audioStartTime + tile.hitTime, ground, tileSprites[tile.pointIndex]);
 
             lastLocal = tile.spawnLocal;
         }

@@ -56,8 +56,9 @@ public class PlayerMiku : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Platform"))
         {
+            var platform = collision.GetComponent<PlatformMiku>();
             _mikuScoreManager.AddScore(1);
-            collision.GetComponent<SpriteRenderer>().color = Color.green;
+            platform.Touch();
             collision.gameObject.tag = "Untagged";
             collision.GetComponent<Collider2D>().enabled = false;
             Destroy(collision.gameObject, 3f);
