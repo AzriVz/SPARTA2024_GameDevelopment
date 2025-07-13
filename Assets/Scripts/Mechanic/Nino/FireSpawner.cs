@@ -60,7 +60,7 @@ public class FireSpawner : MonoBehaviour
                 spawnPos,
                 Quaternion.identity
             );
-            var sd = obs.GetComponent<Fire>();
+            var sd = obs.transform.GetChild(0).GetComponent<Fire>();
             float obstacleLifetime = sd.actualLifetime;
 
             StartCoroutine(FreeSlotAfterDelay(x, obstacleLifetime));

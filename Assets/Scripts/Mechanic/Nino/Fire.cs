@@ -17,7 +17,8 @@ public class Fire : MonoBehaviour
 
     void Start()
     {
-        Destroy(gameObject, actualLifetime);
+      Destroy(transform.parent.gameObject, actualLifetime);
+      // Destroy(gameObject, actualLifetime+0.1f);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

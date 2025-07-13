@@ -765,6 +765,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 5561007960985960635
+  - m_Id: 2434206364762112
+    m_Key: line:bb36866f
+    m_Metadata:
+      m_Items:
+      - rid: 5402501265817075780
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
@@ -772,6 +777,11 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 5402501265817075780
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: End_Good
+        tags: []
     - rid: 5561007803300053283
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:

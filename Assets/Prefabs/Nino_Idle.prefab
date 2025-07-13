@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5847050967337444628}
   - component: {fileID: 8846875805101769386}
   - component: {fileID: 8172674659221098353}
-  - component: {fileID: 3032438656245098715}
+  - component: {fileID: 9174590495091464551}
   m_Layer: 0
   m_Name: Nino_Idle
   m_TagString: Untagged
@@ -111,7 +111,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3032438656245098715
+--- !u!114 &9174590495091464551
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,9 +120,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 34118696766782148}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 575442d9ab825df4cbad1434c4bc3b89, type: 3}
+  m_Script: {fileID: 11500000, guid: 54fcb2c0b0ff42f3be72f046b0cb0ece, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minLifetime: 3
-  maxLifetime: 3
-  actualLifetime: 0
+  timeToDestroy: 3
