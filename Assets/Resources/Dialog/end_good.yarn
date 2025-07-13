@@ -5,10 +5,11 @@
 Futaro: Okay, since everyone’s here… it’s time for you all to study. #line:09b0395 
 Quintuplets: OUU!! #line:0ff1e59 
 <<SetBackground Image/good-end_utbk>>
-<<wait 0.5>>
+<<wait 1>>
+...
 <<SetBackground Image/good-end_jamal>>
 <<wait 0.5>>
-Ichika: Wow… everyone… got in… #line:04628c3 
+Ichika: Wow… everyone… got in… #line:04628c3 #sprite:Ichika_Sprite_1
 Quintuplets: YAYYY HOORAY!!!! #line:07d23aa 
 And so begins the journey of the Nakano quintuplets at the Bandung Institute of Technology. Their path ahead is indeed lined with trials and tribulations—but fret not, for they always support and uplift one another. After all, there's Futaro, who will always be there for them. #line:08be5e8 
 ===

@@ -1,7 +1,7 @@
 ﻿title: Prolog
 ---
 <<SetBackgroundBlack 0>>
-It truly is a rare sight to see the famed pink-haired quintuplets gathered together in tense silence.  #line:0aa47ac 
+It truly is a rare sight to see the famed pink-haired quintuplets gathered together in tense silence.  #line:0aa47ac #Sprite:Yotsuba_Sprite_1
 Not much has been said between the five—only nervous chatter—as the time inches more and more towards the awaited three o'clock.  #line:02c098e 
 Anticipation hung heavily in the air as each of them prayed silently to whatever god was up there and listening. #line:0c2ee2f 
 <<SetBackground Image/prolog_snbp-1>>
@@ -9,14 +9,14 @@ Yotsuba: Oh hey look, it's three already. Let's open the website together in 3..
 <<SetBackground Image/prolog_snbp-2 0>>
 <<wait 0.5>>
 Miku: Ah… #line:0475d0a 
-Yotsuba: Woah, it's all red… #line:0ceeadd 
-Itsuki: All that time spent on studying… and for what… #line:0725fd3 
-Ichika: Now, now. Can't say that I'm surprised about this, we don't exactly have outstanding grades like Futaro after all. #line:0b42774 
-Itsuki: I guess, it's a miracle in itself for the five of us to be eligible for SNBP in the first place… #line:0d414ff 
-Nino: Tsk, I really don't wanna take the UTBK test. #line:0876a0d 
-Miku: Me either, it's too much of a bother. #line:041c86f 
-Yotsuba: Heyyy, how about we play some board games instead? That should put everyone into a good mood! #line:07c2eac 
-Ichika: Great idea! How about… #line:00b7885 
+Yotsuba: Woah, it's all red… #line:0ceeadd #sprite:Yotsuba_Sprite_5
+Itsuki: All that time spent on studying… and for what… #line:0725fd3 #sprite:Itsuki_Sprite_5
+Ichika: Now, now. Can't say that I'm surprised about this, we don't exactly have outstanding grades like Futaro after all. #line:0b42774 #sprite:Ichika_Sprite_1
+Itsuki: I guess, it's a miracle in itself for the five of us to be eligible for SNBP in the first place… #line:0d414ff #sprite:Itsuki_Sprite_3
+Nino: Tsk, I really don't wanna take the UTBK test. #line:0876a0d #sprite:Nino_Sprite_4
+Miku: Me either, it's too much of a bother. #line:041c86f #sprite:Miku_Sprite_5
+Yotsuba: Heyyy, how about we play some board games instead? That should put everyone into a good mood! #line:07c2eac #sprite:Yotsuba_Sprite_1
+Ichika: Great idea! How about… #line:00b7885 #sprite:Ichika_Sprite_3
 <<SetBackgroundBlack 0>>
 A ringing sound comes from Futaro's phone. #line:0717ccd 
 <<SetBackground Image/prolog_futaro-phone>>

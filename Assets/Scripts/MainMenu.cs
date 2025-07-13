@@ -45,8 +45,7 @@ public class MainMenu : MonoBehaviour
     }
     public void PlayGame()
     {
-        var ie = FindFirstObjectByType<DialogueRunner>();
-        Debug.Log(ie);
+        var ie = FindFirstObjectByType<DialogueRunner>();        
         ie.StartDialogue("Prolog");
     }
     
