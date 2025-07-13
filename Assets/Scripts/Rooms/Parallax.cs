@@ -6,7 +6,7 @@ public class Parallax : MonoBehaviour
     [SerializeField] private float parallaxEffect = 0.5f;
 
     private float spriteWidth;
-    private float startX;
+    protected float startX;
     private float prevCam;
     private float offsetX;
 
@@ -37,7 +37,11 @@ public class Parallax : MonoBehaviour
         float offset = newcamX * parallaxEffect;
 
         float wrap = offset - Mathf.Floor(offset / spriteWidth) * spriteWidth;
+        SetPosition(wrap);
+    }
 
+    protected virtual void SetPosition(float wrap)
+    {
         transform.position = new Vector3(startX + wrap, transform.position.y, transform.position.z);
     }
 }

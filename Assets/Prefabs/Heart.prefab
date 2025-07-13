@@ -88,5 +88,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb552700d554dde8d6e4389a829ba91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normalHeart: {fileID: 21300000, guid: 3d8ba4ce1c6d8dc489a94999bbac8a50, type: 3}
-  brokenHeart: {fileID: 6798731689221182155, guid: d5ad9a3779e3a46459d2fbb5e8204879, type: 3}
+  normalHeart: {fileID: -1043339178240758032, guid: caa8118f3473f044ba4508dac76b48a2, type: 3}
+  brokenHeart: {fileID: -1043339178240758032, guid: b64a74b78ea7a9041845a13ba4a9b68d, type: 3}
