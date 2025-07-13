@@ -24,6 +24,7 @@ public class NinoSpawner : MonoBehaviour
 
     private void Start()
     {
+        AudioManager.instance.PlayMusic("Nino");
         // collect children as spawn points if none assigned
         if (spawnPoints == null || spawnPoints.Length == 0)
         {

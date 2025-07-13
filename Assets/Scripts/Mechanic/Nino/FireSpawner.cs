@@ -51,6 +51,7 @@ public class FireSpawner : MonoBehaviour
 
             // 3) Show warning
             GameObject warn = Instantiate(warningPrefab, warnSpawnPos, Quaternion.identity);
+            AudioManager.instance.PlaySFX("FireReady");
             yield return new WaitForSeconds(warningTime);
             Destroy(warn);
 
@@ -61,6 +62,7 @@ public class FireSpawner : MonoBehaviour
                 Quaternion.identity
             );
             var sd = obs.transform.GetChild(0).GetComponent<Fire>();
+            AudioManager.instance.PlaySFX("FireBurst");
             float obstacleLifetime = sd.actualLifetime;
 
             StartCoroutine(FreeSlotAfterDelay(x, obstacleLifetime));
