@@ -4,10 +4,10 @@ using TMPro;
 public class PlayerInteract2D : MonoBehaviour
 {
     [SerializeField] Transform playerPivot;
-    [SerializeField] TextMeshProUGUI promptText;
+    [SerializeField] public TextMeshProUGUI promptText;
     public static bool ShouldShowPrompt = true;
 
-    IInteractable currentTarget;
+    public IInteractable currentTarget;
     bool ready = true;
     void Start()
     {
