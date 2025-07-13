@@ -22,7 +22,7 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        PlayMusic("Background Theme");
+        // PlayMusic("Background Theme");
     }
 
     public void PlayMusic(string name)
