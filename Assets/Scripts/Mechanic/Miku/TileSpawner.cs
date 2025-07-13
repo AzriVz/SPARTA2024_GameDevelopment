@@ -5,8 +5,6 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using Mechanic.Itsuki;
-using UnityEditor;
-using UnityEngine.Serialization;
 
 public class TileSpawner : MonoBehaviour
 {
@@ -26,10 +24,10 @@ public class TileSpawner : MonoBehaviour
 
     private struct SpawnInfo
     {
-        public float spawnLocal;   
+        public float spawnLocal;    
         public float hitTime;      
-        public Transform point;
-        public int pointIndex;
+        public Transform point;    
+        public int pointIndex;     
     }
     private List<SpawnInfo> spawnEvents;
 
@@ -43,21 +41,21 @@ public class TileSpawner : MonoBehaviour
     {
         if (chartJson == null) return;
         var data = JsonUtility.FromJson<RhythmData>(chartJson.text);
-        var hitTimes = data.note_events
-            .Where(e => e.type == filter)
-            .Select(e => e.timestamp)
-            .OrderBy(t => t)
-            .ToList();
+        var hits = data.note_events.Where(e => e.type == filter).Select(e => e.timestamp).OrderBy(t => t).ToList();
 
-        spawnEvents = new List<SpawnInfo>(hitTimes.Count);
-        foreach (float hit in hitTimes)
+        spawnEvents = hits.Select(hit =>
         {
-            float local = Mathf.Max(0f, hit - buffer);
-            var randIndex = UnityEngine.Random.Range(0, spawnPoints.Length);
-            var pt = spawnPoints[randIndex];
-            spawnEvents.Add(new SpawnInfo { spawnLocal = local, hitTime = hit, point = pt , pointIndex = randIndex});
-        }
-        spawnEvents = spawnEvents.OrderBy(e => e.spawnLocal).ToList();
+            int idx = UnityEngine.Random.Range(0, spawnPoints.Length);
+            return new SpawnInfo
+            {
+                hitTime = hit,
+                spawnLocal = hit - buffer,
+                point = spawnPoints[idx],
+                pointIndex = idx
+            };  
+        })
+        .OrderBy(s => s.spawnLocal)
+        .ToList();
     }
 
     private IEnumerator CountdownAndBegin()
@@ -68,9 +66,10 @@ public class TileSpawner : MonoBehaviour
             yield return new WaitForSeconds(1f);
         }
         countdownText.text = "";
-        float audioStartTime = Time.time;
-        yield return new WaitForSeconds(buffer);
+
         audioSource.Play();
+        float audioStartTime = Time.time;
+
         StartCoroutine(WaitSongEnd());
         StartCoroutine(SpawnRoutine(audioStartTime));
     }
@@ -83,36 +82,30 @@ public class TileSpawner : MonoBehaviour
     }
     private IEnumerator SpawnRoutine(float audioStartTime)
     {
-        float lastLocal = 0f;
         int i = 0;
         foreach (var tile in spawnEvents)
         {
             float spawnAbs = audioStartTime + tile.spawnLocal;
             float wait = spawnAbs - Time.time;
-            if (wait > 0f) yield return new WaitForSeconds(wait);
-            else yield return null;
+            if (wait > 0f)
+                yield return new WaitForSeconds(wait);
+            else
+                yield return null;
 
-            var go = Instantiate(tilePrefab, tile.point.position, Quaternion.identity);
-            go.name = i.ToString();
-            i++;
-            var mover = go.GetComponent<PlatformMiku>();
-            EditorApplication.isPaused = true;
-            if (mover != null)
-                mover.Initialize(audioStartTime + tile.hitTime, ground, tileSprites[tile.pointIndex]);
-
-            lastLocal = tile.spawnLocal;
+            if (tile.hitTime > buffer)
+            {
+                var go = Instantiate(tilePrefab, tile.point.position, Quaternion.identity);
+                go.name = $"Tile_{i++}";
+                var mover = go.GetComponent<PlatformMiku>();
+                if (mover != null)
+                    mover.Initialize(audioStartTime + tile.hitTime, ground, tileSprites[tile.pointIndex]);
+            }
         }
     }
 
     private IEnumerator WaitSongEnd()
     {
         yield return new WaitUntil(() => !audioSource.isPlaying);
-
-        SongEnd();
-    }
-
-    private void SongEnd()
-    {
         StageManager.Instance.Win();
     }
 
