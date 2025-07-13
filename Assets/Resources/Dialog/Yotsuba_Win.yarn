@@ -1,6 +1,6 @@
 ﻿title: Yotsuba_Win
 ---
-Yotsuba: Aw, you caught me! #sprite:Yotsuba_Sprite_2
-Yotsuba: Guess I don't have any excuses now hehe, see you after school! #sprite:Yotsuba_Sprite_1
+Yotsuba: Aw, you caught me! #sprite:Yotsuba_Sprite_2 #line:0f4aa44 
+Yotsuba: Guess I don't have any excuses now hehe, see you after school! #sprite:Yotsuba_Sprite_1 #line:0a562aa 
 <<LoadNextLevel true >>
 ===

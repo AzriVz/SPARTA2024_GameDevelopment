@@ -1,11 +1,11 @@
 ﻿title: Ichika_Pre
 ---
-Futaro: ICHIKA!
-Ichika: Shush… I’m focusing on my acting rehearsal right now! #sprite:Ichika_Sprite_2
-Futaro: But-
-Ichika: Sorry, I need to finish my rehearsal first. #sprite:Ichika_Sprite_2
-Ichika: Hmm… While you're here, how about you rate my performance? #sprite:Ichika_Sprite_1
-Ichika: You'd definitely enjoy watching a pretty lady perform, right? #sprite:Ichika_Sprite_3
-Futaro: A-Alright…
+Futaro: ICHIKA! #line:07b685c 
+Ichika: Shush… I’m focusing on my acting rehearsal right now! #sprite:Ichika_Sprite_2 #line:0e057c3 
+Futaro: But- #line:0bd5220 
+Ichika: Sorry, I need to finish my rehearsal first. #sprite:Ichika_Sprite_2 #line:0fa7426 
+Ichika: Hmm… While you're here, how about you rate my performance? #sprite:Ichika_Sprite_1 #line:09f85bc 
+Ichika: You'd definitely enjoy watching a pretty lady perform, right? #sprite:Ichika_Sprite_3 #line:0ddd4b3 
+Futaro: A-Alright… #line:0243ff2 
 <<LoadNextLevel false >>
 ===

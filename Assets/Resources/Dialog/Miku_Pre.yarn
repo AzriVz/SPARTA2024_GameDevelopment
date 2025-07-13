@@ -1,16 +1,16 @@
 ﻿title: Miku_Pre
 ---
-Futarou: Mi-Miku! Miku!
-Miku: … #sprite:Miku_Sprite_2
-Futarou: Oh no, she can’t hear me… MIKU! MIKU!
-Miku softly removes her headphones.
-Miku: What's up, Futaro? #sprite:Miku_Sprite_1
-Futarou: Miku! UTBK study session now! Come on!
-Miku: … #sprite:Miku_Sprite_2
-Miku: Do you know this song, Futaro? #sprite:Miku_Sprite_1
-Miku holds up her phone, revealing a Japanese song playing on the Spotyfi app.
-Futarou: Eh?
-Miku: If you really understand history, you must know this song already… #sprite:Miku_Sprite_2
-Futaro panics for a moment, scrambling to recall the last history lesson.
+Futarou: Mi-Miku! Miku! #line:0536792 
+Miku: … #sprite:Miku_Sprite_2 #line:0a75cff 
+Futarou: Oh no, she can’t hear me… MIKU! MIKU! #line:08ec642 
+Miku softly removes her headphones. #line:0f10383 
+Miku: What's up, Futaro? #sprite:Miku_Sprite_1 #line:0e05606 
+Futarou: Miku! UTBK study session now! Come on! #line:097fb0f 
+Miku: … #sprite:Miku_Sprite_2 #line:0f28417 
+Miku: Do you know this song, Futaro? #sprite:Miku_Sprite_1 #line:0883f05 
+Miku holds up her phone, revealing a Japanese song playing on the Spotyfi app. #line:08439e5 
+Futarou: Eh? #line:035dae7 
+Miku: If you really understand history, you must know this song already… #sprite:Miku_Sprite_2 #line:0407c1e 
+Futaro panics for a moment, scrambling to recall the last history lesson. #line:0944fa0 
 <<LoadNextLevel false >>
 ===
