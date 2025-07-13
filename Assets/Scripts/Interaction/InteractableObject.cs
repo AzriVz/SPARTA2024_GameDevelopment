@@ -11,6 +11,16 @@ public class InteractableObject : MonoBehaviour, IInteractable
         return promptMessage.Length != 0 ? promptMessage : DefaultPromptMessage;
     }
 
+    public virtual void IsOverEnter()
+    {
+        
+    }
+    
+    public virtual void IsOverExit()
+    {
+        
+    }
+
     public virtual void Interact()
     {
 

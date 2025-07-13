@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 961a0ba2fdf34c2b98087fc2fff7399b, type: 3}
-  m_Name: Cake
+  m_Name: Pancake
   m_EditorClassIdentifier: 
-  foodName: cake
-  sprite: {fileID: -1193994104, guid: 7b6006fe5fdff5e42868470bedc1971e, type: 3}
+  foodName: pancake
+  sprite: {fileID: -68358393, guid: e67817771f182de469f2c053e7ee2f37, type: 3}
   chance: 10

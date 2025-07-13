@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 961a0ba2fdf34c2b98087fc2fff7399b, type: 3}
-  m_Name: Free
+  m_Name: Pudding
   m_EditorClassIdentifier: 
-  foodName: freeman
-  sprite: {fileID: 6265815743942344955, guid: 751fe207d0b86cd44b35da9ec6856acc, type: 3}
-  chance: 5
+  foodName: pudding
+  sprite: {fileID: 1669641481, guid: 643e48077dd356e49add25c55c357195, type: 3}
+  chance: 10

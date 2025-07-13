@@ -56,9 +56,11 @@ public class PlayerInteract2D : MonoBehaviour
             currentTarget = closest.GetComponent<IInteractable>();
             promptText.transform.parent.gameObject.SetActive(true);
             promptText.text = currentTarget.GetPrompt();
+            currentTarget.IsOverEnter();
         }
         else
         {
+            currentTarget?.IsOverExit();
             currentTarget = null;
             promptText.transform.parent.gameObject.SetActive(false);
         }

@@ -5,26 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f540910f-5a89-47c8-a274-b0506af3d645" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/yotsuba/ReverseParallax.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/yotsuba/ReverseParallax.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/yotsuba/YotsubaParallax.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/yotsuba/YotsubaParallax.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SPARTA2024_GameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPARTA2024_GameDevelopment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-Assets-Shared.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-English (en).asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Indonesian (id).asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Localization-String-Tables-Indonesian (id).asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Localization/Dialog Shared Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Localization/Dialog Shared Data.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Localization/Dialog.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Localization/Dialog.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Localization/Dialog_en.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Localization/Dialog_en.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Localization/Localization Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Localization/Localization Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Baka Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Baka Projectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Food.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Food.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Heart.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Heart.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hurdle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hurdle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HatsuneMiku.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HatsuneMiku.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Running.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Running.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rooms/Parallax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rooms/Parallax.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/curtain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/curtain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/futarou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/futarou.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/hidden.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/hidden.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/itsuki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/itsuki.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/open curtain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/open curtain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/open ichika curtain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/open ichika curtain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/testBaka.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/testBaka.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/testSprite.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/testSprite.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/testSprite2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/testSprite2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ItsukiStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ItsukiStage.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Cake.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Cake.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Free.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Free.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interaction/IInteractable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interaction/IInteractable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interaction/InteractableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interaction/InteractableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interaction/PlayerInteract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interaction/PlayerInteract.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/ItsukiMouth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/ItsukiMouth.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +138,7 @@
       <workItem from="1752239649333" duration="4894000" />
       <workItem from="1752254793484" duration="3230000" />
       <workItem from="1752259547358" duration="5252000" />
-      <workItem from="1752377736783" duration="3730000" />
+      <workItem from="1752377736783" duration="7036000" />
     </task>
     <servers />
   </component>
