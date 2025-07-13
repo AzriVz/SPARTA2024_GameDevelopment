@@ -30,7 +30,6 @@ public class CurtainRandomizer : MonoBehaviour
 
         curtains[ichikaCurtainIndex].GetComponent<SpriteRenderer>().sprite = ichikaCurtainSprite;
         
-        StartCoroutine(GameSequence());
     }
 
     public IEnumerator GameSequence()
