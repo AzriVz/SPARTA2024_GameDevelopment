@@ -1,15 +1,17 @@
 ﻿title: Itsuki_Pre
 ---
-Futaro: Itsuki! Turns out you're in the canteen, huh. Come on, we have to study for UTBK with the others! #line:04e9f48 
-Itsuki: Hold on. I’m starving, I want to eat something. Buy me some food! #line:088767f 
-Futaro: B-but, I don’t have any money right now, Itsuki… #line:09ac190 
-Itsuki: Hm. Alright then. Here, I’ll give you some money, but… I CHALLENGE YOU!!! #line:0b14f92 
-Futaro: A challenge? What kind of challenge, Itsuki…? #line:003dca8 
-Itsuki: I challenge you to bring me as much food as possible, within the shortest time possible! #line:0f89087 
-Futaro: Does it really have to be right now? This place is super crowded and there’s a long line right now…What if it sells out before I get my turn? #line:00cf704 
-Itsuki: Well, that’s why I called it a challenge. If you succeed, I promise I’ll go study for UTBK with you, really! #line:0f02df5 
-Futaro: Umm… and if I fail? #line:0d2e238 
-Itsuki: I won't study with you ever again!!! #line:0e53888 
-Futaro: Dang… #line:0283766 
+Futaro: Itsuki! Turns out you're in the canteen, huh. Come on, we have to study for UTBK with the others!
+Itsuki: Hold on. I’m starving, I want to eat something. Buy me some food! #sprite:Itsuki_Sprite_2
+Futaro: B-but, I don’t have any money right now, Itsuki…
+Itsuki: Hm. Alright then. Here, I’ll give you some money, but… #sprite:Itsuki_Sprite_3
+Itsuki: I CHALLENGE YOU!!! #sprite:Itsuki_Sprite_2
+Futaro: A challenge? What kind of challenge, Itsuki…?
+Itsuki: I challenge you to bring me as much food as possible, within the shortest time possible! #sprite:Itsuki_Sprite_1
+Futaro: Does it really have to be right now? This place is super crowded and there’s a long line right now…What if it sells out before I get my turn?
+Itsuki: Well, that’s why I called it a challenge. #sprite:Itsuki_Sprite_2
+Itsuki: If you succeed, I promise I’ll go study for UTBK with you, really! #sprite:Itsuki_Sprite_1
+Futaro: Umm… and if I fail?
+Itsuki: I won't study with you ever again!!! #sprite:Itsuki_Sprite_4
+Futaro: Dang…
 <<LoadNextLevel false >>
 ===

@@ -530,6 +530,241 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 5561007935232409601
+  - m_Id: 2420137843085312
+    m_Key: line:1d21fc9e
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960534
+  - m_Id: 2420139399172096
+    m_Key: line:8b11fbe9
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960535
+  - m_Id: 2420139399172097
+    m_Key: line:1a0c4479
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960536
+  - m_Id: 2420139399172098
+    m_Key: line:8c3c430e
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960537
+  - m_Id: 2420139399172099
+    m_Key: line:ebd7b25c
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960538
+  - m_Id: 2420139399172100
+    m_Key: line:7de7b52b
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960539
+  - m_Id: 2420139399172101
+    m_Key: line:c7b6bcb2
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960540
+  - m_Id: 2420139399172102
+    m_Key: line:83ff0ada
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960541
+  - m_Id: 2420139399172103
+    m_Key: line:15cf0dad
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960542
+  - m_Id: 2420139399172104
+    m_Key: line:84d2b23d
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960543
+  - m_Id: 2420139399172105
+    m_Key: line:12e2b54a
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960544
+  - m_Id: 2420139399172106
+    m_Key: line:f76b722a
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960545
+  - m_Id: 2420139399172107
+    m_Key: line:615b755d
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960546
+  - m_Id: 2420139403366400
+    m_Key: line:db0a7cc4
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960547
+  - m_Id: 2420139403366401
+    m_Key: line:4d3a7bb3
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960548
+  - m_Id: 2420139403366402
+    m_Key: line:eeaf1f2d
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960549
+  - m_Id: 2420139403366403
+    m_Key: line:789f185a
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960550
+  - m_Id: 2420139403366404
+    m_Key: line:c2ce11c3
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960551
+  - m_Id: 2420139403366405
+    m_Key: line:54fe16b4
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960552
+  - m_Id: 2420139403366406
+    m_Key: line:c5e3a924
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960553
+  - m_Id: 2420139403366407
+    m_Key: line:df8e5ccf
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960554
+  - m_Id: 2420139403366408
+    m_Key: line:49be5bb8
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960555
+  - m_Id: 2420139403366409
+    m_Key: line:f3ef5221
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960556
+  - m_Id: 2420139403366410
+    m_Key: line:65df5556
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960557
+  - m_Id: 2420139403366411
+    m_Key: line:f4c2eac6
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960558
+  - m_Id: 2420139403366412
+    m_Key: line:62f2edb1
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960559
+  - m_Id: 2420139403366413
+    m_Key: line:877b2ad1
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960560
+  - m_Id: 2420139403366414
+    m_Key: line:114b2da6
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960561
+  - m_Id: 2420139403366415
+    m_Key: line:ab1a243f
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960562
+  - m_Id: 2420139403366416
+    m_Key: line:3d2a2348
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960563
+  - m_Id: 2420139403366417
+    m_Key: line:9ebf47d6
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960564
+  - m_Id: 2420139403366418
+    m_Key: line:088f40a1
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960565
+  - m_Id: 2420139403366419
+    m_Key: line:c7009a84
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960566
+  - m_Id: 2420139403366420
+    m_Key: line:a0eb6bd6
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960567
+  - m_Id: 2420139403366421
+    m_Key: line:36db6ca1
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960568
+  - m_Id: 2420139403366422
+    m_Key: line:8c8a6538
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960569
+  - m_Id: 2420139403366423
+    m_Key: line:1aba624f
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960570
+  - m_Id: 2420139403366424
+    m_Key: line:b92f06d1
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960571
+  - m_Id: 2420139403366425
+    m_Key: line:2f1f01a6
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960572
+  - m_Id: 2420139403366426
+    m_Key: line:954e083f
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960573
+  - m_Id: 2420139403366427
+    m_Key: line:037e0f48
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960574
+  - m_Id: 2420139403366428
+    m_Key: line:9263b0d8
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960575
+  - m_Id: 2420139403366429
+    m_Key: line:d51cf48f
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960576
+  - m_Id: 2420139403366430
+    m_Key: line:309533ef
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960577
+  - m_Id: 2420139403366431
+    m_Key: line:a6a53498
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960578
+  - m_Id: 2420139403366432
+    m_Key: line:6b4b0c08
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960579
+  - m_Id: 2420139403366433
+    m_Key: line:fa56b398
+    m_Metadata:
+      m_Items:
+      - rid: 5561007960985960580
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
@@ -545,7 +780,8 @@ MonoBehaviour:
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Prolog
-        tags: []
+        tags:
+        - Sprite:Yotsuba_Sprite_1
     - rid: 5561007803300053287
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
@@ -570,42 +806,50 @@ MonoBehaviour:
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Prolog
-        tags: []
+        tags:
+        - sprite:Yotsuba_Sprite_5
     - rid: 5561007803300053292
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Prolog
-        tags: []
+        tags:
+        - sprite:Itsuki_Sprite_5
     - rid: 5561007803300053293
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Prolog
-        tags: []
+        tags:
+        - sprite:Ichika_Sprite_1
     - rid: 5561007803300053294
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Prolog
-        tags: []
+        tags:
+        - sprite:Itsuki_Sprite_3
     - rid: 5561007803300053295
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Prolog
-        tags: []
+        tags:
+        - sprite:Nino_Sprite_4
     - rid: 5561007803300053296
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Prolog
-        tags: []
+        tags:
+        - sprite:Miku_Sprite_5
     - rid: 5561007803300053297
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Prolog
-        tags: []
+        tags:
+        - sprite:Yotsuba_Sprite_1
     - rid: 5561007803300053298
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Prolog
-        tags: []
+        tags:
+        - sprite:Ichika_Sprite_3
     - rid: 5561007803300053299
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
@@ -760,7 +1004,8 @@ MonoBehaviour:
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: End_Good
-        tags: []
+        tags:
+        - sprite:Ichika_Sprite_1
     - rid: 5561007803300053339
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
@@ -770,7 +1015,8 @@ MonoBehaviour:
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Ichika_Lose
-        tags: []
+        tags:
+        - sprite:Ichika_Sprite_5
     - rid: 5561007803300053341
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
@@ -800,7 +1046,8 @@ MonoBehaviour:
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Ichika_Win
-        tags: []
+        tags:
+        - sprite:Ichika_Sprite_3
     - rid: 5561007803300053347
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
@@ -810,7 +1057,8 @@ MonoBehaviour:
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Itsuki_Lose
-        tags: []
+        tags:
+        - sprite:Itsuki_Sprite_4
     - rid: 5561007803300053349
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
@@ -880,17 +1128,20 @@ MonoBehaviour:
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Itsuki_Win
-        tags: []
+        tags:
+        - sprite:Itsuki_Sprite_5
     - rid: 5561007803300053363
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Miku_Lose
-        tags: []
+        tags:
+        - sprite:Miku_Sprite_2
     - rid: 5561007803300053364
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Miku_Lose
-        tags: []
+        tags:
+        - sprite:Miku_Sprite_4
     - rid: 5561007803300053365
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
@@ -955,17 +1206,20 @@ MonoBehaviour:
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Miku_Win
-        tags: []
+        tags:
+        - sprite:Miku_Sprite_2
     - rid: 5561007803300053378
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Miku_Win
-        tags: []
+        tags:
+        - sprite:Miku_Sprite_3
     - rid: 5561007803300053379
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Nino_Lose
-        tags: []
+        tags:
+        - sprite:Nino_Sprite_4
     - rid: 5561007803300053380
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
@@ -1035,17 +1289,20 @@ MonoBehaviour:
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Yotsuba_Lose
-        tags: []
+        tags:
+        - sprite:Yotsuba_Sprite_1
     - rid: 5561007803300053394
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Yotsuba_Pre
-        tags: []
+        tags:
+        - sprite:Yotsuba_Sprite_2
     - rid: 5561007803300053395
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
         nodeName: Yotsuba_Pre
-        tags: []
+        tags:
+        - sprite:Yotsuba_Sprite_1
     - rid: 5561007803300053396
       type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
       data:
@@ -1056,3 +1313,264 @@ MonoBehaviour:
       data:
         nodeName: End_Good
         tags: []
+    - rid: 5561007960985960534
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Ichika_Pre
+        tags: []
+    - rid: 5561007960985960535
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Ichika_Pre
+        tags:
+        - sprite:Ichika_Sprite_2
+    - rid: 5561007960985960536
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Ichika_Pre
+        tags: []
+    - rid: 5561007960985960537
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Ichika_Pre
+        tags:
+        - sprite:Ichika_Sprite_2
+    - rid: 5561007960985960538
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Ichika_Pre
+        tags:
+        - sprite:Ichika_Sprite_1
+    - rid: 5561007960985960539
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Ichika_Pre
+        tags:
+        - sprite:Ichika_Sprite_3
+    - rid: 5561007960985960540
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Ichika_Pre
+        tags: []
+    - rid: 5561007960985960541
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Itsuki_Pre
+        tags: []
+    - rid: 5561007960985960542
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Itsuki_Pre
+        tags:
+        - sprite:Itsuki_Sprite_2
+    - rid: 5561007960985960543
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Itsuki_Pre
+        tags: []
+    - rid: 5561007960985960544
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Itsuki_Pre
+        tags:
+        - sprite:Itsuki_Sprite_3
+    - rid: 5561007960985960545
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Itsuki_Pre
+        tags:
+        - sprite:Itsuki_Sprite_2
+    - rid: 5561007960985960546
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Itsuki_Pre
+        tags: []
+    - rid: 5561007960985960547
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Itsuki_Pre
+        tags:
+        - sprite:Itsuki_Sprite_1
+    - rid: 5561007960985960548
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Itsuki_Pre
+        tags: []
+    - rid: 5561007960985960549
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Itsuki_Pre
+        tags:
+        - sprite:Itsuki_Sprite_2
+    - rid: 5561007960985960550
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Itsuki_Pre
+        tags:
+        - sprite:Itsuki_Sprite_1
+    - rid: 5561007960985960551
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Itsuki_Pre
+        tags: []
+    - rid: 5561007960985960552
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Itsuki_Pre
+        tags:
+        - sprite:Itsuki_Sprite_4
+    - rid: 5561007960985960553
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Itsuki_Pre
+        tags: []
+    - rid: 5561007960985960554
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Miku_Pre
+        tags: []
+    - rid: 5561007960985960555
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Miku_Pre
+        tags:
+        - sprite:Miku_Sprite_2
+    - rid: 5561007960985960556
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Miku_Pre
+        tags: []
+    - rid: 5561007960985960557
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Miku_Pre
+        tags: []
+    - rid: 5561007960985960558
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Miku_Pre
+        tags:
+        - sprite:Miku_Sprite_1
+    - rid: 5561007960985960559
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Miku_Pre
+        tags: []
+    - rid: 5561007960985960560
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Miku_Pre
+        tags:
+        - sprite:Miku_Sprite_2
+    - rid: 5561007960985960561
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Miku_Pre
+        tags:
+        - sprite:Miku_Sprite_1
+    - rid: 5561007960985960562
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Miku_Pre
+        tags: []
+    - rid: 5561007960985960563
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Miku_Pre
+        tags: []
+    - rid: 5561007960985960564
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Miku_Pre
+        tags:
+        - sprite:Miku_Sprite_2
+    - rid: 5561007960985960565
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Miku_Pre
+        tags: []
+    - rid: 5561007960985960566
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Nino_Pre
+        tags: []
+    - rid: 5561007960985960567
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Nino_Pre
+        tags:
+        - sprite:Nino_Sprite_4
+    - rid: 5561007960985960568
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Nino_Pre
+        tags: []
+    - rid: 5561007960985960569
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Nino_Pre
+        tags:
+        - sprite:Nino_Sprite_4
+    - rid: 5561007960985960570
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Nino_Pre
+        tags: []
+    - rid: 5561007960985960571
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Nino_Pre
+        tags:
+        - sprite:Nino_Sprite_4
+    - rid: 5561007960985960572
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Nino_Pre
+        tags: []
+    - rid: 5561007960985960573
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Nino_Pre
+        tags:
+        - sprite:Nino_Sprite_4
+    - rid: 5561007960985960574
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Nino_Pre
+        tags: []
+    - rid: 5561007960985960575
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Nino_Pre
+        tags:
+        - sprite:Nino_Sprite_4
+    - rid: 5561007960985960576
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Nino_Win
+        tags:
+        - sprite:Nino_Sprite_2
+    - rid: 5561007960985960577
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Nino_Win
+        tags:
+        - sprite:Nino_Sprite_1
+    - rid: 5561007960985960578
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Nino_Win
+        tags:
+        - sprite:Nino_Sprite_4
+    - rid: 5561007960985960579
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Yotsuba_Win
+        tags:
+        - sprite:Yotsuba_Sprite_2
+    - rid: 5561007960985960580
+      type: {class: LineMetadata, ns: Yarn.Unity.UnityLocalization, asm: YarnSpinner.Unity}
+      data:
+        nodeName: Yotsuba_Win
+        tags:
+        - sprite:Yotsuba_Sprite_1

@@ -1,6 +1,7 @@
 ﻿title: Nino_Win
 ---
-Nino: … #line:0e501fe 
-Nino: Alright… I’ll join the study session. But it’s only because of Ichika, Yotsuba, Itsuki, and Miku, not because of you. Hmph. #line:0c8215c 
+Nino: … #sprite:Nino_Sprite_2
+Nino: Alright… I’ll join the study session. #sprite:Nino_Sprite_1 
+Nino: But it’s only because of Ichika, Yotsuba, Itsuki, and Miku, not because of you. Hmph. #sprite:Nino_Sprite_4
 <<LoadNextLevel true >>
 ===
