@@ -307,46 +307,78 @@ MonoBehaviour:
   musicSounds:
   - name: Background Theme
     clip: {fileID: 8300000, guid: 791fb88b8ba9d184f96529d0c509b156, type: 3}
+  - name: Bad Ending
+    clip: {fileID: 8300000, guid: 794826970a5699c4992d13baf7571283, type: 3}
+  - name: Good Ending
+    clip: {fileID: 8300000, guid: 34402754bcddcd8409b7b6fed31cef18, type: 3}
+  - name: Ichika
+    clip: {fileID: 8300000, guid: cdac4c32e91fef44187da63a50421c00, type: 3}
+  - name: Itsuki
+    clip: {fileID: 8300000, guid: 3442f8c50bf0f58438263efc1ee6178f, type: 3}
+  - name: Kantin
+    clip: {fileID: 8300000, guid: 748f0179d6a781e459752e605014cc8c, type: 3}
+  - name: 'Kelas '
+    clip: {fileID: 8300000, guid: a7d13578d1f55a04aab0b6c03d236474, type: 3}
+  - name: Kelas Masak
+    clip: {fileID: 8300000, guid: e4c23500cb191a8408297abaa405fa5d, type: 3}
+  - name: Library
+    clip: {fileID: 8300000, guid: f9dbc4be631fea443818cdc325882294, type: 3}
+  - name: Lorong
+    clip: {fileID: 8300000, guid: 88b7a7e42806e2e49b9f428b70f23a8d, type: 3}
+  - name: Miku
+    clip: {fileID: 8300000, guid: 8b112983e440ab04db10a3867d245c65, type: 3}
+  - name: Perkenalan
+    clip: {fileID: 8300000, guid: 7b03e9631f88d894195ac7b5872a7170, type: 3}
+  - name: Rooftop
+    clip: {fileID: 8300000, guid: de1b89f13aab27448a24f704ff4aad1e, type: 3}
+  - name: Teras
+    clip: {fileID: 8300000, guid: a10e82f75a654af4390c721ef7d17340, type: 3}
+  - name: TitleScreen
+    clip: {fileID: 8300000, guid: a7e0f456b5d721949bcbc771a070ef5a, type: 3}
+  - name: Nino
+    clip: {fileID: 8300000, guid: 0daa3c88094e02c48bb97dc4dc8787d2, type: 3}
+  - name: Yotsuba
+    clip: {fileID: 8300000, guid: 28b05b2c4fc035b498be25a956bae2eb, type: 3}
   sfxSounds:
   - name: Jump
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: eefedcb7a3078d84fb878534fcda033f, type: 3}
   - name: Landing
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: a1741b3dd4892b943b4c1853e921cc18, type: 3}
   - name: Damage
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: b5128e8dd2ed4684db7b52cddb422aac, type: 3}
   - name: HoverButton
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 28bbbc11402076241a67ea3b9eebe316, type: 3}
   - name: ClickButton
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 1495e472281e23142a8cab825776344a, type: 3}
   - name: Win
     clip: {fileID: 0}
   - name: Lose
     clip: {fileID: 0}
   - name: FireReady
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 693bed8220801ca4884fc3dca9f4ab9c, type: 3}
   - name: FireBurst
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: f5cfdb00696ea2645af061f3560a078c, type: 3}
   - name: OpenDoorSuccess
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 461763ee9c4de364d80dd473c6b00714, type: 3}
   - name: OpenDoorFailed
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 17a56c22db7346d45b98f1fef5b62a1e, type: 3}
   - name: CurtainOpen
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: dac99d7724e8cd54487c293304ef003d, type: 3}
   - name: CurtainShuffle
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 49137bb5172186445a913b53b8da36be, type: 3}
   - name: CurtainClose
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: a9c27da5ce8c84a46ab3f5bbb52b6ee6, type: 3}
   - name: Running
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: c4ded50ac79af764fae8250d75e6995a, type: 3}
   - name: TextDialogue
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: ccb47173fcb283549aac7c912a6a666d, type: 3}
   - name: Eating
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: f090f5f434836d2449bfbd85080a5832, type: 3}
   - name: CatchFood
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 18f08969920da4b429687bfa8d5ce767, type: 3}
   - name: JumpHurdle
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: eefedcb7a3078d84fb878534fcda033f, type: 3}
   - name: LandHurdle
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: a1741b3dd4892b943b4c1853e921cc18, type: 3}
   musicSource: {fileID: 1684183091908126382}
   sfxSource: {fileID: 951422818350343866}

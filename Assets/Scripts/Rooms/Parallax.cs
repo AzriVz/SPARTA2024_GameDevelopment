@@ -9,11 +9,13 @@ public class Parallax : MonoBehaviour
     protected float startX;
     private float prevCam;
     private float offsetX;
-
+    private float allOffset;
+    public float OffsetSpeed;
+    public bool isNotMoving;
     void Start()
     {
-        if (cameraTransform == null)
-            cameraTransform = Camera.main.transform;
+        allOffset = 0;
+        if (cameraTransform == null) cameraTransform = Camera.main.transform;
 
         var sr = GetComponent<SpriteRenderer>();
         spriteWidth = sr.bounds.size.x;
@@ -24,20 +26,31 @@ public class Parallax : MonoBehaviour
 
     void LateUpdate()
     {
-        float camX = cameraTransform.position.x;
-
-        if (camX < prevCam)
+        if (!isNotMoving)
         {
-            float delta = prevCam - camX;
-            offsetX += delta;
+            float camX = cameraTransform.position.x;
+
+            if (camX < prevCam)
+            {
+                float delta = prevCam - camX;
+                offsetX += delta;
+            }
+            prevCam = camX;
+
+            float newcamX = camX + offsetX;
+            float offset = newcamX * parallaxEffect;
+
+            float wrap = offset - Mathf.Floor(offset / spriteWidth) * spriteWidth;
+            SetPosition(wrap);
         }
-        prevCam = camX;
+        else
+        {
+            allOffset += OffsetSpeed * Time.deltaTime;
+            float offset = allOffset * parallaxEffect;
 
-        float newcamX = camX + offsetX;
-        float offset = newcamX * parallaxEffect;
-
-        float wrap = offset - Mathf.Floor(offset / spriteWidth) * spriteWidth;
-        SetPosition(wrap);
+            float wrap = offset - Mathf.Floor(offset / spriteWidth) * spriteWidth;
+            SetPosition(wrap);
+        }
     }
 
     protected virtual void SetPosition(float wrap)
