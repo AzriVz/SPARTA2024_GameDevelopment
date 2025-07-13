@@ -6,7 +6,7 @@ public class Curtain : InteractableObject
     [SerializeField] Sprite hiddenIchika;
     [SerializeField] Sprite openedCurtain;
     [SerializeField] Sprite openedIchikaCurtain;
-    [SerializeField] bool ichikaCurtain;
+    [SerializeField] public bool ichikaCurtain;
 
     public CurtainRandomizer curtainRandomizer;
 

@@ -29,7 +29,8 @@ public class CurtainRandomizer : MonoBehaviour
         ichikaCurtainIndex = Random.Range(0, curtains.Length);
 
         curtains[ichikaCurtainIndex].GetComponent<SpriteRenderer>().sprite = ichikaCurtainSprite;
-        
+        curtains[ichikaCurtainIndex].GetComponent<Curtain>().ichikaCurtain = true;
+
     }
 
     public IEnumerator GameSequence()
