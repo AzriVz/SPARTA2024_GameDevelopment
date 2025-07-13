@@ -5,36 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f540910f-5a89-47c8-a274-b0506af3d645" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SPARTA2024_GameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPARTA2024_GameDevelopment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Baka Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Baka Projectile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Food.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Food.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Heart.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Heart.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/curtain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/curtain.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/futarou.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/futarou.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/hidden.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/hidden.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/itsuki.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/itsuki.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/open curtain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/open curtain.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/open ichika curtain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/open ichika curtain.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/testBaka.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/testBaka.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/testSprite.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/testSprite.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/testSprite2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Art/Itsuki/testSprite2.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ItsukiStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ItsukiStage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Cake.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Cake.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Free.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Free.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interaction/IInteractable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interaction/IInteractable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interaction/InteractableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interaction/InteractableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interaction/PlayerInteract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interaction/PlayerInteract.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/ItsukiMouth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mechanic/Itsuki/ItsukiMouth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-1 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-1 4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-2 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-2 5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-3 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Art/Miku/Untitled_Artwork-3 5.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
