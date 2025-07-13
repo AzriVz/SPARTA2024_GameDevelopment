@@ -349,7 +349,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3302798035827681819, guid: e599be2474f370f47835847e9acfc87e, type: 3}
       propertyPath: startNode
-      value: Ichika_Pre
+      value: End_Bad
       objectReference: {fileID: 0}
     - target: {fileID: 3587590692382714791, guid: e599be2474f370f47835847e9acfc87e, type: 3}
       propertyPath: m_SizeDelta.y

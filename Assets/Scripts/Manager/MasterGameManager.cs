@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using Yarn.Unity;
 
 public class MasterGameManager : MonoBehaviour
 {
@@ -51,11 +52,13 @@ public class MasterGameManager : MonoBehaviour
 
     public void GoodEnd()
     {
-
+        var ie = FindFirstObjectByType<DialogueRunner>();
+        ie.StartDialogue("End_Good");
     }
     public void BadEnd()
     {
-
+        var ie = FindFirstObjectByType<DialogueRunner>();
+        ie.StartDialogue("End_Bad");
     }
 
     void Update()
@@ -82,6 +85,15 @@ public class MasterGameManager : MonoBehaviour
             StopCoroutine(introRoutine);
             introRoutine = null;
         }
+    }
+
+    [YarnCommand("CloseApp")]
+    public static void CloseApp()
+    {
+        Application.Quit();
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
     }
 
     IEnumerator GameIntro()
