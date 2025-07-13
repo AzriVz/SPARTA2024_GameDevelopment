@@ -17,6 +17,7 @@ public class Curtain : InteractableObject
         {
             if (!ichikaCurtain)
             {
+                AudioManager.instance.PlaySFX("CurtainOpen");
                 GetComponent<SpriteRenderer>().sprite = openedCurtain;
                 curtainRandomizer.StartCoroutine(curtainRandomizer.GameSequence());
             } else
