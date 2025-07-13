@@ -119,7 +119,7 @@ MonoBehaviour:
   dashSpeed: 15
   dashDuration: 0.3
   rb: {fileID: 3482571768537854357}
-  overrideController: {fileID: 22100000, guid: 95c4c039235b13a45847e3fab0219089, type: 2}
+  overrideController: {fileID: 22100000, guid: 6d527f79aef587e48b73c5395cb75c37, type: 2}
   isDashing: 0
   moveInput: 0
 --- !u!50 &3482571768537854357

@@ -41,6 +41,7 @@ namespace Mechanic.Itsuki
       var foodInstance = FoodInventory.GetFood();
       foodInstance.StopFall();
       foodInstance.AttachToPlayer(this);
+      AudioManager.instance.PlaySFX("CatchFood");
     }
 
     public void LetGo()

@@ -70,6 +70,7 @@ namespace Mechanic.Itsuki
       SetText(_foodCount);
       _foodCount++;
 
+      AudioManager.instance.PlaySFX("Eating");
       StartCoroutine(ChewCoroutine());
     }
 
