@@ -37,7 +37,12 @@ public class movement : MonoBehaviour
     void Update()
     {
         // Checker untuk apakah player udah nyentuh platform
+        bool isGroundedPrev = isGrounded;
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        if (!isGroundedPrev && isGrounded)
+        {
+            AudioManager.instance.PlaySFX("Landing");
+        }
         moveInput = Input.GetAxisRaw("Horizontal");
 
         if (Input.GetMouseButtonDown(0) && moveInput == -1)
@@ -74,7 +79,6 @@ public class movement : MonoBehaviour
         {
             _animator.SetBool("isRunning", true);
             _sr.flipX = true;
-            
         }else if (moveInput < 0)
         {
             _animator.SetBool("isRunning", true);
@@ -87,6 +91,7 @@ public class movement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded && Mathf.Abs(rb.linearVelocity.y) < 0.01f)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jump);
+            AudioManager.instance.PlaySFX("Jump");
         }
 
         if (isGrounded)
