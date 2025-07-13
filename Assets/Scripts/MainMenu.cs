@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,11 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject pauseButton; 
     [SerializeField] private Texture2D[] pauseSprite;
     bool isPause;
+
+    private void Start()
+    {
+        AudioManager.instance.PlayMusic("TitleScreen");
+    }
 
     private void Update()
     {
