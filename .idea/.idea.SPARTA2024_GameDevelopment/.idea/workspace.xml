@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f540910f-5a89-47c8-a274-b0506af3d645" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hurdle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hurdle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SPARTA2024_GameDevelopment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SPARTA2024_GameDevelopment/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1752254793484" duration="3230000" />
       <workItem from="1752259547358" duration="5252000" />
       <workItem from="1752377736783" duration="7036000" />
-      <workItem from="1752407381303" duration="6822000" />
+      <workItem from="1752407381303" duration="8159000" />
     </task>
     <servers />
   </component>
