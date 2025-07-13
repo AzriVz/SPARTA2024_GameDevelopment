@@ -1,6 +1,6 @@
 ﻿title: Yotsuba_Pre
 ---
-Futaro: Yotsuba, there you are! I've been looking all over for you. You have to study for UTBK, c’mon! #line:000cb07 
-Yotsuba: Hmm, alright… Only if you manage to catch me first! #line:051fe0a 
+Futaro: Yotsuba, there you are! I've been looking all over for you. You have to study for UTBK, c’mon! #line:000cb07 #sprite:Yotsuba_Sprite_2
+Yotsuba: Hmm, alright… Only if you manage to catch me first! #line:051fe0a #sprite:Yotsuba_Sprite_1
 <<LoadNextLevel false >>
 ===
