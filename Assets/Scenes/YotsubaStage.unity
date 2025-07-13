@@ -1942,7 +1942,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - prefab: {fileID: 7276380933218297923, guid: 0b6d953dde778b54d92bafd4bb30cd59, type: 3}
-    spawnChance: 0.5
+    spawnChance: 0.33
+    onlySpawnOnce: 0
+  - prefab: {fileID: 7276380933218297923, guid: 784a10db4b94c6c479276bbfc8d342ae, type: 3}
+    spawnChance: 0.33
+    onlySpawnOnce: 0
+  - prefab: {fileID: 7276380933218297923, guid: 3b7989d62da886b4ab1520fdccba5601, type: 3}
+    spawnChance: 0.33
     onlySpawnOnce: 0
   minSpawnRate: 1
   maxSpawnRate: 3
@@ -1957,7 +1963,7 @@ Transform:
   m_GameObject: {fileID: 829735157}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.05, y: -2.8, z: 0}
+  m_LocalPosition: {x: 13.05, y: -3.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
