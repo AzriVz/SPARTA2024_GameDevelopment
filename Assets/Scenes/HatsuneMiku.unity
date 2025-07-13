@@ -1420,7 +1420,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.2}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -120, y: -43}
+  m_AnchoredPosition: {x: -74, y: -9}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1409367998
@@ -1723,8 +1723,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.12, y: 1.12, z: 1.12}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1.12, y: 1.4812, z: 1.12}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1965,7 +1965,7 @@ Transform:
   m_GameObject: {fileID: 1812564271}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 4.37, z: 0}
+  m_LocalPosition: {x: -4, y: 5.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1988,7 +1988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chartJson: {fileID: 4900000, guid: 896e74b500f06a441a9d026b32babc01, type: 3}
   filter: quickPress
-  buffer: 1
+  travelDuration: 2
   audioSource: {fileID: 1798736372}
   countdownText: {fileID: 1409367998}
   countdownDuration: 3
@@ -2327,9 +2327,9 @@ Transform:
   m_GameObject: {fileID: 2037249872}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.8, y: 4.8, z: 4.8}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 0, y: 1.07, z: 0}
+  m_LocalScale: {x: 4.8, y: 5.472, z: 4.8}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
