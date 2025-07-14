@@ -389,6 +389,7 @@ GameObject:
   - component: {fileID: 7098424069577533866}
   - component: {fileID: 2114485646539929859}
   - component: {fileID: 7170120387613903459}
+  - component: {fileID: 3592976548598159486}
   m_Layer: 0
   m_Name: Background
   m_TagString: Room
@@ -512,6 +513,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &3592976548598159486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6794216686746119864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bea9d3613215104a9d47273255e476e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMusic: 
 --- !u!1 &7478068518010682269
 GameObject:
   m_ObjectHideFlags: 0

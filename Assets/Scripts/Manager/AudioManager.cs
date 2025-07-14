@@ -25,6 +25,11 @@ public class AudioManager : MonoBehaviour
         // PlayMusic("Background Theme");
     }
 
+    public string MusicPLayed()
+    {
+        return musicSource.clip.name;
+    }
+
     public void PlayMusic(string name)
     {
         Sound sound = Array.Find(musicSounds, sound => sound.name == name);

@@ -535,10 +535,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Lorong
+      objectReference: {fileID: 0}
     - target: {fileID: 4401465109929149216, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_Name
       value: RoomParent (2)
@@ -987,6 +995,10 @@ PrefabInstance:
     - target: {fileID: 3383661212030661782, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Rooftop
       objectReference: {fileID: 0}
     - target: {fileID: 4794321421059853509, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -1449,6 +1461,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Kelas
+      objectReference: {fileID: 0}
     - target: {fileID: 4794321421059853509, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 12.4
@@ -1608,6 +1624,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Lorong
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_Name
       value: RoomParent (4)
@@ -4505,6 +4529,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Rooftop
+      objectReference: {fileID: 0}
     - target: {fileID: 4794321421059853509, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 12.4
@@ -5803,6 +5831,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Lorong
+      objectReference: {fileID: 0}
     - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_Name
       value: RoomParent (9)
@@ -6198,6 +6230,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Kelas Masak
+      objectReference: {fileID: 0}
     - target: {fileID: 4794321421059853509, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 12.4
@@ -6355,6 +6391,10 @@ PrefabInstance:
     - target: {fileID: 3377709152527456797, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Kelas
       objectReference: {fileID: 0}
     - target: {fileID: 4794321421059853509, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -7071,6 +7111,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Kelas
+      objectReference: {fileID: 0}
     - target: {fileID: 4794321421059853509, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 12.4
@@ -7453,7 +7497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <TryLeft>k__BackingField: 3
-  <MikuWin>k__BackingField: 1
+  <MikuWin>k__BackingField: 0
   <NinoWin>k__BackingField: 0
   <IchikaWin>k__BackingField: 0
   <ItsukiWin>k__BackingField: 0
@@ -7505,6 +7549,10 @@ PrefabInstance:
     - target: {fileID: 3377709152527456797, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Lorong
       objectReference: {fileID: 0}
     - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_Name
@@ -8977,10 +9025,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Lorong
+      objectReference: {fileID: 0}
     - target: {fileID: 3687737924776226267, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.76
       objectReference: {fileID: 0}
+    - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_Name
       value: RoomParent (6)
@@ -9051,6 +9107,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Lorong
+      objectReference: {fileID: 0}
+    - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_Name
       value: RoomParent (5)
@@ -11384,7 +11448,7 @@ Transform:
   m_GameObject: {fileID: 1701138061}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 79.11, y: 42.87, z: 0}
+  m_LocalPosition: {x: -83.84, y: 42.71, z: 0}
   m_LocalScale: {x: 2.52, y: 2.52, z: 2.52}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -11907,10 +11971,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Lorong
+      objectReference: {fileID: 0}
     - target: {fileID: 4401465109929149216, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_Name
       value: RoomParent (1)
@@ -12030,6 +12102,10 @@ PrefabInstance:
     - target: {fileID: 3383661212030661782, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Library
       objectReference: {fileID: 0}
     - target: {fileID: 4794321421059853509, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -12259,6 +12335,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1157682192727896648, guid: 99f792418e7312140a0de39c99d812f0, type: 3}
+      propertyPath: musicSounds.Array.data[6].name
+      value: Kelas
+      objectReference: {fileID: 0}
     - target: {fileID: 3270988108628768260, guid: 99f792418e7312140a0de39c99d812f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 505.75998
@@ -13013,6 +13093,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Kantin
+      objectReference: {fileID: 0}
     - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_Name
       value: RoomParent (7)
@@ -13330,6 +13414,10 @@ PrefabInstance:
     - target: {fileID: 3377709152527456797, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Lorong
       objectReference: {fileID: 0}
     - target: {fileID: 4235215695001548665, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14071,6 +14159,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Lorong
+      objectReference: {fileID: 0}
     - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_Name
       value: RoomParent (1)
@@ -14461,6 +14553,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3592976548598159486, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: startMusic
+      value: Lorong
+      objectReference: {fileID: 0}
     - target: {fileID: 4235215695001548665, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.65
@@ -14469,6 +14565,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_Name
       value: RoomParent (3)
@@ -14771,6 +14871,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 5211534208507594491, guid: 3d8db76324e6fbd46b68c80670bfe063, type: 3}
       propertyPath: m_Name
       value: RoomParent
       objectReference: {fileID: 0}
@@ -14795,6 +14899,6 @@ SceneRoots:
   - {fileID: 54246463}
   - {fileID: 1687261567}
   - {fileID: 239074896}
+  - {fileID: 1785407089}
   - {fileID: 601743720}
   - {fileID: 2012490741}
-  - {fileID: 1785407089}
