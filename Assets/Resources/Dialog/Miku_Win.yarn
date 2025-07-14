@@ -1,0 +1,6 @@
+﻿title: Miku_Win
+---
+Miku: … #line:0ca66b8 #sprite:Miku_Sprite_2
+Miku: You succeeded, Futarou. Fine, I’m coming. #line:0d25de8 #sprite:Miku_Sprite_3
+<<LoadNextLevel true >>
+===

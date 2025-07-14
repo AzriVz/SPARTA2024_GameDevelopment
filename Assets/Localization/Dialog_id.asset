@@ -1,0 +1,702 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Dialog_id
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: id
+  m_SharedData: {fileID: 11400000, guid: 716c44f19482cb548a63f356d5525238, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 239968645120
+    m_Localized: 'Jarang sekali bisa melihat kelima kembar berambut pink terkenal
+      berkumpul bersama dalam suasana seserius ini. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350208
+    m_Localized: 'Tidak banyak yang mereka bicarakan, paling hanya sekadar obrolan
+      gugup saja jikalau ada, sementara waktu terus merambat mendekati jam tiga keramat
+      yang ditunggu-tunggu. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350209
+    m_Localized: Suasana penuh harap dan tegang menyelimuti mereka, masing-masing
+      berdoa dalam hatinya kepada Tuhan atau siapapun itu yang mungkin sedang mendengarkan
+      doa kecil mereka.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350210
+    m_Localized: "Yotsuba: Eh, lihat deh, udah jam tiga. Yuk buka websitenya bareng-bareng\u2026
+      3\u2026 2\u2026 1\u2026!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350211
+    m_Localized: "Miku: Ah\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350212
+    m_Localized: "Yotsuba: Wah\u2026 merah semua\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350213
+    m_Localized: "Itsuki: Semua waktu yang kita habisin buat belajar\u2026 ujung-ujungnya
+      sia-sia juga\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350214
+    m_Localized: "Ichika: Aku sendiri sih nggak kaget ya, nilai kita juga nggak sekeren
+      Futaro kan\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544512
+    m_Localized: "Itsuki: Iya juga sih\u2026 bisa daftar SNBP aja tuh udah kayak
+      keajaiban buat kita berlima\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544513
+    m_Localized: 'Nino: Tsk, ogah banget aku ikutan tes UTBK.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544514
+    m_Localized: "Miku: Sama, males banget\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544515
+    m_Localized: "Yotsuba: Eh! Gimana kalo kita main board game aja? Biar semangatnya
+      balik lagi gituu!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544516
+    m_Localized: "Ichika: Ide bagus! Gimana kalau main\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544517
+    m_Localized: "Suara berdering terdengar dari ponsel Futaro.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544518
+    m_Localized: "Futaro: Halo? Ini dengan siapa?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544519
+    m_Localized: "Pak Nakano: Ah, Futaro. Ini saya, Pak Nakano.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544520
+    m_Localized: "Pak Nakano: Saya nggak tahu kamu sudah dengar atau belum, tapi
+      tidak ada satu pun dari anak-anakku yang lolos SNBP.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544521
+    m_Localized: "Pak Nakano: Satu-satunya harapan saya sekarang hanya UTBK. Saya
+      ingin mereka berlima dapat lolos. Biaya sekolah sedang mahal sekali akhir-akhir
+      ini.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544522
+    m_Localized: "Pak Nakano: Tolong bantu anak-anak saya lulus tes itu. Jika tidak,
+      kamu akan dipecat. Gajimu bulan ini juga saya tahan sampai ada hasil. Tapi
+      kalau berhasil, kamu akan dapat bayaranmu plus bonus tambahan. Jangan bikin
+      saya kecewa, Futaro.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544523
+    m_Localized: "Futaro: HAH-?! Pak, tolong dong jangan-\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544524
+    m_Localized: "Sambungan telepon terputus.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544525
+    m_Localized: "Futaro: Aduh\u2026 Apakah mungkin dan sempat waktunya untuk ngajarin
+      mereka berlima buat tes ini\u2026?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544526
+    m_Localized: "Futaro: Pertama, ada Ichika, si kakak tertua. Otomatis si paling
+      dewasa di antara mereka. Orangnya percaya diri dan suka godain anak orang,
+      tapi cenderung pemalas dan kurang teratur.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544527
+    m_Localized: "Futaro: Kedua, Nino, si tsundere. Dia protektif banget sama adik-adiknya
+      dan sayang banget sama mereka. Aku harus hati-hati dan jaga sikap kalau nggak
+      mau diganggu habis-habisan sama dia.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544528
+    m_Localized: "Futaro: Ketiga, Miku, si pemalu. Dia paling pintar di antara saudari-saudarinya
+      dan suka banget sama sejarah. Seingetku dia juga cukup peka dan pengamat yang
+      baik.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544529
+    m_Localized: "Futaro: Selanjutnya, Yotsuba, si atlet. Ceria dan enerjik, tapi
+      susah banget buat bilang \"nggak\" ke orang lain terutama yang butuh. Untungnya
+      dia selalu antusias untuk ikut semua sesi belajar sejauh ini, walaupun\u2026
+      ya nggak terlalu banyak membantu sih\u2026 Dia bukan tipe orang yang pintar
+      dalam hal akademik.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544530
+    m_Localized: "Futaro: Terakhir, Itsuki, si doyan makan. Saudari yang satu ini
+      bisa dibilang anomali karena ia suka belajar. Kadang dia keras kepala dan entah
+      kenapa aku sering banget adu mulut sama dia\u2026 Sepertinya dia masih ada
+      dendam padaku dari waktu lalu, ketika aku mengatainya gemuk karena ia makannya
+      banyak sekali.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544531
+    m_Localized: "Futaro: Duh kayaknya aku nggak punya pilihan lain\u2026 Ayo, Futaro,
+      lakuin ini demi Raiha\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544532
+    m_Localized: 'Osaka: hi'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544533
+    m_Localized: w-what...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544534
+    m_Localized: RENE DESCARTES?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081856
+    m_Localized: "Hari UTBK dilaksanakan akhirnya tiba.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081857
+    m_Localized: "Tanpa persiapan, gadis Nakano tidak bisa menjawab pertanyaan apapun.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081858
+    m_Localized: "Tidak ada satu pun yang diterima di kampus impiannya.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081859
+    m_Localized: "Futaro: \u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081860
+    m_Localized: "Futaro: Aku\u2026 gagal."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081861
+    m_Localized: 'Futaro: Maafkan aku, Dik. Aku kehilangan pekerjaanku.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081862
+    m_Localized: Futaro bangun dari tidur siangnya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081863
+    m_Localized: "Futaro: !?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081864
+    m_Localized: "Futaro: Astaga\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081865
+    m_Localized: "Futaro: Phew\u2026 cuma mimpi ternyata. Jangan sampai yang di mimpi
+      tadi kejadian di dunia nyata.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081866
+    m_Localized: "Futaro: Oke karena semua udah disini\u2026 waktunya kalian belajar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081867
+    m_Localized: "Kembar 5: OUU!!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081868
+    m_Localized: "Ichika: Wahh\u2026 semuanya...keterima\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081869
+    m_Localized: "Kembar 5:  YAYYY HOREE!!!!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081870
+    m_Localized: "Ichika: Ow, agak sakit\u2026 Aku sudah berusaha susah payah dan
+      kamu memberikan apresiasi setengah hati \u2026 Apakah akting yang aku lakukan
+      sejelek itu?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081871
+    m_Localized: 'Futaro: ICHIKA!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081872
+    m_Localized: "Ichika: Shh\u2026 Aku lagi fokus berlatih akting!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081873
+    m_Localized: "Futaro: Tapi-\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081874
+    m_Localized: "Ichika: Maaf, aku perlu menyelesaikan latihanku dulu. Hmm\u2026
+      Mumpung kamu ada di sini, bagaimana kalau kamu nilai diriku? Kamu pasti senang
+      menonton seorang gadis cantik, bukan?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081875
+    m_Localized: "Futaro: B-baiklah\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081876
+    m_Localized: 'Ichika: Wowww. Terima kasih Futaro, hehe. Baiklah, aku akan ikut
+      belajar.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081877
+    m_Localized: "Futaro: A\u2013Aku gagal\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081878
+    m_Localized: 'Itsuki: Dadah! Aku gak bakal belajar sama kamu.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081879
+    m_Localized: "Futaro: Itsuki! Ternyata lagi di kantin toh. Ayo, kita harus belajar
+      buat UTBK sama yang lain!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081880
+    m_Localized: "Itsuki: Bentar. Aku lapar, pengen makan dulu. Beliin aku makanan
+      dong, Futaro!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081881
+    m_Localized: "Futaro: T-tapi\u2026 Aku lagi gak punya uang sekarang, Itsuki\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081882
+    m_Localized: "Itsuki: Hm. Oke. Nih aku kasih uangnya, tapi\u2026 AKU TANTANG
+      KAMU!!!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081883
+    m_Localized: "Futaro: T-tantangan? Tantangan apa tuh, Itsuki\u2026?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081884
+    m_Localized: "Itsuki: Bawain aku makanan sebanyak-banyaknya, dalam waktu sesingkat
+      mungkin!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081885
+    m_Localized: "Futaro: Saat ini juga? Sekarang tempat ini lagi penuh dan ngantri
+      banget\u2026 Kalau keburu kehabisan gimana?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081886
+    m_Localized: "Itsuki: Ya\u2026 makanya disebut tantangan. Kalau kamu berhasil,
+      aku janji bakal belajar UTBK bareng kamu, serius!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081887
+    m_Localized: "Futaro: Umm\u2026 Kalau aku gagal?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081888
+    m_Localized: "Itsuki: Aku gak mau belajar sama kamu, sampai kapanpun!!!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081889
+    m_Localized: "Futaro: Aduh\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081890
+    m_Localized: "Futaro: Haaah\u2026 haaah\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081891
+    m_Localized: "Futaro: Aku berhasil. Ayo kita belajar, Itsuki!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081892
+    m_Localized: "Itsuki: Baiklah\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081893
+    m_Localized: "Miku: \u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081896
+    m_Localized: "Miku: \u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081894
+    m_Localized: 'Miku: Dasar sok tau... Bagaimana kamu bisa mengajariku sejarah
+      kalau lagu ini saja kamu tidak tahu?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081895
+    m_Localized: 'Futaro: Mi-Miku! Miku!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081897
+    m_Localized: "Futaro: Gawat, dia ga bisa dengar aku\u2026 MIKU! MIKU!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081898
+    m_Localized: "Miku dengan lembut melepaskan headphones-nya.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081899
+    m_Localized: "Miku: Ada apa, Futaro?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081900
+    m_Localized: "Futaro: Miku! Tutor UTBK sekarang! Ayo!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081901
+    m_Localized: "Miku: \u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081902
+    m_Localized: "Miku: Tahukah kamu lagu ini, Futaro?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081903
+    m_Localized: "Miku mengangkat ponselnya, menunjukkan sebuah lagu tradisional
+      Jepang yang dimainkan pada aplikasi Spotyfi.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081904
+    m_Localized: "Futaro: Eh?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081905
+    m_Localized: "Miku: Kalau kamu benar-benar mengerti sejarah, kamu pasti tahu
+      lagu ini\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081906
+    m_Localized: "Dalam sesaat, Futaro panik, mencoba untuk mengingat pelajaran sejarah
+      yang terakhir ia ikuti. \r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081907
+    m_Localized: "Miku: \u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081908
+    m_Localized: "Miku: Kamu berhasil, Futaro. Baiklah, aku akan datang.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081909
+    m_Localized: "Nino: Tuhkan, makin recok\u2026 UDAHH AKU GA MAU BELAJAR SAMA KAMU!
+      PERGIII!!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081910
+    m_Localized: "Futaro: Nino, kemana aja sih? Dicariin dari tadi! Ayo, udah mau
+      mulai nih sesi belajar UTBK-nya!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081911
+    m_Localized: "Nino: Apa sih!? Ga bisa lihat apa ada hal yang lebih penting? Aku
+      lagi eksperimen resep baru. Dah sana, belajar aja sama yang lain aja! Aku ga
+      butuh perhatianmu. \r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081912
+    m_Localized: "Futaro: Kamu udah tahu gagal SNBP, masih aja ngeyel. Nanti, kalau
+      kamu ditinggal kembaran-kembaran ke ITB, jangan nangis-nangis ya.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081913
+    m_Localized: "Nino: Yaudah sih, aku belajar sendiri nanti juga bisa. \r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081914
+    m_Localized: "Futaro: Hadeeuuhh, kamu kalau belajar sendiri yang ada malah ga
+      belajar. \r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081915
+    m_Localized: "Nino: Ga peduli. Hmph!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081916
+    m_Localized: "Futaro mendekati dan mencoba membantu, namun malah menumpahkan
+      adonan\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081917
+    m_Localized: "Nino: EHHH, BAKA! KAMU NGAPAIN SIH!? JANGAN SENTUH-SENTUH!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081918
+    m_Localized: "Futaro: Eh maaf\u2026 aku cuman mau ngebantu tadi\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081919
+    m_Localized: "Nino: Aku ga perlu bantuan. PERGI AJA SANAA..!!!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081920
+    m_Localized: "Nino: ... \r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081921
+    m_Localized: "Nino: Yaudah... Aku ikut sesi belajarnya. Tapi ini karena Ichika,
+      Yotsuba, Itsuki, dan Miku! Bukan karena kamu ya! Huff.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081922
+    m_Localized: 'Futaro: Aduh!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081923
+    m_Localized: "Yotsuba: Ahahaha! Kamu nggak akan pernah bisa nangkep aku, Futaro~
+      wleee\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081924
+    m_Localized: "Futaro: Yotsuba, ternyata kamu di sini! Udah aku cariin ke mana-mana.
+      Kamu harus belajar buat UTBK, ayo!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081925
+    m_Localized: "Yotsuba: Hmm, oke deh\u2026 Tapi kamu harus tangkep aku dulu!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081926
+    m_Localized: "Yotsuba: Yah, ketangkep deh! Kayaknya aku nggak bisa kabur nih
+      artinya, hehe. Sampai ketemu pulang sekolah nanti ya!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1999110081015808
+    m_Localized: "Maka, dimulainya perjalanan si kembar lima Nakano di Institut Teknologi
+      Bandung. Perjalanan yang mereka lalui tentunya tidak mulus. Tapi jangan khawatir,
+      mereka selalu saling mendukung dan menyemangati satu sama lain. Lagipula, ada
+      Futaro yang selalu akan membantu mereka. \r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464891510784
+    m_Localized: 'Futaro: ICHIKA!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259520
+    m_Localized: "Ichika: Shh\u2026 Aku lagi fokus berlatih akting!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259521
+    m_Localized: "Futaro: Tapi-\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259522
+    m_Localized: "Ichika: Maaf, aku perlu menyelesaikan latihanku dulu.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259523
+    m_Localized: "Ichika: Hmm\u2026 Mumpung kamu ada di sini, bagaimana kalau kamu
+      nilai diriku?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259524
+    m_Localized: "Ichika: Kamu pasti senang menonton seorang gadis cantik, bukan?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259525
+    m_Localized: "Futaro: B-baiklah\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259526
+    m_Localized: "Futaro: Itsuki! Ternyata lagi di kantin toh. Ayo, kita harus belajar
+      buat UTBK sama yang lain!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259527
+    m_Localized: "Itsuki: Bentar. Aku lapar, pengen makan dulu. Beliin aku makanan
+      dong, Futaro!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259528
+    m_Localized: "Futaro: T-tapi\u2026 Aku lagi gak punya uang sekarang, Itsuki\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259529
+    m_Localized: "Itsuki: Hm. Oke. Nih aku kasih uangnya, tapi\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259530
+    m_Localized: "Itsuki: AKU TANTANG KAMU!!!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259531
+    m_Localized: "Futaro: T-tantangan? Tantangan apa tuh, Itsuki\u2026?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259532
+    m_Localized: "Itsuki: Bawain aku makanan sebanyak-banyaknya, dalam waktu sesingkat
+      mungkin!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259533
+    m_Localized: "Futaro: Saat ini juga? Sekarang tempat ini lagi penuh dan ngantri
+      banget\u2026 Kalau keburu kehabisan gimana?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259534
+    m_Localized: "Itsuki: Ya\u2026 makanya disebut tantangan.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259535
+    m_Localized: "Itsuki: Kalau kamu berhasil, aku janji bakal belajar UTBK bareng
+      kamu, serius!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259536
+    m_Localized: "Futaro: Umm\u2026 Kalau aku gagal?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259537
+    m_Localized: "Itsuki: Aku gak mau belajar sama kamu, sampai kapanpun!!!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259538
+    m_Localized: "Futaro: Aduh\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259539
+    m_Localized: "Futaro: Mi-Miku! Miku!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259540
+    m_Localized: "Miku: \u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259541
+    m_Localized: "Futaro: Gawat, dia ga bisa dengar aku\u2026 MIKU! MIKU!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259542
+    m_Localized: "Miku dengan lembut melepaskan headphones-nya.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259543
+    m_Localized: "Miku: Ada apa, Futaro?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259544
+    m_Localized: "Futaro: Miku! Tutor UTBK sekarang! Ayo!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259545
+    m_Localized: "Miku: \u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259546
+    m_Localized: "Miku: Tahukah kamu lagu ini, Futaro?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259547
+    m_Localized: "Miku mengangkat ponselnya, menunjukkan sebuah lagu tradisional
+      Jepang yang dimainkan pada aplikasi Spotyfi.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259548
+    m_Localized: "Futaro: Eh?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259549
+    m_Localized: "Miku: Kalau kamu benar-benar mengerti sejarah, kamu pasti tahu
+      lagu ini\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259550
+    m_Localized: "Dalam sesaat, Futaro panik, mencoba untuk mengingat pelajaran sejarah
+      yang terakhir ia ikuti. \r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259551
+    m_Localized: "Futaro: Nino, kemana aja sih? Dicariin dari tadi! Ayo, udah mau
+      mulai nih sesi belajar UTBK-nya!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259552
+    m_Localized: "Nino: Apa sih!? Ga bisa lihat apa ada hal yang lebih penting? Aku
+      lagi eksperimen resep baru. Dah sana, belajar aja sama yang lain aja! Aku ga
+      butuh perhatianmu.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259553
+    m_Localized: "Futaro: Kamu udah tahu gagal SNBP, masih aja ngeyel. Nanti, kalau
+      kamu ditinggal kembaran-kembaran ke ITB, jangan nangis-nangis ya.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259554
+    m_Localized: "Nino: Yaudah sih, aku belajar sendiri nanti juga bisa.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259555
+    m_Localized: "Futaro: Hadeeuuhh, kamu kalau belajar sendiri yang ada malah ga
+      belajar.\u201D \r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259556
+    m_Localized: "Nino: Ga peduli. Hmph!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259557
+    m_Localized: "Futaro mendekati dan mencoba membantu, namun malah menumpahkan
+      adonan\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259558
+    m_Localized: "Nino: EHHH, BAKA! KAMU NGAPAIN SIH!? JANGAN SENTUH-SENTUH!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259559
+    m_Localized: "Futaro: Eh maaf\u2026 aku cuman mau ngebantu tadi\u2026\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259560
+    m_Localized: "Nino: Aku ga perlu bantuan. PERGI AJA SANAA..!!!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259561
+    m_Localized: "Nino: ...\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259562
+    m_Localized: "Nino: Yaudah... Aku ikut sesi belajarnya.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259563
+    m_Localized: "Nino: Tapi ini karena Ichika, Yotsuba, Itsuki, dan Miku! Bukan
+      karena kamu ya! Huff.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259564
+    m_Localized: "Yotsuba: Yah, ketangkep deh!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259565
+    m_Localized: "Yotsuba: Kayaknya aku nggak bisa kabur nih artinya, hehe. Sampai
+      ketemu pulang sekolah nanti ya!\r"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

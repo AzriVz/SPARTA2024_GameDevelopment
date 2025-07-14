@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961a0ba2fdf34c2b98087fc2fff7399b, type: 3}
+  m_Name: Pudding
+  m_EditorClassIdentifier: 
+  foodName: pudding
+  sprite: {fileID: 1669641481, guid: 643e48077dd356e49add25c55c357195, type: 3}
+  chance: 10

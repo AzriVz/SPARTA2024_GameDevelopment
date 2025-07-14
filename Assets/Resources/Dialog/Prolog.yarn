@@ -1,0 +1,51 @@
+﻿title: Prolog
+---
+<<SetBackgroundBlack 0>>
+It truly is a rare sight to see the famed pink-haired quintuplets gathered together in tense silence.  #line:0aa47ac #Sprite:Yotsuba_Sprite_1
+Not much has been said between the five—only nervous chatter—as the time inches more and more towards the awaited three o'clock.  #line:02c098e 
+Anticipation hung heavily in the air as each of them prayed silently to whatever god was up there and listening. #line:0c2ee2f 
+<<SetBackground Image/prolog_snbp-1>>
+Yotsuba: Oh hey look, it's three already. Let's open the website together in 3... 2... 1...! #line:01204af 
+<<SetBackground Image/prolog_snbp-2 0>>
+<<wait 0.5>>
+Miku: Ah… #line:0475d0a 
+Yotsuba: Woah, it's all red… #line:0ceeadd #sprite:Yotsuba_Sprite_5
+Itsuki: All that time spent on studying… and for what… #line:0725fd3 #sprite:Itsuki_Sprite_5
+Ichika: Now, now. Can't say that I'm surprised about this, we don't exactly have outstanding grades like Futaro after all. #line:0b42774 #sprite:Ichika_Sprite_1
+Itsuki: I guess, it's a miracle in itself for the five of us to be eligible for SNBP in the first place… #line:0d414ff #sprite:Itsuki_Sprite_3
+Nino: Tsk, I really don't wanna take the UTBK test. #line:0876a0d #sprite:Nino_Sprite_4
+Miku: Me either, it's too much of a bother. #line:041c86f #sprite:Miku_Sprite_5
+Yotsuba: Heyyy, how about we play some board games instead? That should put everyone into a good mood! #line:07c2eac #sprite:Yotsuba_Sprite_1
+Ichika: Great idea! How about… #line:00b7885 #sprite:Ichika_Sprite_3
+<<SetBackgroundBlack 0>>
+A ringing sound comes from Futaro's phone. #line:0717ccd 
+<<SetBackground Image/prolog_futaro-phone>>
+<<wait 0.5>>
+Futaro: Yes? Who is this? #line:0a434f6 
+Mr. Nakano: Ah, Futaro. It's me, Mr. Nakano. #line:01b467b 
+Mr. Nakano: I'm not sure if you've heard already, but none of my daughters have managed to pass through SNBP. #line:0168895 
+Mr. Nakano: My only hope is for all five of them to pass the UTBK test. Education is really expensive nowadays after all. #line:09a560d 
+Mr. Nakano: Help my daughters pass the test, else you're fired. I'll also be withholding this month’s pay until I see good results. If you succeed however, you'll get your pay back along with an added bonus. Don't disappoint me. #line:0f8d6f5 
+Futaro: HUH-?! Sir please don't- #line:0d92632 
+The call goes silent. #line:0628408 
+Futaro: Darn it… is it even possible to tutor those five in time for the test...? #line:049dbed 
+<<SetBackground Image/prolog_ichika-intro 0.25>>
+<<wait 0.5>>
+Futaro: First off, there's Ichika, the onee-chan. She's the most mature out of the five. Confident and a bit of a flirt, but tends to be lazy and disorganized. #line:00ae9ac 
+<<SetBackground Image/prolog_nino-intro 0.25>>
+<<wait 0.5>>
+Futaro: Second is Nino, the tsundere... She's quite protective of her sisters and cares for them very much. I need to keep an eye out and stay on her good side, God knows what sort of devious tricks she's got up her sleeve if I don't. #line:0ffaa2b 
+<<SetBackground Image/prolog_miku-intro 0.25>>
+<<wait 0.5>>
+Futaro: Third is Miku, the shy sister. She's the smartest among the sisters and is really into history. She's a pretty observant person too if I remember correctly. #line:04fd04d 
+<<SetBackground Image/prolog_yotsuba-intro 0.25>>
+<<wait 0.5>>
+Futaro: Next, there's Yotsuba, the athletic sister. Cheerful and bubbly, she has a hard time saying no to those in need. Thankfully, she's always eager to attend every study session so far, albeit it doesn't help much... Smarts is definitely not her forte. #line:011bdea 
+<<SetBackground Image/prolog_itsuki-intro 0.25>>
+<<wait 0.5>>
+Futaro: Lastly, we got Itsuki, the foodie. Unlike her sisters, this one actually likes to study. She can be a bit stubborn at times and I can't seem to stop butting heads with her... Probably still has a grudge on me from that time I called her fat for eating so much. #line:01c767c 
+<<SetBackgroundBlack>>
+<<wait 0.5>>
+Futaro: Looks like I've got no choice… C’mon Futaro, do it for Raiha’s sake. #line:0ee436b 
+<<LoadScene 1>>
+===

@@ -1,0 +1,714 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Dialog_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 716c44f19482cb548a63f356d5525238, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 239968645120
+    m_Localized: It truly is a rare sight to see the famed pink-haired quintuplets
+      gathered together in tense silence.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350208
+    m_Localized: "Not much has been said between the five\u2014only nervous chatter\u2014as
+      the time inches more and more towards the awaited three o'clock."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350209
+    m_Localized: Anticipation hung heavily in the air as each of them prayed silently
+      to whatever god was up there and listening.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350210
+    m_Localized: 'Yotsuba: Oh hey look, it''s three already. Let''s open the website
+      together in 3... 2... 1...!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350211
+    m_Localized: "Miku: Ah\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350212
+    m_Localized: "Yotsuba: Woah, it's all red\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350213
+    m_Localized: "Itsuki: All that time spent on studying\u2026 and for what\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240480350214
+    m_Localized: 'Ichika: Now, now. Can''t say that I''m surprised about this, we
+      don''t exactly have outstanding grades like Futaro after all.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544512
+    m_Localized: "Itsuki: I guess, it's a miracle in itself for the five of us to
+      be eligible for SNBP in the first place\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544513
+    m_Localized: 'Nino: Tsk, I really don''t wanna take the UTBK test.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544514
+    m_Localized: 'Miku: Me either, it''s too much of a bother.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544515
+    m_Localized: 'Yotsuba: Heyyy, how about we play some board games instead? That
+      should put everyone into a good mood!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544516
+    m_Localized: "Ichika: Great idea! How about\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544517
+    m_Localized: A ringing sound comes from Futaro's phone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544518
+    m_Localized: 'Futaro: Yes? Who is this?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544519
+    m_Localized: 'Mr. Nakano: Ah, Futaro. It''s me, Mr. Nakano.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544520
+    m_Localized: 'Mr. Nakano: I''m not sure if you''ve heard already, but none of
+      my daughters have managed to pass through SNBP.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544521
+    m_Localized: 'Mr. Nakano: My only hope is for all five of them to pass the UTBK
+      test. Education is really expensive nowadays after all.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544522
+    m_Localized: "Mr. Nakano: Help my daughters pass the test, else you're fired.
+      I'll also be withholding this month\u2019s pay until I see good results. If
+      you succeed however, you'll get your pay back along with an added bonus. Don't
+      disappoint me."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544523
+    m_Localized: 'Futaro: HUH-?! Sir please don''t-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544524
+    m_Localized: The call goes silent.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544525
+    m_Localized: "Futaro: Darn it\u2026 is it even possible to tutor those five in
+      time for the test...?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544526
+    m_Localized: 'Futaro: First off, there''s Ichika, the onee-chan. She''s the most
+      mature out of the five. Confident and a bit of a flirt, but tends to be lazy
+      and disorganized.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544527
+    m_Localized: 'Futaro: Second is Nino, the tsundere... She''s quite protective
+      of her sisters and cares for them very much. I need to keep an eye out and
+      stay on her good side, God knows what sort of devious tricks she''s got up
+      her sleeve if I don''t.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544528
+    m_Localized: 'Futaro: Third is Miku, the shy sister. She''s the smartest among
+      the sisters and is really into history. She''s a pretty observant person too
+      if I remember correctly.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544529
+    m_Localized: 'Futaro: Next, there''s Yotsuba, the athletic sister. Cheerful and
+      bubbly, she has a hard time saying no to those in need. Thankfully, she''s
+      always eager to attend every study session so far, albeit it doesn''t help
+      much... Smarts is definitely not her forte.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544530
+    m_Localized: 'Futaro: Lastly, we got Itsuki, the foodie. Unlike her sisters,
+      this one actually likes to study. She can be a bit stubborn at times and I
+      can''t seem to stop butting heads with her... Probably still has a grudge on
+      me from that time I called her fat for eating so much.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544531
+    m_Localized: "Futaro: Looks like I've got no choice\u2026 C\u2019mon Futaro,
+      do it for Raiha\u2019s sake."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544532
+    m_Localized: 'Osaka: hi'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544533
+    m_Localized: w-what...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240484544534
+    m_Localized: RENE DESCARTES?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081926
+    m_Localized: 'Yotsuba: Aw, you caught me! Guess I don''t have any excuses now
+      hehe, see you after school!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081925
+    m_Localized: "Yotsuba: Hmm, alright\u2026 Only if you manage to catch me first!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081924
+    m_Localized: "Futaro: Yotsuba, there you are! I've been looking all over for
+      you. You have to study for UTBK, c\u2019mon!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081923
+    m_Localized: 'Yotsuba: Ahahaha! You''ll never catch me, you''re too slow~'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081922
+    m_Localized: 'Futaro: Oof!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081921
+    m_Localized: "Nino: Alright\u2026 I\u2019ll join the study session. But it\u2019s
+      only because of Ichika, Yotsuba, Itsuki, and Miku, not because of you. Hmph."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081920
+    m_Localized: "Nino: \u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081919
+    m_Localized: "Nino: I don\u2019t need help. JUST GO AWAY\u2026!!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081918
+    m_Localized: "Futaro: Oh, sorry\u2026 I just wanted to help\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081917
+    m_Localized: "Nino: HEYYY, BAKA! WHAT ARE YOU DOING!? DON\u2019T TOUCH THAT!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081916
+    m_Localized: Futaro steps closer and tries to help, only to spill the batter
+      everywhere.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081915
+    m_Localized: "Nino: I don\u2019t care. Hmph!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081914
+    m_Localized: "Futaro: Ugh, when you \u201Cstudy on your own\u201D, you never
+      actually study."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081913
+    m_Localized: 'Nino: Whatever, I can study on my own anyway.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081912
+    m_Localized: "Futaro: You know you already messed up SNBP, and you\u2019re still
+      stubborn. If your quintuplets get into ITB without you, don\u2019t cry later."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081911
+    m_Localized: "Nino: Oh please, can\u2019t you see? I\u2019ve got something more
+      important going on? I\u2019m experimenting with a new recipe. Go study with
+      the others! I don\u2019t need your attention."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081910
+    m_Localized: "Futaro: Nino, where have you been? I\u2019ve been looking everywhere
+      for you! Come on, the UTBK study session is about to start!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081909
+    m_Localized: "Nino: See, you just made things worse. I\u2019M NOT STUDYING WITH
+      YOU. GO AWAY!!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081908
+    m_Localized: "Miku: You succeeded, Futarou. Fine, I\u2019m coming."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081907
+    m_Localized: "Miku: \u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081906
+    m_Localized: Futaro panics for a moment, scrambling to recall the last history
+      lesson.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081905
+    m_Localized: "Miku: If you really understand history, you must know this song
+      already\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081904
+    m_Localized: 'Futarou: Eh?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081903
+    m_Localized: Miku holds up her phone, revealing a Japanese song playing on the
+      Spotyfi app.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081902
+    m_Localized: 'Miku: Do you know this song, Futaro?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081901
+    m_Localized: "Miku: \u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081900
+    m_Localized: 'Futarou: Miku! UTBK study session now! Come on!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081899
+    m_Localized: 'Miku: What''s up, Futaro?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081898
+    m_Localized: Miku softly removes her headphones.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081897
+    m_Localized: "Futarou: Oh no, she can\u2019t hear me\u2026 MIKU! MIKU!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081896
+    m_Localized: "Miku: \u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081895
+    m_Localized: 'Futarou: Mi-Miku! Miku!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081894
+    m_Localized: "Miku: Alright, Mr. Know-it-all... Tell me... how can you teach
+      me history if you don\u2019t even know this song?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081893
+    m_Localized: "Miku: \u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081892
+    m_Localized: "Itsuki: Fine\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081891
+    m_Localized: "Futaro: I did it. C\u2019mon let\u2019s study, Itsuki!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081890
+    m_Localized: "Futaro: Huff\u2026 huff\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081889
+    m_Localized: "Futaro: Dang\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081888
+    m_Localized: 'Itsuki: I won''t study with you ever again!!!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081887
+    m_Localized: "Futaro: Umm\u2026 and if I fail?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081886
+    m_Localized: "Itsuki: Well, that\u2019s why I called it a challenge. If you succeed,
+      I promise I\u2019ll go study for UTBK with you, really!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081885
+    m_Localized: "Futaro: Does it really have to be right now? This place is super
+      crowded and there\u2019s a long line right now\u2026What if it sells out before
+      I get my turn?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081884
+    m_Localized: 'Itsuki: I challenge you to bring me as much food as possible, within
+      the shortest time possible!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081883
+    m_Localized: "Futaro: A challenge? What kind of challenge, Itsuki\u2026?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081882
+    m_Localized: "Itsuki: Hm. Alright then. Here, I\u2019ll give you some money,
+      but\u2026 I CHALLENGE YOU!!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081881
+    m_Localized: "Futaro: B-but, I don\u2019t have any money right now, Itsuki\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081880
+    m_Localized: "Itsuki: Hold on. I\u2019m starving, I want to eat something. Buy
+      me some food!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081879
+    m_Localized: 'Futaro: Itsuki! Turns out you''re in the canteen, huh. Come on,
+      we have to study for UTBK with the others!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081878
+    m_Localized: 'Itsuki: Ugh, bye! I am SOOOO not studying with you.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081877
+    m_Localized: "Futaro: I\u2014I failed\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081876
+    m_Localized: "Ichika: Wowww. Thank you Futarou, hehe. Alright, I\u2019ll join
+      you."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081875
+    m_Localized: "Futaro: A-Alright\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081874
+    m_Localized: "Ichika: Sorry, I need to finish my rehearsal first. Hmm\u2026 While
+      you're here, how about you rate my performance? You'd definitely enjoy watching
+      a pretty lady perform, right?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081873
+    m_Localized: 'Futaro: But-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081872
+    m_Localized: "Ichika: Shush\u2026 I\u2019m focusing on my acting rehearsal right
+      now!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081871
+    m_Localized: 'Futaro: ICHIKA!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081870
+    m_Localized: "Ichika: Ouch, that kinda hurts\u2026 I gave it my all, yet the
+      only thing you did was appreciate me half-heartedly. Was my acting really that
+      bad?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081869
+    m_Localized: 'Quintuplets: YAYYY HOORAY!!!!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081868
+    m_Localized: "Ichika: Wow\u2026 everyone\u2026 got in\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081867
+    m_Localized: 'Quintuplets: OUU!!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081866
+    m_Localized: "Futaro: Okay, since everyone\u2019s here\u2026 it\u2019s time for
+      you all to study."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081865
+    m_Localized: "Futaro: Phew\u2026 it was just a dream, huh? I won\u2019t let it
+      happen in real life, never!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081864
+    m_Localized: "Futaro: Good grief\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081863
+    m_Localized: 'Futaro: !?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081862
+    m_Localized: Futaro wakes up from his nap.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081861
+    m_Localized: "Futaro: I\u2019m so sorry, sis. I lost my job."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081860
+    m_Localized: "Futaro: I\u2026 failed."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081859
+    m_Localized: "Futaro: \u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081858
+    m_Localized: None of them were accepted into their dream college.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081857
+    m_Localized: "Unprepared, the Nakano girls couldn\u2019t answer any of the questions."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6361593081856
+    m_Localized: The day of the UTBK finally arrived.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1999110081015808
+    m_Localized: "And so begins the journey of the Nakano quintuplets at the Bandung
+      Institute of Technology. Their path ahead is indeed lined with trials and tribulations\u2014but
+      fret not, for they always support and uplift one another. After all, there's
+      Futaro, who will always be there for them."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259565
+    m_Localized: 'Yotsuba: Guess I don''t have any excuses now hehe, see you after
+      school!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259564
+    m_Localized: 'Yotsuba: Aw, you caught me!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259563
+    m_Localized: "Nino: But it\u2019s only because of Ichika, Yotsuba, Itsuki, and
+      Miku, not because of you. Hmph."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259562
+    m_Localized: "Nino: Alright\u2026 I\u2019ll join the study session."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259561
+    m_Localized: "Nino: \u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259560
+    m_Localized: "Nino: I don\u2019t need help. JUST GO AWAY\u2026!!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259559
+    m_Localized: "Futaro: Oh, sorry\u2026 I just wanted to help\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259558
+    m_Localized: "Nino: HEYYY, BAKA! WHAT ARE YOU DOING!? DON\u2019T TOUCH THAT!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259557
+    m_Localized: Futaro steps closer and tries to help, only to spill the batter
+      everywhere.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259556
+    m_Localized: "Nino: I don\u2019t care. Hmph!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259555
+    m_Localized: "Futaro: Ugh, when you \u201Cstudy on your own\u201D, you never
+      actually study."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259554
+    m_Localized: 'Nino: Whatever, I can study on my own anyway.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259553
+    m_Localized: "Futaro: You know you already messed up SNBP, and you\u2019re still
+      stubborn. If your quintuplets get into ITB without you, don\u2019t cry later."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259552
+    m_Localized: "Nino: Oh please, can\u2019t you see? I\u2019ve got something more
+      important going on? I\u2019m experimenting with a new recipe. Go study with
+      the others! I don\u2019t need your attention."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259551
+    m_Localized: "Futaro: Nino, where have you been? I\u2019ve been looking everywhere
+      for you! Come on, the UTBK study session is about to start!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259550
+    m_Localized: Futaro panics for a moment, scrambling to recall the last history
+      lesson.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259549
+    m_Localized: "Miku: If you really understand history, you must know this song
+      already\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259548
+    m_Localized: 'Futarou: Eh?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259547
+    m_Localized: Miku holds up her phone, revealing a Japanese song playing on the
+      Spotyfi app.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259546
+    m_Localized: 'Miku: Do you know this song, Futaro?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259545
+    m_Localized: "Miku: \u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259544
+    m_Localized: 'Futarou: Miku! UTBK study session now! Come on!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259543
+    m_Localized: 'Miku: What''s up, Futaro?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259542
+    m_Localized: Miku softly removes her headphones.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259541
+    m_Localized: "Futarou: Oh no, she can\u2019t hear me\u2026 MIKU! MIKU!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259540
+    m_Localized: "Miku: \u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259539
+    m_Localized: 'Futarou: Mi-Miku! Miku!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259538
+    m_Localized: "Futaro: Dang\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259537
+    m_Localized: 'Itsuki: I won''t study with you ever again!!!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259536
+    m_Localized: "Futaro: Umm\u2026 and if I fail?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259535
+    m_Localized: "Itsuki: If you succeed, I promise I\u2019ll go study for UTBK with
+      you, really!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259534
+    m_Localized: "Itsuki: Well, that\u2019s why I called it a challenge."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259533
+    m_Localized: "Futaro: Does it really have to be right now? This place is super
+      crowded and there\u2019s a long line right now\u2026What if it sells out before
+      I get my turn?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259532
+    m_Localized: 'Itsuki: I challenge you to bring me as much food as possible, within
+      the shortest time possible!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259531
+    m_Localized: "Futaro: A challenge? What kind of challenge, Itsuki\u2026?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259530
+    m_Localized: 'Itsuki: I CHALLENGE YOU!!!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259529
+    m_Localized: "Itsuki: Hm. Alright then. Here, I\u2019ll give you some money,
+      but\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259528
+    m_Localized: "Futaro: B-but, I don\u2019t have any money right now, Itsuki\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259527
+    m_Localized: "Itsuki: Hold on. I\u2019m starving, I want to eat something. Buy
+      me some food!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259526
+    m_Localized: 'Futaro: Itsuki! Turns out you''re in the canteen, huh. Come on,
+      we have to study for UTBK with the others!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259525
+    m_Localized: "Futaro: A-Alright\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259524
+    m_Localized: 'Ichika: You''d definitely enjoy watching a pretty lady perform,
+      right?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259523
+    m_Localized: "Ichika: Hmm\u2026 While you're here, how about you rate my performance?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259522
+    m_Localized: 'Ichika: Sorry, I need to finish my rehearsal first.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259521
+    m_Localized: 'Futaro: But-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464929259520
+    m_Localized: "Ichika: Shush\u2026 I\u2019m focusing on my acting rehearsal right
+      now!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2421464891510784
+    m_Localized: 'Futaro: ICHIKA!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2434206364762112
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2511319407382528
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2603091352727552
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
