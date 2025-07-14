@@ -61,7 +61,7 @@ public class DialogBackgroundBehaviour : MonoBehaviour
         return;
       }
     }
-    
+        
     Instance.backgroundImageFront.color = Color.white;
     Instance.backgroundImageFront.sprite = newSprite;
     Instance.backgroundImageFront.enabled = true;
@@ -77,7 +77,7 @@ public class DialogBackgroundBehaviour : MonoBehaviour
       Debug.LogError("DialogBackgroundBehaviour instance not found.");
       return;
     }
-
+    
     Instance.backgroundImageFront.color = Color.black;
     Instance.backgroundImageFront.sprite = null;
     Instance.backgroundImageFront.enabled = true;
@@ -106,7 +106,7 @@ public class DialogBackgroundBehaviour : MonoBehaviour
         yield return null;
       }
       backgroundImageFront.color = endColor;
-      backgroundImageBack.color = endColor;
+      backgroundImageBack.color = endColor;      
       backgroundImageBack.sprite = backgroundImageFront.sprite;
       backgroundImageBack.enabled = true;
     }
@@ -127,6 +127,7 @@ public class DialogBackgroundBehaviour : MonoBehaviour
       }
       backgroundImageBack.color = endColor;
       backgroundImageBack.sprite = null;
+      backgroundImageFront.sprite = null;
       backgroundImageBack.enabled = false;
       backgroundImageFront.enabled = false;
     }
