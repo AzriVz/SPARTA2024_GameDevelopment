@@ -80,7 +80,7 @@ public class FollowerHandler : MonoBehaviour
     private void ActivateFollower(Transform follower)
     {
         follower.gameObject.SetActive(true);
-        follower.position = new Vector3(player.position.x, player.position.y, follower.position.z);
+        follower.position = new Vector3(player.position.x, player.position.y, player.position.z);
         activeFollowers.Add(follower);
     }
 }
