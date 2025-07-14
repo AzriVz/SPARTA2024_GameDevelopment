@@ -178,7 +178,10 @@ public class LevelManager : MonoBehaviour
         {
             var player = GameObject.FindGameObjectWithTag("Player");
             if (player != null)
+            {
                 player.transform.position = lastMapRoomPosition;
+                player.GetComponent<FollowerHandler>().ResetPositions();
+            }
         }
     }
 
