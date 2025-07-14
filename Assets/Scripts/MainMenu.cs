@@ -51,7 +51,9 @@ public class MainMenu : MonoBehaviour
     }
     public void PlayGame()
     {
-        var ie = FindFirstObjectByType<DialogueRunner>();        
+        var ie = FindFirstObjectByType<DialogueRunner>();    
+        var au = AudioManager.instance;
+        au.PlayMusic("Perkenalan");
         ie.StartDialogue("Prolog");
     }
     
