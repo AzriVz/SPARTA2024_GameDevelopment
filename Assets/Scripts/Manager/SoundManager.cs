@@ -22,7 +22,7 @@ public class SoundManager : MonoBehaviour
 
     public void ChangeVolume()
     {
-        AudioListener.volume = volumeSlider.value;
+        AudioManager.instance.MasterVolume(volumeSlider.value);
         Save();
     }
 

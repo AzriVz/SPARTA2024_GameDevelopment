@@ -13,7 +13,7 @@ public class LevelManager : MonoBehaviour
         MapRoom,
         LevelMiku,
         LevelYotsuba,
-        LevelItsuka,
+        LevelItsuki,
         LevelIchika,
         LevelNino,
         Ending
@@ -39,7 +39,7 @@ public class LevelManager : MonoBehaviour
     private static readonly Dictionary<LevelManager.SceneID, string> dialogName = new() {
         { SceneID.LevelMiku, "Miku" },
         { SceneID.LevelYotsuba, "Yotsuba" },
-        { SceneID.LevelItsuka, "Itsuka" },
+        { SceneID.LevelItsuki, "Itsuki" },
         { SceneID.LevelIchika, "Ichika" },
         { SceneID.LevelNino, "Nino" },
     };
@@ -77,8 +77,8 @@ public class LevelManager : MonoBehaviour
         var player = FindAnyObjectByType<movement>();
         var playerInteract = FindAnyObjectByType<PlayerInteract2D>();
 
-        player.enabled = false;
-        playerInteract.enabled = false; 
+        if (player != null) player.enabled = false;
+        if(playerInteract != null) playerInteract.enabled = false; 
 
         string sourceName = dialogName.ContainsKey(source) ? dialogName[source] : null;
         if (!string.IsNullOrEmpty(sourceName))
@@ -148,7 +148,7 @@ public class LevelManager : MonoBehaviour
         {
             if (source == SceneID.LevelMiku) gm.MikuWin = true;
             else if (source == SceneID.LevelYotsuba) gm.YotsubaWin = true;
-            else if (source == SceneID.LevelItsuka) gm.ItsukiWin = true;
+            else if (source == SceneID.LevelItsuki) gm.ItsukiWin = true;
             else if (source == SceneID.LevelIchika) gm.IchikaWin = true;
             else if (source == SceneID.LevelNino) gm.NinoWin = true;
 
@@ -178,7 +178,10 @@ public class LevelManager : MonoBehaviour
         {
             var player = GameObject.FindGameObjectWithTag("Player");
             if (player != null)
+            {
                 player.transform.position = lastMapRoomPosition;
+                player.GetComponent<FollowerHandler>().ResetPositions();
+            }
         }
     }
 

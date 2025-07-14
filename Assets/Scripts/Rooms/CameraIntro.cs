@@ -11,7 +11,7 @@ public class CameraIntro : MonoBehaviour
 
     void Start()
     {
-        if (MasterGameManager.Instance.IsGameStarted)
+        if (MasterGameManager.Instance.gameStarted)
         {
             if (playerObj != null)
             {
@@ -35,7 +35,7 @@ public class CameraIntro : MonoBehaviour
     void Update()
     {
         var gm = MasterGameManager.Instance;
-        if (!gm.IsGameStarted)
+        if (!gm.gameStarted)
         {
             time += Time.deltaTime / lerpDuration;
             transform.position = Vector3.Lerp(waypoint1.position, waypoint2.position, time);

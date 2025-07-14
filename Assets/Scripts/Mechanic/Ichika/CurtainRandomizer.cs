@@ -19,6 +19,7 @@ public class CurtainRandomizer : MonoBehaviour
 
     void Start()
     {
+        AudioManager.instance.PlayMusic("Ichika");
         originalPositions = new Vector2[curtains.Length];
         for (int i = 0; i < curtains.Length; i++)
         {
@@ -29,7 +30,8 @@ public class CurtainRandomizer : MonoBehaviour
         ichikaCurtainIndex = Random.Range(0, curtains.Length);
 
         curtains[ichikaCurtainIndex].GetComponent<SpriteRenderer>().sprite = ichikaCurtainSprite;
-        
+        curtains[ichikaCurtainIndex].GetComponent<Curtain>().ichikaCurtain = true;
+
     }
 
     public IEnumerator GameSequence()
@@ -38,6 +40,7 @@ public class CurtainRandomizer : MonoBehaviour
         curtains[ichikaCurtainIndex].GetComponent<SpriteRenderer>().sprite = ichikaCurtainSprite;
         yield return new WaitForSeconds(revealDuration);
         
+        AudioManager.instance.PlaySFX("CurtainClose");
         for (int i = 0; i < curtains.Length; i++)
         {
             curtains[i].GetComponent<SpriteRenderer>().sprite = defaultCurtainSprite;
@@ -83,6 +86,7 @@ public class CurtainRandomizer : MonoBehaviour
             Vector2 posB = curtains[curtainB].transform.position;
             
             float elapsedTime = 0f;
+            AudioManager.instance.PlaySFX("CurtainShuffle");
             while (elapsedTime < singleShuffleDuration)
             {
                 elapsedTime += Time.deltaTime;

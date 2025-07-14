@@ -41,6 +41,7 @@ namespace Mechanic.Itsuki
     public void Damage()
     {
       if (currentHealth <= 0) return;
+      AudioManager.instance.PlaySFX("Damage");
       currentHealth--;
       OnHealthChanged?.Invoke(currentHealth, maxHealth);
       StartCoroutine(DamageAnimationCoroutine());

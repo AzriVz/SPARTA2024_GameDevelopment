@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,11 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject pauseButton; 
     [SerializeField] private Texture2D[] pauseSprite;
     bool isPause;
+
+    private void Start()
+    {
+        AudioManager.instance.PlayMusic("TitleScreen");
+    }
 
     private void Update()
     {
@@ -45,7 +51,9 @@ public class MainMenu : MonoBehaviour
     }
     public void PlayGame()
     {
-        var ie = FindFirstObjectByType<DialogueRunner>();        
+        var ie = FindFirstObjectByType<DialogueRunner>();    
+        var au = AudioManager.instance;
+        au.PlayMusic("Perkenalan");
         ie.StartDialogue("Prolog");
     }
     

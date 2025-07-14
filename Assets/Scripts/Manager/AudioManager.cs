@@ -22,7 +22,12 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        PlayMusic("Background Theme");
+        // PlayMusic("Background Theme");
+    }
+
+    public string MusicPLayed()
+    {
+        return musicSource.clip.name;
     }
 
     public void PlayMusic(string name)
@@ -60,6 +65,12 @@ public class AudioManager : MonoBehaviour
     public void ToggleSFX()
     {
         sfxSource.mute = !sfxSource.mute;
+    }
+
+    public void MasterVolume(float volume)
+    {
+        MusicVolume(volume);
+        SFXVolume(volume);
     }
 
     public void MusicVolume(float volume)

@@ -9,11 +9,11 @@ public class GroundHandler : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Platform"))
         {
-            Debug.Log(collision.gameObject);
             var platform = collision.gameObject.GetComponent<PlatformMiku>();
             if (!platform.isTouched)
             {
                 platform.Fail();
+                Debug.Log("oof");
                 if (onMiss != null) onMiss.Invoke();
             }
             Destroy(collision.gameObject);

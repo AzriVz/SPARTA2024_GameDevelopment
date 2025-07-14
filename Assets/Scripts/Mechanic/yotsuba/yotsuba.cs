@@ -9,6 +9,10 @@ public class yotsuba : MonoBehaviour
     private float timer = 0f;
     private bool switchedToBackward = false;
 
+    private void Start()
+    {
+        AudioManager.instance.PlayMusic("Yotsuba");
+    }
     void Update()
     {
         timer += Time.deltaTime;

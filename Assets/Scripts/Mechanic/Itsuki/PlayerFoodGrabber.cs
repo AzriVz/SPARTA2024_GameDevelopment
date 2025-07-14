@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -10,15 +11,42 @@ namespace Mechanic.Itsuki
     [SerializeField] private Vector2 relativeGrabPosition;
     public Vector2 globalGrabPosition;
     [SerializeField] private float grabRange;
+    TextMeshProUGUI _textObject;
+    private PlayerInteract2D _playerInteract;
 
     private void Awake()
     {
       FoodInventory = new FoodInventory();
+      _playerInteract = GetComponent<PlayerInteract2D>();
     }
+
+    private void Start()
+    {
+      _textObject = PlayerManager.Instance.textPrompt2;
+    }
+
     private void Update()
     {
       SetGlobalPosition();
       TryGrab();
+      Debug.Log(FoodInventory.FoodExists() + " " + (_playerInteract.currentTarget == null));
+      if (FoodInventory.FoodExists())
+      {
+        _textObject.text = "(X) Throw";
+      }
+      else
+      {
+        _textObject.text = "";
+      }
+      if (Input.GetKeyDown(KeyCode.X))
+      {
+        TryThrow();
+      }
+    }
+
+    private void TryThrow()
+    {
+      LetGo();
     }
 
     private void SetGlobalPosition()
@@ -41,6 +69,7 @@ namespace Mechanic.Itsuki
       var foodInstance = FoodInventory.GetFood();
       foodInstance.StopFall();
       foodInstance.AttachToPlayer(this);
+      AudioManager.instance.PlaySFX("CatchFood");
     }
 
     public void LetGo()

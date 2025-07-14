@@ -149,8 +149,12 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  dashSpeed: 0
+  dashDuration: 0
   rb: {fileID: 0}
   overrideController: {fileID: 22100000, guid: 6d527f79aef587e48b73c5395cb75c37, type: 2}
+  isDashing: 0
+  moveInput: 0
 --- !u!50 &2386213154696038802
 Rigidbody2D:
   serializedVersion: 5
@@ -207,6 +211,7 @@ MonoBehaviour:
   relativeGrabPosition: {x: 0, y: 1.18}
   globalGrabPosition: {x: 0, y: 0}
   grabRange: 1.02
+  textObject: {fileID: 0}
 --- !u!114 &4587251624046539451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,7 +236,7 @@ Animator:
   m_GameObject: {fileID: 3749452858786108443}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1f33b31709a62044dbb7f92e1545ebe6, type: 2}
+  m_Controller: {fileID: 22100000, guid: 6d527f79aef587e48b73c5395cb75c37, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

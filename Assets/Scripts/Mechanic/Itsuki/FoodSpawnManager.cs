@@ -60,6 +60,7 @@ namespace Mechanic.Itsuki
     
     private void Start()
     {
+      AudioManager.instance.PlayMusic("Itsuki");
       StartSpawning();
     }
 

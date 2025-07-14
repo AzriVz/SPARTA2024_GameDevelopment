@@ -6,7 +6,7 @@ public class Curtain : InteractableObject
     [SerializeField] Sprite hiddenIchika;
     [SerializeField] Sprite openedCurtain;
     [SerializeField] Sprite openedIchikaCurtain;
-    [SerializeField] bool ichikaCurtain;
+    [SerializeField] public bool ichikaCurtain;
 
     public CurtainRandomizer curtainRandomizer;
 
@@ -17,6 +17,7 @@ public class Curtain : InteractableObject
         {
             if (!ichikaCurtain)
             {
+                AudioManager.instance.PlaySFX("CurtainOpen");
                 GetComponent<SpriteRenderer>().sprite = openedCurtain;
                 curtainRandomizer.StartCoroutine(curtainRandomizer.GameSequence());
             } else
