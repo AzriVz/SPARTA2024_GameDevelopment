@@ -57,7 +57,7 @@ Jelajahi berbagai area sekolah dan temui kelima gadis dengan kepribadian unik. H
 ## Cara Menjalankan Game
 Sebelum menjalankan game, pastikan udah menginstal:
 1. Unity Hub.
-2. Unity versi 6 (6000.0.45f1).
+2. Unity 6 (6000.0.45f1).
 
 ### 1. GitHub Repository
 **Langkah-langkah instalasi**:
