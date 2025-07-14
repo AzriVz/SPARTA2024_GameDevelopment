@@ -58,15 +58,7 @@ Jelajahi berbagai area sekolah dan temui kelima gadis dengan kepribadian unik. H
 Sebelum menjalankan game, pastikan udah menginstal:
 1. Unity Hub.
 2. Unity 6 (6000.0.45f1).
-
-### 1. GitHub Repository
 **Langkah-langkah instalasi**:
-1. Download file ZIP yang terdapat di repository ini.
-2. Ekstrak file ZIP yang sudah didownload.
-3. Buka **Unity Hub**, klik **Open**, lalu arahkan ke folder yang sudah diekstrak tadi.
-4. Setelah project sudah berhasil dibuka, klik tombol **Play** di Unity Editor untuk menjalankan gamenya.
-
-### 2. Itch.io
 1. Akses link berikut: https://istrisayalimadev.itch.io/sparta-5-istri
 2. Klik tombol **Download**.
 3. Ekstrak file RAR yang sudah didownload.
