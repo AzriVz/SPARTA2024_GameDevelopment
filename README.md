@@ -23,7 +23,7 @@
 16. 18224052 - Arkhandiya Ibrahim Dewantara
 17. 18224070 - Almer Zain Farisseno
 ## Latar Belakang
-Kisah ini dimulai saat kelima saudari Nakano. Ichika, Nino, Miku, Yotsuba, dan Itsuki saling duduk berkerumun, menatap layar ponsel masing-masing. Jari-jemari mereka bergerak bersamaan, membuka situs pengumuman SNBP dengan harapan tinggi. Namun dalam sekejap, kelima layar itu memerah pertanda penolakan yang seragam.
+Kisah ini dimulai saat kelima saudari Nakano. Ichika, Nino, Miku, Yotsuba, dan Itsuki saling duduk berkerumun, menatap layar ponsel masing-masing. Jari-jemari mereka bergerak bersamaan, membuka situs pengumuman SNBP dengan harapan tinggi. Namun dalam sekejap, kelima layar itu memerah pertanda mereka ditolak masuk lewat jalur SNBP.
 
 <div align="center">
   <img align="center" alt="Coding" width="500" src="https://i.pinimg.com/736x/74/e5/42/74e542a138aada035b5f9198a6f1199f.jpg">
@@ -32,7 +32,7 @@ Kisah ini dimulai saat kelima saudari Nakano. Ichika, Nino, Miku, Yotsuba, dan I
 
 Kekecewaan menyelimuti ruangan. Semangat belajar mereka runtuh, digantikan oleh candaan dan tawa palsu. Alih-alih menyiapkan diri untuk UTBK, mereka justru memilih untuk bermain, seolah menertawakan nasib mereka sendiri.
 
-Di tempat lain, Fuutarou Uesugi tengah berkutat dengan buku-buku, tak sadar bahwa takdirnya akan berubah dalam hitungan detik. Ponselnya berdering dan itu adalah panggilan dari ayah si kembar lima. Dengan suara dingin dan tegas, sang ayah menyampaikan kabar buruk.. kelima putrinya gagal SNBP. Lalu datanglah ultimatum jika mereka kembali gagal di UTBK, Fuutarou akan dipecat. Tak hanya itu, gaji bulan ini pun digantung, bergantung pada "kemajuan" yang bisa ia tunjukkan.
+Di sisi lain, Fuutarou Uesugi tengah *chaos* dengan buku-buku, tak sadar bahwa takdirnya akan berubah dalam hitungan detik. Ponselnya berdering dan itu adalah panggilan dari ayah si kembar lima. Dengan suara dingin dan tegas, sang ayah menyampaikan kabar buruk.. kelima putrinya gagal SNBP. Lalu datanglah ultimatum jika mereka kembali gagal di UTBK, Fuutarou akan dipecat. Tak hanya itu, gaji bulan ini pun digantung, bergantung pada "kemajuan" yang bisa ia tunjukkan.
 
 <div align="center">
   <img align="center" alt="Coding" width="500" src="https://i.pinimg.com/1200x/5a/be/2a/5abe2ad5c9453a0c9787fd8c783ba6a8.jpg">
@@ -46,7 +46,7 @@ Keluarga Nakano kini berada di ujung tanduk. Harapan terakhir mereka hanyalah UT
 
 Setiap hari adalah perjuangan. Setiap malam adalah waktu merenung. Dan semakin dekat hari UTBK, tekanan pun semakin besar.
 
-Kini, semuanya bergantung pada mereka—pada usaha, pilihan, dan keyakinan masing-masing.
+Kini, semuanya bergantung pada mereka.. pada usaha, pilihan, dan keyakinan masing-masing.
 Akankah kelima saudari Nakano menaklukkan UTBK dan melangkah bersama sebagai mahasiswa baru ITB, merasakan OSKM, dan memulai babak baru dalam hidup mereka?
 Atau justru Fuutarou harus menghadapi kenyataan pahit dengan kehilangan pekerjaan dan kehilangan harapan?
 
@@ -68,7 +68,11 @@ Sebelum menjalankan game, pastikan udah menginstal:
 
 ### 2. Itch.io
 1. Akses link berikut: https://istrisayalimadev.itch.io/sparta-5-istri
-2. Klik tombol **Run Game** untuk menjalankan gamenya lewat browser.
+2. Klik tombol **Download**.
+3. Ekstrak file RAR yang sudah didownload.
+4. Buka folder yang sudah diekstrak.
+5. Buka folder **Build**.
+6. Lalu, klik dua kali pada file Unity **Game Sparta** untuk menjalankan gamenya.
 
 ## Gameplay
 <div align="center">
