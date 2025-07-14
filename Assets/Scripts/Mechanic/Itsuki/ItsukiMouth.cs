@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
@@ -59,8 +60,8 @@ namespace Mechanic.Itsuki
     private void LockMouth(bool locked)
     {
       canConsume = !locked;
-      if (locked) promptMessage = "Eating";
-      else promptMessage = "(E) Feed";
+      if (locked) promptMessage = LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0] ? "Eating" : "Sedang makan";
+      else promptMessage = LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0] ? "(E) Feed" : "(E) Beri Makan";
     }
     private void SetFoodGrabber()
     {

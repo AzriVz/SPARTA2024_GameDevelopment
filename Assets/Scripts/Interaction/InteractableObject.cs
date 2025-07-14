@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
 
 public class InteractableObject : MonoBehaviour, IInteractable
 {
-    public virtual string DefaultPromptMessage => "(E) Interact";
+    public virtual string DefaultPromptMessage => LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0] ? "(E) Interact" : "(E) Interaksi";
     public string promptMessage;
     public string GetPrompt()
     {        
