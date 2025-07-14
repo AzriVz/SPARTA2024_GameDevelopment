@@ -1119,6 +1119,7 @@ GameObject:
   - component: {fileID: 841371019}
   - component: {fileID: 841371021}
   - component: {fileID: 841371020}
+  - component: {fileID: 841371022}
   m_Layer: 5
   m_Name: PromptText
   m_TagString: Untagged
@@ -1244,6 +1245,44 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841371018}
   m_CullTransparentMesh: 1
+--- !u!114 &841371022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841371018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 5561007980065849531
+  references:
+    version: 2
+    RefIds:
+    - rid: 5561007980065849531
+      type: {class: TrackedUGuiGraphic, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 841371020}
+        m_TrackedProperties:
+          items:
+          - rid: 5561007980065849532
+        m_UpdateType: 0
+    - rid: 5561007980065849532
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:717a5bc20781852438b1ca21778ed9c5
+          m_TableEntryReference:
+            m_KeyId: 2212598878208
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: m_text
 --- !u!1 &880433634
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,6 +1550,7 @@ GameObject:
   - component: {fileID: 1237166968}
   - component: {fileID: 1237166967}
   - component: {fileID: 1237166966}
+  - component: {fileID: 1237166969}
   m_Layer: 5
   m_Name: PromptText
   m_TagString: Untagged
@@ -1638,6 +1678,44 @@ RectTransform:
   m_AnchoredPosition: {x: -128, y: 67}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1237166969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237166965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 5561007980065849529
+  references:
+    version: 2
+    RefIds:
+    - rid: 5561007980065849529
+      type: {class: TrackedUGuiGraphic, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 1237166966}
+        m_TrackedProperties:
+          items:
+          - rid: 5561007980065849530
+        m_UpdateType: 0
+    - rid: 5561007980065849530
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:717a5bc20781852438b1ca21778ed9c5
+          m_TableEntryReference:
+            m_KeyId: 2172354531328
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: m_text
 --- !u!1 &1294870813
 GameObject:
   m_ObjectHideFlags: 0
@@ -2678,6 +2756,7 @@ GameObject:
   - component: {fileID: 1453330857}
   - component: {fileID: 1453330859}
   - component: {fileID: 1453330858}
+  - component: {fileID: 1453330860}
   m_Layer: 5
   m_Name: PromptText
   m_TagString: Untagged
@@ -2805,6 +2884,44 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1453330856}
   m_CullTransparentMesh: 1
+--- !u!114 &1453330860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453330856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 5561007980065849527
+  references:
+    version: 2
+    RefIds:
+    - rid: 5561007980065849527
+      type: {class: TrackedUGuiGraphic, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 1453330858}
+        m_TrackedProperties:
+          items:
+          - rid: 5561007980065849528
+        m_UpdateType: 0
+    - rid: 5561007980065849528
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:717a5bc20781852438b1ca21778ed9c5
+          m_TableEntryReference:
+            m_KeyId: 2150485430272
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: m_text
 --- !u!1 &1485378669
 GameObject:
   m_ObjectHideFlags: 0
@@ -3096,6 +3213,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerSpawn: {x: -2.77, y: -0.19}
   playerMaxHealth: 3
+  playerHealth: {fileID: 0}
   textPrompt: {fileID: 1453330858}
   textPrompt2: {fileID: 1237166966}
 --- !u!4 &1822458394

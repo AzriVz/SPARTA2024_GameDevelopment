@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Assets Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Assets
+  m_TableCollectionNameGuidString: 717a5bc20781852438b1ca21778ed9c5
+  m_Entries:
+  - m_Id: 506272124928
+    m_Key: MainMenu/Main Camera/Canvas/Options Panel/Panel/Setting Inputs Panel/Locale
+      Dropdown/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 652280041472
+    m_Key: MainMenu/Main Camera/Canvas/Options Panel/Panel/Setting Inputs Panel/FullScreen/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 965049290752
+    m_Key: RoomMap Test/Intro canvas/Prompt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1149829353472
+    m_Key: RoomMap Test/Canvas/Options Panel/Panel/Setting Inputs Panel/Locale Dropdown/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1449017446400
+    m_Key: RoomMap Test/Canvas/Options Panel/Panel/Setting Inputs Panel/FullScreen/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2013289746432
+    m_Key: IchikaStage/Canvas/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2150485430272
+    m_Key: ItsukiStage/Canvas/PromptText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2172354531328
+    m_Key: ItsukiStage/CanvasAnother/PromptText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2212598878208
+    m_Key: ItsukiStage/ItsukiCanvas/PromptText
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5561007980065849450
+  references:
+    version: 2
+    RefIds:
+    - rid: 5561007980065849450
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1752479726265

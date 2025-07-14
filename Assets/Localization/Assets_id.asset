@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Assets_id
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: id
+  m_SharedData: {fileID: 11400000, guid: 717a5bc20781852438b1ca21778ed9c5, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 506272124928
+    m_Localized: Bahasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 652280041472
+    m_Localized: Layar Penuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 965049290752
+    m_Localized: Tekan tombol apa saja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1149829353472
+    m_Localized: Bahasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1449017446400
+    m_Localized: Layar Penuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2013289746432
+    m_Localized: 'E (Buka)
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2150485430272
+    m_Localized: '(E) Suap
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2172354531328
+    m_Localized: '(X) Lempar
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2212598878208
+    m_Localized: Salah Makanan :(
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
