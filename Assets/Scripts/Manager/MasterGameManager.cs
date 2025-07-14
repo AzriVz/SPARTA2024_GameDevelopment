@@ -5,11 +5,10 @@ using Yarn.Unity;
 public class MasterGameManager : MonoBehaviour
 {
     public static MasterGameManager Instance { get; private set; }
-    bool gameStarted;
+    public bool gameStarted { get; set; }
     bool introPrompt;
     Coroutine introRoutine;
 
-    public bool IsGameStarted => gameStarted;
     public bool IntroPrompt => introPrompt;
     [field: SerializeField]
     public int TryLeft { get; set; }
