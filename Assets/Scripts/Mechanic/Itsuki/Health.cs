@@ -12,9 +12,10 @@ namespace Mechanic.Itsuki
     private StageManager _stageManager;
     public event Action<int, int> OnHealthChanged;
     private SpriteRenderer _spriteRenderer;
-
+        public bool Damagable;
     public void Start()
     {
+            Damagable = true;
       _spriteRenderer = GetComponent<SpriteRenderer>();
       _stageManager = StageManager.Instance;
     }
@@ -40,6 +41,7 @@ namespace Mechanic.Itsuki
     }
     public void Damage()
     {
+            if (!Damagable) return;
       if (currentHealth <= 0) return;
       AudioManager.instance.PlaySFX("Damage");
       currentHealth--;

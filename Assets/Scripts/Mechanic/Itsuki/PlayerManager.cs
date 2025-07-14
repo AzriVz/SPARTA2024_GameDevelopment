@@ -26,7 +26,7 @@ namespace Mechanic.Itsuki
     public GameObject player;
     public Vector2 playerSpawn;
     public int playerMaxHealth;
-    private Health playerHealth;
+    public Health playerHealth;
     [SerializeField] public TextMeshProUGUI textPrompt, textPrompt2;
     public event Action OnSpawn;
 

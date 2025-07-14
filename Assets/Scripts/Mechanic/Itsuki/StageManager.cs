@@ -44,6 +44,7 @@ namespace Mechanic.Itsuki
     {
       // Win Screen
       Unload();
+      if(_playerManager != null) _playerManager.playerHealth.Damagable = false;
       LevelManager.Instance.ChangeLevel(currentScene, targetScene, true);
     }
 
@@ -57,7 +58,6 @@ namespace Mechanic.Itsuki
     {
       Unload();
       LevelManager.Instance.ChangeLevel(currentScene, targetScene, false);
-            Time.timeScale = 0;
       // Do some lose screen
     }
   }

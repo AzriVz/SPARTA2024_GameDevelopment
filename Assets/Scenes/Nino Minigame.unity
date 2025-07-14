@@ -519,6 +519,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerSpawn: {x: 0.01, y: -1.66}
   playerMaxHealth: 3
+  playerHealth: {fileID: 0}
   textPrompt: {fileID: 0}
   textPrompt2: {fileID: 0}
 --- !u!4 &446080837
@@ -631,9 +632,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b30b7b67a93bc524da7015c38dea4b7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownTime: 30
+  countdownTime: 60
   countdownText: {fileID: 273921518}
   spawner: {fileID: 1675723469}
+  hasEnded: 0
 --- !u!1 &841112305
 GameObject:
   m_ObjectHideFlags: 0

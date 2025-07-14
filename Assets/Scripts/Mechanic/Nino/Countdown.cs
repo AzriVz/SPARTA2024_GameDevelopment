@@ -7,6 +7,7 @@ public class Countdown : MonoBehaviour
     [SerializeField] float countdownTime = 30f;
     [SerializeField] TextMeshProUGUI countdownText;
     [SerializeField] private GameObject spawner;
+    [SerializeField] bool hasEnded;
 
     void Update()
     {
@@ -25,8 +26,9 @@ public class Countdown : MonoBehaviour
         int seconds = Mathf.FloorToInt(countdownTime % 60f);
         countdownText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
 
-        if (countdownTime == 0f)
+        if (countdownTime == 0f && !hasEnded)
         {
+            hasEnded = true;
             countdownText.color = Color.red;
             spawner.SetActive(false);
             StageManager.Instance.Win();
