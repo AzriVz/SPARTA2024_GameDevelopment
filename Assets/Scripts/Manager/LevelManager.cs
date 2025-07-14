@@ -77,8 +77,8 @@ public class LevelManager : MonoBehaviour
         var player = FindAnyObjectByType<movement>();
         var playerInteract = FindAnyObjectByType<PlayerInteract2D>();
 
-        player.enabled = false;
-        playerInteract.enabled = false; 
+        if (player != null) player.enabled = false;
+        if(playerInteract != null) playerInteract.enabled = false; 
 
         string sourceName = dialogName.ContainsKey(source) ? dialogName[source] : null;
         if (!string.IsNullOrEmpty(sourceName))
