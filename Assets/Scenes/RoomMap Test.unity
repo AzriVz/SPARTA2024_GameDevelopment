@@ -12339,6 +12339,10 @@ PrefabInstance:
       propertyPath: musicSounds.Array.data[6].name
       value: Kelas
       objectReference: {fileID: 0}
+    - target: {fileID: 1684183091908126382, guid: 99f792418e7312140a0de39c99d812f0, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3270988108628768260, guid: 99f792418e7312140a0de39c99d812f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 505.75998
