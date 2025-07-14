@@ -55,11 +55,11 @@ Atau justru Fuutarou harus menghadapi kenyataan pahit dengan kehilangan pekerjaa
 Jelajahi berbagai area sekolah dan temui kelima gadis dengan kepribadian unik. Hadapi tantangan seru untuk meyakinkan mereka agar mau belajar. Setiap kembar punya sikap, dialog, dan ujiannya sendiri. Namun waspadalah, gagal sekali dapat berakhir celaka bagi Uesugi…
 
 ## Cara Menjalankan Game
-### 1. Unity
 Sebelum menjalankan game, pastikan udah menginstal:
 1. Unity Hub.
 2. Unity versi 6 (6000.0.45f1).
 
+### 1. GitHub Repository
 **Langkah-langkah instalasi**:
 1. Download file ZIP yang terdapat di repository ini.
 2. Ekstrak file ZIP yang sudah didownload.
